@@ -5,6 +5,8 @@ from copy import deepcopy as deepcopy
 from random import randint, choices, choice
 from fractions import Fraction
 from math import floor
+from configparser import ConfigParser
+
 
 '''Global Variables'''
 lootBudget = 1
@@ -17,6 +19,7 @@ materialslist = []
 enchantmentlist = []
 fulllist = []
 templist = []
+config = ConfigParser()
 
 lfrequency = []
 pfrequency = []
@@ -26,6 +29,7 @@ list_wench = []
 list_rench = []
 list_aench = []
 list_sench = []
+list_mench = []
 list_mods = []
 
 potionlist = []
@@ -54,43 +58,8 @@ list_pot = []
 list_wnd = []
 list_scr = []
 
-'''JSON flags'''
-flags = {'loot_nmi': True, 'loot_nma': True, 'loot_nmw': True, 'loot_nmu': True, 'loot_ma': True, 'loot_mw': True,
-         'loot_mu': True, 'loot_st': True, 'loot_ro': True, 'loot_wie': True, 'loot_wis': True, 'loot_cur': False,
-         'loot_art': False, 'loot_pot': True, 'loot_wnd': True, 'loot_scr': True, 'set_efire': True, 'set_afire': False,
-         'set_mfire': False, 'set_eas': True, 'set_stn': True, 'set_brz': True, 'set_mth': False, 'set_wdsp': False,
-         'src_dnd': True, 'src_tdp': False, 'flg_mats': True, 'flg_ench': True, 'flg_mods': False}
-loot_nmi = True
-loot_nma = True
-loot_nmw = True
-loot_nmu = True
-loot_ma = True
-loot_mw = True
-loot_mu = True
-loot_st = True
-loot_ro = True
-loot_ri = True
-loot_wie = True
-loot_wis = True
-
-loot_cur = False
-loot_art = False
-
-loot_pot = True
-loot_wnd = True
-loot_scr = True
-
-set_efire = True
-set_afire = False
-set_mfire = False
-set_eas = True
-set_stn = True
-set_brz = True
-set_mth = False
-set_wdsp = False
-
-src_dnd = True
-src_tdp = False
+### config ###
+config.read('config.ini')
 
 
 class Item:
@@ -454,9 +423,8 @@ def add_material(item):
 
 def magicalitem(item):
     global templist
-
     """roll masterwork/magic level"""
-    if randint(1, 100) > 50:
+    if randint(1, 100) > 0:
         if item.is_Mwk is True:
             '''check item isn't already mwk by default'''
             return
@@ -464,9 +432,13 @@ def magicalitem(item):
             if item.category == "Nonmagical Weapons":
                 item.price = float(item.price) + 300.0
             elif item.category == "Nonmagical Armor":
-                item.price = float(item.price) + 150.
+                item.price = float(item.price) + 150.0
             elif item.category == "Nonmagical Ammunition":
                 item.price = float(item.price) + (300 * item.quantity / 50)
+
+        if hasattr(item, 'setting'):
+            if item.setting == 'Modern Firearms' or item.setting == 'Worldscape':
+                return
 
         magiclevel = choices([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], [10, 30, 25, 20, 15, 10, 5, 4, 3, 2, 1], k=1)[0]
 
@@ -476,11 +448,13 @@ def magicalitem(item):
                          10: 100000}
 
         templist = []
-        with open('enchantments.py') as j:
+        with open('Resources/enchantments.json') as j:
             data = json.load(j)
             if item.type == 'Light Melee' or item.type == 'One-Handed Melee' or item.type == 'Two-Handed Melee' \
                     or item.type == 'Unarmed':
                 templist = [Enchantment(i) for i in data["melee weapon enchantments"]]
+                templist = templist + [Enchantment(i) for i in data["mythic weapon enchantments"]]
+
                 if item.type == 'Light Melee':
                     for x in templist:
                         if not hasattr(x, 'light_weapon'):
@@ -503,43 +477,73 @@ def magicalitem(item):
                     for x in templist:
                         if not hasattr(x, 'piercing') and not hasattr(x, 'blunt'):
                             templist.remove(x)
+                if not config.getboolean('flags', 'set_mth'):
+                    for x in templist:
+                        if x.type == 'Mythic':
+                            templist.remove(x)
             elif item.type == 'Ranged':
                 if item.ranged_type == 'bow' or item.ranged_type == 'crossbow':
                     templist = [Enchantment(i) for i in data["ranged weapon enchantments"]]
+                    templist = templist + [Enchantment(i) for i in data["mythic weapon enchantments"]]
                     for x in templist:
                         if hasattr(x, 'bow'):
                             templist2 = [x]
                         if not hasattr(x, 'crossbow'):
                             templist.remove(x)
+                    if not config.getboolean('flags', 'set_mth'):
+                        for x in templist:
+                            if x.type == 'Mythic':
+                                templist.remove(x)
                         '''composite check'''
                     if item.name.find('+') != -1:
                         templist = templist + templist2
 
                 elif item.ranged_type == 'thrown':
                     templist = [Enchantment(i) for i in data["ranged weapon enchantments"]]
+                    templist = templist + [Enchantment(i) for i in data["mythic weapon enchantments"]]
                     for x in templist:
                         if not hasattr(x, 'thrown'):
                             templist.remove(x)
                 elif item.ranged_type == 'other':
                     templist = [Enchantment(i) for i in data["ranged weapon enchantments"]]
+                    templist = templist + [Enchantment(i) for i in data["mythic weapon enchantments"]]
                     for x in templist:
                         if not hasattr(x, 'other'):
                             templist.remove(x)
             elif item.type == 'One-Handed Firearms' or item.type == 'Two-Handed Firearms':
                 if item.ranged_type == 'firearms':
                     templist = [Enchantment(i) for i in data["ranged weapon enchantments"]]
+                    templist = templist + [Enchantment(i) for i in data["mythic weapon enchantments"]]
                     for x in templist:
                         if not hasattr(x, 'firearms'):
                             templist.remove(x)
+                    if not config.getboolean('flags', 'set_mth'):
+                        for x in templist:
+                            if x.type == 'Mythic':
+                                templist.remove(x)
             elif item.type == 'ammo':
                 templist = [Enchantment(i) for i in data["ranged weapon enchantments"]]
+                templist = templist + [Enchantment(i) for i in data["mythic weapon enchantments"]]
                 for x in templist:
                     if not hasattr(x, 'other'):
                         templist.remove(x)
+                if config.getboolean('flags', 'set_mth'):
+                    for i in data["mythic weapon enchantments"]:
+                        templist.append(Enchantment(i))
             elif item.slot == 'Armor':
                 templist = [Enchantment(i) for i in data["armor enchantments"]]
+                templist = templist + [Enchantment(i) for i in data["mythic armor enchantments"]]
+                if not config.getboolean('flags', 'set_mth'):
+                    for x in templist:
+                        if x.type == 'Mythic':
+                            templist.remove(x)
             elif item.slot == 'Shield':
                 templist = [Enchantment(i) for i in data["shield enchantments"]]
+                templist = templist + [Enchantment(i) for i in data["mythic shield enchantments"]]
+                if not config.getboolean('flags', 'set_mth'):
+                    for x in templist:
+                        if x.type == 'Mythic':
+                            templist.remove(x)
 
         if magiclevel == 0:
             item.name = "Masterwork " + item.name
@@ -582,13 +586,12 @@ def assignenchant(i):
     efrequency = []
     for x in templist:
         efrequency.append(int(x.frequency))
-
     chosenenchant = choices(templist, efrequency, k=1)[0]
 
     if int(chosenenchant.magic_level) <= i.magicbudget:
         '''humanoid bane'''
         if chosenenchant.name == 'Humanoid Bane':
-            with open('subtypes.py') as j:
+            with open('Resources/subtypes.json') as j:
                 data = json.load(j)
                 hsubtypes = [Subtype(i) for i in data['Humanoid']]
                 sfrequency = []
@@ -599,7 +602,7 @@ def assignenchant(i):
             chosenenchant.name = chosenenchant.name + ' (' + hBane.name + ')'
             '''outsider bane'''
         elif chosenenchant.name == 'Outsider Bane':
-            with open('subtypes.py') as j:
+            with open('Resources/subtypes.json') as j:
                 data = json.load(j)
                 osubtypes = [Subtype(i) for i in data['Outsider']]
                 sfrequency = []
@@ -636,7 +639,7 @@ def assignenchant(i):
 
 def assignmod(i):
     list_mods = []
-    with open('Modifications.py') as j:
+    with open('Resources/modifications.json') as j:
         data = json.load(j)
 
     if i.category == 'Nonmagical Weapons':
@@ -741,74 +744,80 @@ def load_items():
     wfrequency = []
     sfrequency = []
 
-    if loot_nmi:
+    config.read('config.ini')
+
+    if config.getboolean('flags', 'loot_nmi'):
         lootlist.extend(list_nmi)
-    if loot_nma:
+    if config.getboolean('flags', 'loot_nma'):
         lootlist.extend(list_nma)
-    if loot_nmw:
+    if config.getboolean('flags', 'loot_nmw'):
         lootlist.extend(list_nmw)
-    if loot_nmu:
+    if config.getboolean('flags', 'loot_nmu'):
         lootlist.extend(list_nmu)
-    if loot_ma:
+    if config.getboolean('flags', 'loot_ma'):
         lootlist.extend(list_ma)
-    if loot_mw:
+    if config.getboolean('flags', 'loot_mw'):
         lootlist.extend(list_mw)
-    if loot_mu:
+    if config.getboolean('flags', 'loot_mu'):
         lootlist.extend(list_mu)
-    if loot_st:
+    if config.getboolean('flags', 'loot_st'):
         lootlist.extend(list_st)
-    if loot_ro:
+    if config.getboolean('flags', 'loot_ro'):
         lootlist.extend(list_ro)
-    if loot_ri:
+    if config.getboolean('flags', 'loot_ri'):
         lootlist.extend(list_ri)
-    if loot_wie:
+    if config.getboolean('flags', 'loot_wie'):
         lootlist.extend(list_wie)
-    if loot_wis:
+    if config.getboolean('flags', 'loot_wis'):
         lootlist.extend(list_wis)
-    if flags['loot_cur']:
+    if config.getboolean('flags', 'loot_cur'):
         lootlist.extend(list_cur)
-    if flags['loot_art']:
+    if config.getboolean('flags', 'loot_art'):
         lootlist.extend(list_art)
 
-    for x in lootlist:
-        if hasattr(x, 'setting'):
-            if not flags['set_brz']:
-                if x.setting == 'Bronze Age':
-                    lootlist.remove(x)
-            if not flags['set_stn']:
-                if x.setting == 'Stone Age':
-                    lootlist.remove(x)
-            if not flags['set_eas']:
-                if x.setting == 'Eastern':
-                    lootlist.remove(x)
-            if not flags['set_mth']:
-                if x.setting == 'Mythic':
-                    lootlist.remove(x)
-            if not flags['set_efire']:
-                if x.setting == 'Early Firearms':
-                    lootlist.remove(x)
-            if not flags['set_afire']:
-                if x.setting == 'Advanced Firearms':
-                    lootlist.remove(x)
-            if not flags['set_mfire']:
-                if x.setting == 'Modern Firearms':
-                    lootlist.remove(x)
-            if not flags['set_wdsp']:
-                if x.setting == 'Worldscape':
-                    lootlist.remove(x)
+    ''' running the same remove loop 3 times because it appears to not catch everything each time'''
+    n = 0
+    while n < 3:
+        for x in lootlist:
+            if hasattr(x, 'setting'):
+                if not config.getboolean('flags', 'set_brz'):
+                    if x.setting == 'Bronze Age':
+                        lootlist.remove(x)
+                if not config.getboolean('flags', 'set_stn'):
+                    if x.setting == 'Stone Age':
+                        lootlist.remove(x)
+                if not config.getboolean('flags', 'set_eas'):
+                    if x.setting == 'Eastern':
+                        lootlist.remove(x)
+                if not config.getboolean('flags', 'set_mth'):
+                    if x.setting == 'Mythic':
+                        lootlist.remove(x)
+                if not config.getboolean('flags', 'set_efire'):
+                    if x.setting == 'Early Firearms':
+                        lootlist.remove(x)
+                if not config.getboolean('flags', 'set_afire'):
+                    if x.setting == 'Advanced Firearms':
+                        lootlist.remove(x)
+                if not config.getboolean('flags', 'set_mfire'):
+                    if x.setting == 'Modern Firearms':
+                        lootlist.remove(x)
+                if not config.getboolean('flags', 'set_wdsp'):
+                    if x.setting == 'Worldscape':
+                        lootlist.remove(x)
+        n += 1
 
     for x in lootlist:
         lfrequency.append(int(x.frequency))
 
-    if loot_pot:
+    if config.getboolean('flags', 'loot_pot'):
         potionlist.extend(list_pot)
     for x in potionlist:
         pfrequency.append(int(x.frequency))
-    if loot_wnd:
+    if config.getboolean('flags', 'loot_wnd'):
         wandlist.extend(list_wnd)
     for x in wandlist:
         wfrequency.append(int(x.frequency))
-    if loot_scr:
+    if config.getboolean('flags', 'loot_scr'):
         scrolllist.extend(list_scr)
     for x in scrolllist:
         sfrequency.append(int(x.frequency))
@@ -831,16 +840,15 @@ def load_items():
 def random_item():
     global lootBudget
     global cashBudget
-    global lootlist
     global errorCount
 
     '''first rolls to see which list to choose from'''
     roll = randint(1, 100)
-    if roll > 85 and loot_pot:
+    if roll > 85 and config.getboolean('flags', 'loot_pot'):
         chosen_item = choices(potionlist, pfrequency, k=1)[0]
         chosen_item = deepcopy(chosen_item)
         chosen_item.category = 'Potions'
-    elif 86 > roll > 75 and loot_wnd:
+    elif 86 > roll > 75 and config.getboolean('flags', 'loot_wnd'):
         chosen_item = choices(wandlist, wfrequency, k=1)[0]
         '''roll number of charges on wand (max 50, original price based on 50)'''
         charges = randint(10, 50)
@@ -848,7 +856,7 @@ def random_item():
         chosen_item.name = chosen_item.name + " (" + str(charges) + " charges)"
         chosen_item.price = int(chosen_item.price / 50 * charges)
         chosen_item.category = 'Wands'
-    elif 76 > roll > 70 and loot_scr:
+    elif 76 > roll > 70 and config.getboolean('flags', 'loot_scr'):
         chosen_item = choices(scrolllist, sfrequency, k=1)[0]
         chosen_item = deepcopy(chosen_item)
         chosen_item.category = 'Scrolls'
@@ -865,29 +873,27 @@ def random_item():
             chosen_item.composite()
         if "*" in chosen_item.name:
             chosen_item.ammoquantity()
-        if not hasattr(chosen_item, 'has_material'):
-            add_material(chosen_item)
+        if config.getboolean('flags', 'flg_mats'):
+            if not hasattr(chosen_item, 'has_material'):
+                add_material(chosen_item)
+        if config.getboolean('flags', 'flg_ench'):
+            magicalitem(chosen_item)
 
-    if chosen_item.category == 'Nonmagical Weapons' or chosen_item.category == 'Nonmagical Armor' or \
-            chosen_item.category == 'Nonmagical Ammunition':
-        magicalitem(chosen_item)
-
-    if chosen_item.category == 'Nonmagical Weapons' or chosen_item.category == 'Nonmagical Armor':
-        if randint(1, 100) > 95:
-            assignmod(chosen_item)
-
+    if config.getboolean('flags', 'flg_mods'):
+        if chosen_item.category == 'Nonmagical Weapons' or chosen_item.category == 'Nonmagical Armor':
+            if randint(1, 100) > 95:
+                assignmod(chosen_item)
     if chosen_item.name == 'Slaying Arrow ^' or chosen_item.name == 'Greater Slaying Arrow ^':
         chosen_item.slayingtype()
     '''checks if item would break budget, and then assigns to encounterLoot. 
     If item would break budget program runs again.'''
     if lootBudget - float(chosen_item.price) > 0:
         lootBudget = lootBudget - float(chosen_item.price)
-
         for x in encounterLootList:
             if hasattr(x, 'aquantity'):
                 if chosen_item.category == 'Nonmagical Ammunition':
                     if x.name.split('- (')[0] == chosen_item.name.split('- (')[0]:
-                        aq = x.name.split('(')[1].split(')')[0]
+                        aq = x.name.split('- (')[1].split(')')[0]
                         x.name = x.name.replace(aq, str(x.aquantity + chosen_item.aquantity))
                         x.aquantity = int(aq) + chosen_item.aquantity
                         x.price = x.price + chosen_item.price
@@ -977,7 +983,7 @@ def startup():
     global itemlist, list_nmi, list_nma, list_nmw, list_nmu, list_ma, list_mw, list_mu, list_st, list_ro, list_wie, \
         list_wis, list_cur, list_art, list_pot, list_ri
 
-    with open('filtered lootlist.py') as j:
+    with open('Resources/filtered_lootlist.json') as j:
         data = json.load(j)
         list_nmi = [Item(i) for i in data["Nonmagical Items"]]
         list_nma = [Item(i) for i in data["Nonmagical Armor"]]
@@ -993,7 +999,7 @@ def startup():
         list_wis = [Item(i) for i in data["Wondrous Items (Slotless)"]]
         list_cur = [Item(i) for i in data["Cursed Items"]]
 
-    with open('spells.py') as j:
+    with open('Resources/spells.json') as j:
         data = json.load(j)
 
         for i in data["spelllist"]:
@@ -1016,7 +1022,7 @@ def startup():
             i.calculate_scroll_price()
             i.name_scroll()
 
-    with open('materials.py') as j:
+    with open('Resources/materials.json') as j:
         data = json.load(j)
         for i in data["Core"]:
             materialslist.append(Material(i))
