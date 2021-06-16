@@ -52,6 +52,7 @@ def copy():
     r.withdraw()
     r.clipboard_clear()
     r.clipboard_append(output.get("1.0", END))
+    r.update()
     r.destroy()
 
 
