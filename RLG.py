@@ -249,7 +249,7 @@ app.geometry("700x725")
 
 # create label
 Label (app, text=" Rai's Encounter Treasure Generator", bg='#84344D', fg="white",
-       font="none 14 bold") .grid(row=0, column=0, columnspan=4, sticky=NS)
+       font="none 14 bold") .grid(row=0, column=1, columnspan=2, sticky=NS)
 
 # settings button
 img = PhotoImage(file='settings_icon.png')
@@ -304,7 +304,7 @@ scrollb = Scrollbar(app, command=output.yview)
 scrollb.grid(row=12, column=4, sticky=NSEW)
 output['yscrollcommand'] = scrollb.set
 
-Button(app, text="Copy to Clipboard", width=15, command=copy) .grid(row=16, column=0, sticky=W)
+Button(app, text="Copy to Clipboard", width=14, command=copy) .grid(row=16, column=0, columnspan=3, sticky=W)
 
 
 
