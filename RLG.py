@@ -8,6 +8,7 @@ from configparser import ConfigParser
 config = ConfigParser()
 config.read('config.ini')
 
+
 def click():
     encounterCR = comboCR.get()
     campaignSpeed = (comboSpeed.get()).lower()
@@ -44,6 +45,14 @@ def click():
         else:
             '''scrollb.grid_forget()'''
     output.config(state=DISABLED)
+
+
+def copy():
+    r = Tk()
+    r.withdraw()
+    r.clipboard_clear()
+    r.clipboard_append(output.get("1.0", END))
+    r.destroy()
 
 
 class SettingsWindow(Toplevel):
@@ -235,7 +244,7 @@ app = Tk()
 app.title("Pathfinder Encounter Treasure  Generator V0.1")
 app.configure(background='#84344D', bd=20)
 app.option_add('*TCombobox*Listbox.font',"none 11")
-
+app.geometry("700x725")
 
 # create label
 Label (app, text=" Rai's Encounter Treasure Generator", bg='#84344D', fg="white",
@@ -293,6 +302,8 @@ output.grid(row=12, column=0, columnspan=4, sticky=EW)
 scrollb = Scrollbar(app, command=output.yview)
 scrollb.grid(row=12, column=4, sticky=NSEW)
 output['yscrollcommand'] = scrollb.set
+
+Button(app, text="Copy to Clipboard", width=15, command=copy) .grid(row=16, column=0, sticky=W)
 
 
 
