@@ -7,7 +7,6 @@ from fractions import Fraction
 from math import floor
 from configparser import ConfigParser
 
-
 '''Global Variables'''
 lootBudget = 1
 cashBudget = float(lootBudget / 10)
@@ -69,6 +68,8 @@ class Item:
             self.quantity = 1
             self.is_Mwk = False
             self.enchant_cost = 0
+            self.l_itemEnch = []
+            self.material = ""
 
     def updateprice(self, num):
         self.price = float(self.price) + float(num)
@@ -109,6 +110,8 @@ class Spelltoitem:
             setattr(self, key, dictionary[key])
             self.price = 0
             self.weight = 0
+            self.material = ""
+            self.is_Mwk = False
 
     def calculate_potion_price(self):
         if self.min_spell_level == '0':
@@ -268,14 +271,13 @@ def add_material(item):
         chosenmaterial = deepcopy(tempmaterial)
 
         """assigns name of material as field in item class for rolled item"""
-        item.material = chosenmaterial.name
+        item.material = chosenmaterial.name + " "
         if hasattr(chosenmaterial, 'is_Mwk'):
-            item.name = "Masterwork " + chosenmaterial.name + " " + item.name
             item.is_Mwk = True
-        else:
-            item.name = chosenmaterial.name + " " + item.name
 
-            """updates price for chosen item  based on material"""
+        item.mat = chosenmaterial
+
+        """updates price for chosen item  based on material"""
         if item.type in ("Light Melee", "One-Handed Melee", "Two-Handed Melee", "Ranged", "One-Handed Firearms",
                          "Two-Handed Firearms", "Siege", "Explosives", "Unarmed"):
             if chosenmaterial.lweapon_price == 'special':
@@ -391,7 +393,7 @@ def add_material(item):
                         item.price = float(item.price) * 2
                     item.enchant_cost = 2000
                 elif chosenmaterial.name == 'Darkwood':
-                    item.price = float(item.price) + (10 * float(item.weight.replace(' lbs.', '').replace(' lb.', '')))\
+                    item.price = float(item.price) + (10 * float(item.weight.replace(' lbs.', '').replace(' lb.', ''))) \
                                  + (300 * item.quantity / 50)
                     item.weight = str(float(item.weight.replace(' lbs.', '').replace(' lb.', '')) / 2) + " lbs."
                 elif chosenmaterial.name == 'Paueliel':
@@ -424,7 +426,7 @@ def add_material(item):
 def magicalitem(item):
     global templist
     """roll masterwork/magic level"""
-    if randint(1, 100) > 0:
+    if randint(1, 100) > 60:
         if item.is_Mwk is True:
             '''check item isn't already mwk by default'''
             return
@@ -548,7 +550,7 @@ def magicalitem(item):
         if magiclevel == 0:
             item.name = "Masterwork " + item.name
         elif magiclevel == 1:
-            item.name = "+1 " + item.name
+            item.magic = "+1 "
             item.price = item.price + 2000
             item.price = item.price + item.enchant_cost
             item.magical = True
@@ -567,7 +569,7 @@ def magicalitem(item):
                 roll = randint(1, 5)
 
             magiclevel = originallevel - (originallevel - magicbudget - 1)
-            item.name = "+" + str(magiclevel) + " " + item.name
+            item.magic = "+" + str(magiclevel) + " "
             if item.type in ("Light Melee", "One-Handed Melee", "Two-Handed Melee", "Ranged", "One-Handed Firearms",
                              "Two-Handed Firearms", "Siege", "Explosives", "Unarmed"):
                 item.price = item.price + mweapon_prices[originallevel]
@@ -612,7 +614,7 @@ def assignenchant(i):
             oBane = choices(osubtypes, sfrequency, k=1)[0]
             chosenenchant.name = chosenenchant.name + ' (' + oBane.name + ')'
 
-        i.name = "[" + chosenenchant.name + "] " + i.name
+        i.l_itemEnch.append(chosenenchant)
         i.magicbudget = i.magicbudget - int(chosenenchant.magic_level)
 
         if hasattr(chosenenchant, 'shared'):
@@ -628,7 +630,7 @@ def assignenchant(i):
                 i.name = i.name.replace(x, '')
         try:
             if i.type == 'ammo':
-                i.price = float(i.price)+(float(chosenenchant.base_price) / 50 * i.quantity)
+                i.price = float(i.price) + (float(chosenenchant.base_price) / 50 * i.quantity)
             else:
                 i.price = float(i.price) + float(chosenenchant.base_price)
         except:
@@ -682,7 +684,7 @@ def assignmod(i):
     chosenMod = choice(list_mods)
     i.name = "{" + chosenMod.name + "} " + i.name
     i.modded = True
-    i.weight = str(float(i.weight.replace("s","").replace(" lb.","")) + int(chosenMod.weight)) + " lbs."
+    i.weight = str(float(i.weight.replace("s", "").replace(" lb.", "")) + int(chosenMod.weight)) + " lbs."
     if hasattr(i, 'magical'):
         i.price = float(i.price) + (float(chosenMod.price) * 1.5)
     else:
@@ -925,7 +927,7 @@ def create_loot_list(enCR, cSpeed, tType):
     print("Initial Budget:", int(lootBudget))
     print("Cash Breakpoint:", int(cashBudget))
 
-    while lootBudget > cashBudget:
+    while lootBudget > cashBudget and len(encounterLootList) < config.getint('flags', 'max_items'):
         random_item()
 
     splitBudget()
@@ -972,11 +974,23 @@ def priceFormat(p):
     if float(p) % 1 == 0.0:
         price = str(int(p)) + ' gp'
     elif round(float(p) % 1, 2) == round(float(p) % 1, 1):
-        price = str(floor(float(p))) + ' gp ' + str(floor(float(p)*10) - floor(float(p))*10) + ' sp'
+        price = str(floor(float(p))) + ' gp ' + str(floor(float(p) * 10) - floor(float(p)) * 10) + ' sp'
     else:
-        price = str(floor(float(p))) + ' gp ' + str(floor(float(p)*10) - floor(float(p))*10) + ' sp ' + \
-                str(floor(float(p)*100) - floor(float(p)*10)*10) + ' cp'
+        price = str(floor(float(p))) + ' gp ' + str(floor(float(p) * 10) - floor(float(p)) * 10) + ' sp ' + \
+                str(floor(float(p) * 100) - floor(float(p) * 10) * 10) + ' cp'
     return price
+
+
+def enchFormat(i):
+    i.enchname = ""
+    if hasattr(i, 'l_itemEnch'):
+        for n in i.l_itemEnch:
+            i.enchname = i.enchname + "[" + n.name + "] "
+    if hasattr(i, 'magic'):
+        i.enchname = i.magic + "" + i.enchname + ""
+    elif i.is_Mwk:
+        i.enchname = "Masterwork "
+    return i.enchname
 
 
 def startup():

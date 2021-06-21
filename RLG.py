@@ -1,6 +1,6 @@
 from tkinter import *
 from tkinter import ttk
-from main import create_loot_list, checkBudget, priceFormat
+from main import create_loot_list, checkBudget, priceFormat, enchFormat
 from configparser import ConfigParser
 
 
@@ -22,12 +22,18 @@ def click():
     if results == "Error generating loot":
         output.insert(END, results)
     else:
-        for item in sorted(results, key=lambda item: item.name):
-            fprice = priceFormat(item.price)
+        for item in results:
+            item.fprice = priceFormat(item.price)
+            item.fench = enchFormat(item)
+            item.strname = str("{}{}{} ({})".format(item.fench, item.material, item.name, item.fprice))
+            while item.strname[0] == " ":
+                item.strname = item.strname[1:]
+
+        for item in sorted(results, key=lambda item: item.strname):
             if item.quantity > 1:
-                output.insert(END, "{}x {} ({} each)".format(item.quantity, item.name, fprice) + '\n')
+                output.insert(END, str(item.quantity) + "x " + item.strname[:-1] + " each)" +  '\n')
             else:
-                output.insert(END, "{} ({})".format(item.name, fprice) + '\n')
+                output.insert(END, item.strname + '\n')
         output.insert(END, "\n")
 
         if int(checkBudget('p')) > 0:
@@ -60,7 +66,7 @@ class SettingsWindow(Toplevel):
     def __init__(self):
         super().__init__(master= app, bg='#84344D')
         self.title("Settings")
-        self.geometry("326x510")
+        self.geometry("326x590")
         self.focus_force()
         self.grab_set()
 
@@ -188,18 +194,29 @@ class SettingsWindow(Toplevel):
             self.check_art.set(1)
         Checkbutton(self, bg='#84344D', activebackground='#84344D', variable=self.check_art).grid(row=18, column=3)
 
-        # linebreak
-        Label(self, text='', bg='#84344D', fg='white', font='none 3 bold').grid(row=19, column=0)
+        # Max Items Scale
+        Label(self, text='Max list length', bg='#84344D', fg='white', font='none 10 bold').grid(row=19, column=1,
+                                                                                columnspan=3, sticky=S)
 
-        #Save Settings button
-        Button(self, text='Save Settings', width=8, command=self.savesettings) .grid(row=20, column=2, columnspan=2,
-                                                                                     sticky=EW)
+        self.scl_maxi = IntVar()
+        Scale(self, from_=1, to=1000, orient=HORIZONTAL, length=250, bg='#84344D', fg='white',
+                           activebackground='#84344D', bd=1, font='none 9 bold', tickinterval=999,
+                           troughcolor='#B08A95', highlightthickness=0, variable=self.scl_maxi) \
+                            .grid(row=20, column=1, columnspan=3, sticky=EW)
+        self.scl_maxi.set(config.getint('flags', 'max_items'))
 
         # linebreak
         Label(self, text='', bg='#84344D', fg='white', font='none 3 bold').grid(row=21, column=0)
 
+        #Save Settings button
+        Button(self, text='Save Settings', width=8, command=self.savesettings) .grid(row=22, column=2, columnspan=2,
+                                                                                     sticky=EW)
+
+        # linebreak
+        Label(self, text='', bg='#84344D', fg='white', font='none 3 bold').grid(row=23, column=0)
+
         #Return to Default button
-        Button(self, text='Back to Default', command=self.default) .grid(row=22, column=2, columnspan=2, sticky=EW)
+        Button(self, text='Back to Default', command=self.default) .grid(row=24, column=2, columnspan=2, sticky=EW)
 
     def default(self):
         self.check_eas.set(1)
@@ -218,6 +235,7 @@ class SettingsWindow(Toplevel):
 
         self.check_cur.set(0)
         self.check_art.set(0)
+        self.scl_maxi.set(250)
 
     def savesettings(self):
         config['flags']['set_eas'] = str(bool(self.check_eas.get()))
@@ -236,9 +254,11 @@ class SettingsWindow(Toplevel):
 
         config['flags']['loot_cur'] = str(bool(self.check_cur.get()))
         config['flags']['loot_art'] = str(bool(self.check_art.get()))
+        config['flags']['max_items'] = str(self.scl_maxi.get())
 
         with open('config.ini', 'w') as configfile:
             config.write(configfile)
+
 
 # main:
 app = Tk()
