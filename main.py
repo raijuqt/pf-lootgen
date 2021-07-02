@@ -846,11 +846,11 @@ def random_item():
 
     '''first rolls to see which list to choose from'''
     roll = randint(1, 100)
-    if roll > 85 and config.getboolean('flags', 'loot_pot'):
+    if roll > 90 and config.getboolean('flags', 'loot_pot'):
         chosen_item = choices(potionlist, pfrequency, k=1)[0]
         chosen_item = deepcopy(chosen_item)
         chosen_item.category = 'Potions'
-    elif 86 > roll > 75 and config.getboolean('flags', 'loot_wnd'):
+    elif 91 > roll > 86 and config.getboolean('flags', 'loot_wnd'):
         chosen_item = choices(wandlist, wfrequency, k=1)[0]
         '''roll number of charges on wand (max 50, original price based on 50)'''
         charges = randint(10, 50)
@@ -858,7 +858,7 @@ def random_item():
         chosen_item.name = chosen_item.name + " (" + str(charges) + " charges)"
         chosen_item.price = int(chosen_item.price / 50 * charges)
         chosen_item.category = 'Wands'
-    elif 76 > roll > 70 and config.getboolean('flags', 'loot_scr'):
+    elif 87 > roll > 83 and config.getboolean('flags', 'loot_scr'):
         chosen_item = choices(scrolllist, sfrequency, k=1)[0]
         chosen_item = deepcopy(chosen_item)
         chosen_item.category = 'Scrolls'

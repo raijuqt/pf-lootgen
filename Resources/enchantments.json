@@ -10,7 +10,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Impervious"
         },
         {
             "name": "Glamered",
@@ -22,7 +23,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Glamered"
         },
         {
             "name": "Transformative",
@@ -34,10 +36,12 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "shared": "transformative",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Transformative"
         },
         {
-            "name": "Dueling",
+            "name": "Dueling (UE)",
             "base_price": "14000",
             "magic_level": "0",
             "frequency": "5",
@@ -46,7 +50,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Dueling"
         },
         {
             "name": "Allying",
@@ -58,7 +63,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Allying"
         },
         {
             "name": "Aberration Bane",
@@ -71,7 +77,8 @@
             "piercing": "yes",
             "slashing": "yes",
             "light_weapon": "yes",
-            "shared": "bane"
+            "shared": "bane",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Bane"
         },
         {
             "name": "Animal Bane",
@@ -84,7 +91,8 @@
             "piercing": "yes",
             "slashing": "yes",
             "light_weapon": "yes",
-            "shared": "bane"
+            "shared": "bane",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Bane"
         },
         {
             "name": "Construct Bane",
@@ -97,7 +105,8 @@
             "piercing": "yes",
             "slashing": "yes",
             "light_weapon": "yes",
-            "shared": "bane"
+            "shared": "bane",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Bane"
         },
         {
             "name": "Dragon Bane",
@@ -110,7 +119,8 @@
             "piercing": "yes",
             "slashing": "yes",
             "light_weapon": "yes",
-            "shared": "bane"
+            "shared": "bane",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Bane"
         },
         {
             "name": "Fey Bane",
@@ -123,7 +133,8 @@
             "piercing": "yes",
             "slashing": "yes",
             "light_weapon": "yes",
-            "shared": "bane"
+            "shared": "bane",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Bane"
         },
         {
             "name": "Magical Beast Bane",
@@ -136,7 +147,8 @@
             "piercing": "yes",
             "slashing": "yes",
             "light_weapon": "yes",
-            "shared": "bane"
+            "shared": "bane",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Bane"
         },
         {
             "name": "Monstrous Humanoid Bane",
@@ -149,7 +161,8 @@
             "piercing": "yes",
             "slashing": "yes",
             "light_weapon": "yes",
-            "shared": "bane"
+            "shared": "bane",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Bane"
         },
         {
             "name": "Ooze Bane",
@@ -162,7 +175,8 @@
             "piercing": "yes",
             "slashing": "yes",
             "light_weapon": "yes",
-            "shared": "bane"
+            "shared": "bane",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Bane"
         },
         {
             "name": "Plant Bane",
@@ -175,7 +189,8 @@
             "piercing": "yes",
             "slashing": "yes",
             "light_weapon": "yes",
-            "shared": "bane"
+            "shared": "bane",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Bane"
         },
         {
             "name": "Undead Bane",
@@ -188,7 +203,8 @@
             "piercing": "yes",
             "slashing": "yes",
             "light_weapon": "yes",
-            "shared": "bane"
+            "shared": "bane",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Bane"
         },
         {
             "name": "Vermin  Bane",
@@ -201,7 +217,8 @@
             "piercing": "yes",
             "slashing": "yes",
             "light_weapon": "yes",
-            "shared": "bane"
+            "shared": "bane",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Bane"
         },
         {
             "name": "Humanoid Bane",
@@ -214,7 +231,8 @@
             "piercing": "yes",
             "slashing": "yes",
             "light_weapon": "yes",
-            "shared": "bane"
+            "shared": "bane",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Bane"
         },
         {
             "name": "Outsider Bane",
@@ -227,7 +245,8 @@
             "piercing": "yes",
             "slashing": "yes",
             "light_weapon": "yes",
-            "shared": "bane"
+            "shared": "bane",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Bane"
         },
         {
             "name": "Benevolent",
@@ -239,7 +258,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Benevolent"
         },
         {
             "name": "Called",
@@ -251,7 +271,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Called"
         },
         {
             "name": "Conductive",
@@ -263,7 +284,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Conductive"
         },
         {
             "name": "Corrosive",
@@ -276,7 +298,8 @@
             "piercing": "yes",
             "slashing": "yes",
             "light_weapon": "yes",
-            "shared": "corrosive"
+            "shared": "corrosive",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Corrosive"
         },
         {
             "name": "Countering",
@@ -288,7 +311,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Countering"
         },
         {
             "name": "Courageous",
@@ -300,7 +324,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Courageous"
         },
         {
             "name": "Cruel",
@@ -312,7 +337,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Cruel"
         },
         {
             "name": "Cunning",
@@ -324,7 +350,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Cunning"
         },
         {
             "name": "Deadly",
@@ -336,7 +363,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Deadly"
         },
         {
             "name": "Defending",
@@ -348,7 +376,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Defending"
         },
         {
             "name": "Dispelling",
@@ -361,7 +390,8 @@
             "piercing": "yes",
             "slashing": "yes",
             "light_weapon": "yes",
-            "shared": "dispelling"
+            "shared": "dispelling",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Dispelling"
         },
         {
             "name": "Flaming",
@@ -374,7 +404,8 @@
             "piercing": "yes",
             "slashing": "yes",
             "light_weapon": "yes",
-            "shared": "flaming"
+            "shared": "flaming",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Flaming"
         },
         {
             "name": "Frost",
@@ -387,7 +418,8 @@
             "piercing": "yes",
             "slashing": "yes",
             "light_weapon": "yes",
-            "shared": "frost"
+            "shared": "frost",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Frost"
         },
         {
             "name": "Furious",
@@ -399,7 +431,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Furious"
         },
         {
             "name": "Ghost touch",
@@ -411,7 +444,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Ghost%20Touch"
         },
         {
             "name": "Grayflame",
@@ -423,7 +457,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Grayflame"
         },
         {
             "name": "Grounding",
@@ -435,7 +470,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Grounding"
         },
         {
             "name": "Guardian",
@@ -447,7 +483,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Guardian"
         },
         {
             "name": "Heartseeker",
@@ -459,7 +496,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Heartseeker"
         },
         {
             "name": "Huntsman",
@@ -471,7 +509,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Huntsman"
         },
         {
             "name": "Jurist",
@@ -483,7 +522,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Jurist"
         },
         {
             "name": "Keen",
@@ -494,7 +534,8 @@
             "type": "melee",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Keen"
         },
         {
             "name": "Ki focus",
@@ -506,7 +547,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Ki%20Focus"
         },
         {
             "name": "Limning",
@@ -518,7 +560,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Limning"
         },
         {
             "name": "Menacing",
@@ -530,7 +573,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Menacing"
         },
         {
             "name": "Merciful",
@@ -542,7 +586,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Merciful"
         },
         {
             "name": "Mighty cleaving",
@@ -554,7 +599,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Mighty%20Cleaving"
         },
         {
             "name": "Mimetic",
@@ -566,7 +612,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Mimetic"
         },
         {
             "name": "Neutralizing",
@@ -578,7 +625,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Neutralizing"
         },
         {
             "name": "Ominous",
@@ -590,7 +638,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Ominous"
         },
         {
             "name": "Planar",
@@ -602,7 +651,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Planar"
         },
         {
             "name": "Quenching",
@@ -614,7 +664,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Quenching"
         },
         {
             "name": "Seaborne",
@@ -626,7 +677,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Seaborne"
         },
         {
             "name": "Shock",
@@ -639,7 +691,8 @@
             "piercing": "yes",
             "slashing": "yes",
             "light_weapon": "yes",
-            "shared": "shock"
+            "shared": "shock",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Shock"
         },
         {
             "name": "Spell storing",
@@ -651,7 +704,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Spell%20Storing"
         },
         {
             "name": "Thawing",
@@ -663,7 +717,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Thawing"
         },
         {
             "name": "Throwing",
@@ -675,7 +730,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Throwing"
         },
         {
             "name": "Thundering",
@@ -687,7 +743,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Thundering"
         },
         {
             "name": "Unaligned",
@@ -699,7 +756,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Unaligned"
         },
         {
             "name": "Valiant",
@@ -711,7 +769,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Valiant"
         },
         {
             "name": "Vicious",
@@ -723,7 +782,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Vicious"
         },
         {
             "name": "Advancing",
@@ -735,7 +795,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Advancing"
         },
         {
             "name": "Anarchic",
@@ -747,7 +808,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Anarchic"
         },
         {
             "name": "Anchoring",
@@ -759,7 +821,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Anchoring"
         },
         {
             "name": "Axiomatic",
@@ -771,7 +834,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Axiomatic"
         },
         {
             "name": "Corrosive burst",
@@ -784,7 +848,8 @@
             "piercing": "yes",
             "slashing": "yes",
             "light_weapon": "yes",
-            "shared": "corrosive"
+            "shared": "corrosive",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Corrosive%20Burst"
         },
         {
             "name": "Defiant",
@@ -796,7 +861,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Defiant"
         },
         {
             "name": "Dispelling burst",
@@ -809,7 +875,8 @@
             "piercing": "yes",
             "slashing": "yes",
             "light_weapon": "yes",
-            "shared": "dispelling"
+            "shared": "dispelling",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Dispelling%20Burst"
         },
         {
             "name": "Disruption",
@@ -819,7 +886,8 @@
             "source": "PZO1123",
             "type": "melee",
             "blunt": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Disruption"
         },
         {
             "name": "Flaming burst",
@@ -832,7 +900,8 @@
             "piercing": "yes",
             "slashing": "yes",
             "light_weapon": "yes",
-            "shared": "flaming"
+            "shared": "flaming",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Flaming%20Burst"
         },
         {
             "name": "Furyborn",
@@ -844,7 +913,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Furyborn"
         },
         {
             "name": "Glorious",
@@ -856,7 +926,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Glorious"
         },
         {
             "name": "Holy",
@@ -868,7 +939,9 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "shared": "holy",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Holy"
         },
         {
             "name": "Icy burst",
@@ -881,7 +954,8 @@
             "piercing": "yes",
             "slashing": "yes",
             "light_weapon": "yes",
-            "shared": "frost"
+            "shared": "frost",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Icy%20Burst"
         },
         {
             "name": "Igniting",
@@ -893,7 +967,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Igniting"
         },
         {
             "name": "Impact",
@@ -904,7 +979,8 @@
             "type": "melee",
             "blunt": "yes",
             "piercing": "yes",
-            "slashing": "yes"
+            "slashing": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Impact"
         },
         {
             "name": "Invigorating",
@@ -916,7 +992,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Invigorating"
         },
         {
             "name": "Ki intensifying",
@@ -928,7 +1005,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Ki%20Intensifying"
         },
         {
             "name": "Lifesurge",
@@ -940,7 +1018,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Lifesurge"
         },
         {
             "name": "Negating",
@@ -952,7 +1031,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Negating"
         },
         {
             "name": "Phase locking",
@@ -964,7 +1044,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Phase%20Locking"
         },
         {
             "name": "Planestriking",
@@ -976,7 +1057,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Planestriking"
         },
         {
             "name": "Shocking burst",
@@ -989,7 +1071,8 @@
             "piercing": "yes",
             "slashing": "yes",
             "light_weapon": "yes",
-            "shared": "shock"
+            "shared": "shock",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Shocking%20Burst"
         },
         {
             "name": "Stalking",
@@ -1001,7 +1084,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Stalking"
         },
         {
             "name": "Unholy",
@@ -1013,7 +1097,9 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "shared": "holy",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Unholy"
         },
         {
             "name": "Wounding",
@@ -1025,7 +1111,9 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "shared": "wounding",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Wounding"
         },
         {
             "name": "Nullifying",
@@ -1037,7 +1125,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Nullifying"
         },
         {
             "name": "Repositioning",
@@ -1049,7 +1138,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Repositioning"
         },
         {
             "name": "Speed",
@@ -1061,7 +1151,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Speed"
         },
         {
             "name": "Spell stealing",
@@ -1073,7 +1164,8 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Spell%20Stealing"
         },
         {
             "name": "Brilliant energy",
@@ -1085,7 +1177,9 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "shared": "light",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Brilliant%20Energy"
         },
         {
             "name": "Dancing",
@@ -1097,7 +1191,9 @@
             "blunt": "yes",
             "piercing": "yes",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "shared": "dancing",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Dancing"
         },
         {
             "name": "Vorpal",
@@ -1107,7 +1203,1185 @@
             "source": "PZO1123",
             "type": "melee",
             "slashing": "yes",
-            "light_weapon": "yes"
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Vorpal"
+        },
+        {
+            "name": "Shrinking",
+            "base_price": "1000",
+            "magic_level": "0",
+            "frequency": "1",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Shrinking"
+        },
+        {
+            "name": "Agile",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "finesse": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Agile"
+        },
+        {
+            "name": "Answering",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Answering"
+        },
+        {
+            "name": "Bewildering",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Bewildering"
+        },
+        {
+            "name": "Blood-Hunting",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Blood-Hunting"
+        },
+        {
+            "name": "Bloodsong",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "type": "melee",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Bloodsong"
+        },
+        {
+            "name": "Brawling",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "0",
+            "type": "melee",
+            "blunt": "yes",
+            "light_weapon": "yes",
+            "weaponlist": "brass knuckles, cestus, sap",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Brawling"
+        },
+        {
+            "name": "Breaking",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "shared": "breaking",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Breaking"
+        },
+        {
+            "name": "Catalytic",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "0",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "req_enchant": "corrosive, corrosive burst",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Catalytic"
+        },
+        {
+            "name": "Compassionate",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Compassionate"
+        },
+        {
+            "name": "Confounding",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Confounding"
+        },
+        {
+            "name": "Dazzling Radiance",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Dazzling%20Radiance"
+        },
+        {
+            "name": "Debilitating",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Debilitating"
+        },
+        {
+            "name": "Deceptive",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Deceptive"
+        },
+        {
+            "name": "Distracting",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "shared": "distracting",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Distracting"
+        },
+        {
+            "name": "Drowscourge",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Drowscourge"
+        },
+        {
+            "name": "Dueling (PSFG)",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Dueling%20(PSFG)"
+        },
+        {
+            "name": "Fate-Stealing",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Fate-Stealing"
+        },
+        {
+            "name": "Fervent",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "shared": "fervent",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Fervent"
+        },
+        {
+            "name": "Flamboyant",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "",
+            "type": "melee",
+            "piercing": "yes",
+            "light_weapon": "yes",
+            "onehand": "yes",
+            "shared": "flamboyant",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Flamboyant"
+        },
+        {
+            "name": "Fortuitous",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Fortuitous"
+        },
+        {
+            "name": "Growing",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Growing"
+        },
+        {
+            "name": "Guided",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "3.5",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Guided"
+        },
+        {
+            "name": "Injecting",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "",
+            "type": "melee",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Injecting"
+        },
+        {
+            "name": "Inspired",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "0",
+            "source": "",
+            "type": "melee",
+            "req_type": "simple",
+            "weaponlist": "hand crossbow, rapier, shortbow, short sword, sword cane",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Inspired"
+        },
+        {
+            "name": "Kinslayer",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Kinslayer"
+        },
+        {
+            "name": "Leveraging",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Leveraging"
+        },
+        {
+            "name": "Aberration Misery",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "shared": "miserable",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Miserable"
+        },
+        {
+            "name": "Animal Misery",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "shared": "miserable",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Miserable"
+        },
+        {
+            "name": "Construct Misery",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "shared": "miserable",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Miserable"
+        },
+        {
+            "name": "Dragon Misery",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "shared": "miserable",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Miserable"
+        },
+        {
+            "name": "Fey Misery",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "shared": "miserable",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Miserable"
+        },
+        {
+            "name": "Magical Beast Misery",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "shared": "miserable",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Miserable"
+        },
+        {
+            "name": "Monstrous Humanoid Misery",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "shared": "miserable",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Miserable"
+        },
+        {
+            "name": "Ooze Misery",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "shared": "miserable",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Miserable"
+        },
+        {
+            "name": "Plant Misery",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "shared": "miserable",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Miserable"
+        },
+        {
+            "name": "Undead Misery",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "shared": "miserable",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Miserable"
+        },
+        {
+            "name": "Vermin Misery",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "shared": "miserable",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Miserable"
+        },
+        {
+            "name": "Humanoid Misery",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "shared": "miserable",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Miserable"
+        },
+        {
+            "name": "Outsider Misery",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "shared": "miserable",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Miserable"
+        },
+        {
+            "name": "Patriotic",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "shared": "patriotic",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Patriotic"
+        },
+        {
+            "name": "Pitfall",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "3.5",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Pitfall"
+        },
+        {
+            "name": "Rusting",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Rusting"
+        },
+        {
+            "name": "Sacred",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Sacred"
+        },
+        {
+            "name": "Sapping",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "0",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "nonlethal": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Sapping"
+        },
+        {
+            "name": "Ow",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "",
+            "type": "melee",
+            "piercing": "yes",
+            "light_weapon": "yes",
+            "onehand": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Skewering"
+        },
+        {
+            "name": "Slithering",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Slithering"
+        },
+        {
+            "name": "Smashing",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Smashing"
+        },
+        {
+            "name": "Spirit-Hunting",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Spirit-Hunting"
+        },
+        {
+            "name": "Sticky",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "0",
+            "source": "",
+            "type": "melee",
+            "piercing": "yes",
+            "req_type": "reach",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Sticky"
+        },
+        {
+            "name": "Summon Bane",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Summon%20Bane"
+        },
+        {
+            "name": "Training",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Training"
+        },
+        {
+            "name": "Underwater",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Underwater"
+        },
+        {
+            "name": "Vampiric",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "",
+            "type": "melee",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "shared": "vampiric",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Vampiric"
+        },
+        {
+            "name": "Virulent",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Virulent"
+        },
+        {
+            "name": "Prehensile",
+            "base_price": "2500",
+            "magic_level": "0",
+            "frequency": "0",
+            "source": "",
+            "type": "melee",
+            "slashing": "yes",
+            "weaponlist": "whip",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Prehensile"
+        },
+        {
+            "name": "Lesser Concealed",
+            "base_price": "3000",
+            "magic_level": "0",
+            "frequency": "2",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "onehand": "yes",
+            "shared": "concealed",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Concealed,%20Lesser"
+        },
+        {
+            "name": "Exclusionary",
+            "base_price": "3750",
+            "magic_level": "0",
+            "frequency": "2",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Exclusionary"
+        },
+        {
+            "name": "Resizing",
+            "base_price": "4000",
+            "magic_level": "0",
+            "frequency": "2",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Resizing"
+        },
+        {
+            "name": "Sneaky",
+            "base_price": "5000",
+            "magic_level": "0",
+            "frequency": "2",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Sneaky"
+        },
+        {
+            "name": "Liberating (WMH)",
+            "base_price": "7000",
+            "magic_level": "0",
+            "frequency": "2",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "shared": "liberating",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Liberating%20(WMH)"
+        },
+        {
+            "name": "Concealed",
+            "base_price": "7500",
+            "magic_level": "0",
+            "frequency": "2",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "onehand": "yes",
+            "shared": "concealed",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Concealed"
+        },
+        {
+            "name": "Burning",
+            "base_price": "+2 bonus",
+            "magic_level": "2",
+            "frequency": "2",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Burning"
+        },
+        {
+            "name": "Culling",
+            "base_price": "+2 bonus",
+            "magic_level": "2",
+            "frequency": "2",
+            "source": "",
+            "type": "melee",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Culling"
+        },
+        {
+            "name": "Greater Distracting",
+            "base_price": "+2 bonus",
+            "magic_level": "2",
+            "frequency": "2",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "shared": "distracting",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Distracting,%20Greater"
+        },
+        {
+            "name": "Fury-Born",
+            "base_price": "+2 bonus",
+            "magic_level": "2",
+            "frequency": "2",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Fury-Born"
+        },
+        {
+            "name": "Heretical",
+            "base_price": "+2 bonus",
+            "magic_level": "2",
+            "frequency": "2",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "shared": "fervent",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Heretical"
+        },
+        {
+            "name": "Legbreaker",
+            "base_price": "+2 bonus",
+            "magic_level": "2",
+            "frequency": "2",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Legbreaker"
+        },
+        {
+            "name": "Liberating (UI)",
+            "base_price": "+2 bonus",
+            "magic_level": "2",
+            "frequency": "2",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "shared": "liberating",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Liberating%20(UI)"
+        },
+        {
+            "name": "Obliviating",
+            "base_price": "+2 bonus",
+            "magic_level": "2",
+            "frequency": "2",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Obliviating"
+        },
+        {
+            "name": "Peaceful",
+            "base_price": "+2 bonus",
+            "magic_level": "2",
+            "frequency": "2",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Peaceful"
+        },
+        {
+            "name": "Quaking",
+            "base_price": "+2 bonus",
+            "magic_level": "2",
+            "frequency": "2",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Quaking"
+        },
+        {
+            "name": "Runeforged",
+            "base_price": "+2 bonus",
+            "magic_level": "2",
+            "frequency": "0",
+            "source": "ap",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Runeforged"
+        },
+        {
+            "name": "Sharding",
+            "base_price": "+2 bonus",
+            "magic_level": "2",
+            "frequency": "2",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Sharding"
+        },
+        {
+            "name": "Shattering",
+            "base_price": "+2 bonus",
+            "magic_level": "2",
+            "frequency": "2",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "shared": "breaking",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Shattering"
+        },
+        {
+            "name": "Silencing",
+            "base_price": "+2 bonus",
+            "magic_level": "2",
+            "frequency": "2",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Silencing"
+        },
+        {
+            "name": "Toxic",
+            "base_price": "+2 bonus",
+            "magic_level": "2",
+            "frequency": "2",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Toxic"
+        },
+        {
+            "name": "Treasonous",
+            "base_price": "+2 bonus",
+            "magic_level": "2",
+            "frequency": "2",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "shared": "patriotic",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Treasonous"
+        },
+        {
+            "name": "Truthful",
+            "base_price": "+2 bonus",
+            "magic_level": "2",
+            "frequency": "2",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Truthful"
+        },
+        {
+            "name": "Unseen",
+            "base_price": "+2 bonus",
+            "magic_level": "2",
+            "frequency": "2",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Unseen"
+        },
+        {
+            "name": "Greater Vampiric",
+            "base_price": "+2 bonus",
+            "magic_level": "2",
+            "frequency": "2",
+            "source": "",
+            "type": "melee",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "shared": "vampiric",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Vampiric,%20Greater"
+        },
+        {
+            "name": "Greater Transformative",
+            "base_price": "15000",
+            "magic_level": "0",
+            "frequency": "3",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "shared": "transformative",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Transformative,%20Greater"
+        },
+        {
+            "name": "Exhausting",
+            "base_price": "+3 bonus",
+            "magic_level": "3",
+            "frequency": "3",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Exhausting"
+        },
+        {
+            "name": "Greater Flamboyant",
+            "base_price": "+3 bonus",
+            "magic_level": "3",
+            "frequency": "3",
+            "source": "",
+            "type": "melee",
+            "piercing": "yes",
+            "light_weapon": "yes",
+            "onehand": "yes",
+            "shared": "flamboyant",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Flamboyant,%20Greater"
+        },
+        {
+            "name": "Gory",
+            "base_price": "+3 bonus",
+            "magic_level": "3",
+            "frequency": "3",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "shared": "wounding",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Gory"
+        },
+        {
+            "name": "Redeemed",
+            "base_price": "+3 bonus",
+            "magic_level": "3",
+            "frequency": "3",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "shared": "holy",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Redeemed"
+        },
+        {
+            "name": "Spellstealing",
+            "base_price": "+3 bonus",
+            "magic_level": "3",
+            "frequency": "3",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "shared": "spell",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Spellstealing"
+        },
+        {
+            "name": "Umbral",
+            "base_price": "+3 bonus",
+            "magic_level": "3",
+            "frequency": "3",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "shared": "light",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Umbral"
+        },
+        {
+            "name": "Flying",
+            "base_price": "+5 bonus",
+            "magic_level": "5",
+            "frequency": "5",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "shared": "dancing",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Flying"
+        },
+        {
+            "name": "Spell Siphon",
+            "base_price": "+5 bonus",
+            "magic_level": "5",
+            "frequency": "5",
+            "source": "",
+            "type": "melee",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "shared": "spell",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Spell%20Siphon"
         }
     ],
     "ranged weapon enchantments": [
@@ -1118,7 +2392,8 @@
             "frequency": "50",
             "Source": "PZO1123",
             "type": "ranged",
-            "bow": "yes"
+            "bow": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Adaptive"
         },
         {
             "name": "Impervious",
@@ -1130,7 +2405,8 @@
             "crossbow": "yes",
             "thrown": "yes",
             "firearm": "yes",
-            "other": "yes"
+            "other": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Impervious"
         },
         {
             "name": "Glamered",
@@ -1143,7 +2419,8 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
-            "shared": "bane"
+            "shared": "bane",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Glamered"
         },
         {
             "name": "Aberration Bane",
@@ -1156,7 +2433,8 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
-            "shared": "bane"
+            "shared": "bane",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Bane"
         },
         {
             "name": "Animal Bane",
@@ -1169,7 +2447,8 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
-            "shared": "bane"
+            "shared": "bane",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Bane"
         },
         {
             "name": "Construct Bane",
@@ -1182,7 +2461,8 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
-            "shared": "bane"
+            "shared": "bane",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Bane"
         },
         {
             "name": "Dragon Bane",
@@ -1195,7 +2475,8 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
-            "shared": "bane"
+            "shared": "bane",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Bane"
         },
         {
             "name": "Fey Bane",
@@ -1208,7 +2489,8 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
-            "shared": "bane"
+            "shared": "bane",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Bane"
         },
         {
             "name": "Magical Beast Bane",
@@ -1221,7 +2503,8 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
-            "shared": "bane"
+            "shared": "bane",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Bane"
         },
         {
             "name": "Monstrous Humanoid Bane",
@@ -1234,7 +2517,8 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
-            "shared": "bane"
+            "shared": "bane",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Bane"
         },
         {
             "name": "Ooze Bane",
@@ -1247,7 +2531,8 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
-            "shared": "bane"
+            "shared": "bane",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Bane"
         },
         {
             "name": "Plant Bane",
@@ -1260,7 +2545,8 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
-            "shared": "bane"
+            "shared": "bane",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Bane"
         },
         {
             "name": "Undead Bane",
@@ -1273,7 +2559,8 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
-            "shared": "bane"
+            "shared": "bane",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Bane"
         },
         {
             "name": "Vermin Bane",
@@ -1286,7 +2573,8 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
-            "shared": "bane"
+            "shared": "bane",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Bane"
         },
         {
             "name": "Humanoid Bane",
@@ -1299,7 +2587,8 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
-            "shared": "bane"
+            "shared": "bane",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Bane"
         },
         {
             "name": "Outsider Bane",
@@ -1312,7 +2601,8 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
-            "shared": "bane"
+            "shared": "bane",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Bane"
         },
         {
             "name": "Called",
@@ -1324,7 +2614,8 @@
             "crossbow": "yes",
             "thrown": "yes",
             "firearm": "yes",
-            "other": "yes"
+            "other": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Called"
         },
         {
             "name": "Conductive",
@@ -1336,7 +2627,8 @@
             "crossbow": "yes",
             "thrown": "yes",
             "firearm": "yes",
-            "other": "yes"
+            "other": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Conductive"
         },
         {
             "name": "Conserving",
@@ -1346,7 +2638,8 @@
             "Source": "PZO1123",
             "type": "ranged",
             "crossbow": "yes",
-            "thrown": "yes"
+            "thrown": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Conserving"
         },
         {
             "name": "Corrosive",
@@ -1359,7 +2652,8 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
-            "shared": "corrosive"
+            "shared": "corrosive",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Corrosive"
         },
         {
             "name": "Cruel",
@@ -1371,7 +2665,8 @@
             "crossbow": "yes",
             "thrown": "yes",
             "firearm": "yes",
-            "other": "yes"
+            "other": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Cruel"
         },
         {
             "name": "Cunning",
@@ -1383,7 +2678,8 @@
             "crossbow": "yes",
             "thrown": "yes",
             "firearm": "yes",
-            "other": "yes"
+            "other": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Cunning"
         },
         {
             "name": "Distance",
@@ -1395,7 +2691,8 @@
             "crossbow": "yes",
             "thrown": "yes",
             "firearm": "yes",
-            "other": "yes"
+            "other": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Distance"
         },
         {
             "name": "Flaming",
@@ -1408,7 +2705,8 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
-            "shared": "flaming"
+            "shared": "flaming",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Flaming"
         },
         {
             "name": "Frost",
@@ -1421,7 +2719,8 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
-            "shared": "frost"
+            "shared": "frost",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Frost"
         },
         {
             "name": "Huntsman",
@@ -1433,7 +2732,8 @@
             "crossbow": "yes",
             "thrown": "yes",
             "firearm": "yes",
-            "other": "yes"
+            "other": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Huntsman"
         },
         {
             "name": "Jurist",
@@ -1445,7 +2745,8 @@
             "crossbow": "yes",
             "thrown": "yes",
             "firearm": "yes",
-            "other": "yes"
+            "other": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Jurist"
         },
         {
             "name": "Limning",
@@ -1457,7 +2758,8 @@
             "crossbow": "yes",
             "thrown": "yes",
             "firearm": "yes",
-            "other": "yes"
+            "other": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Limning"
         },
         {
             "name": "Lucky",
@@ -1467,7 +2769,8 @@
             "Source": "PZO1123",
             "type": "ranged",
             "firearm": "yes",
-            "shared": "lucky"
+            "shared": "lucky",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Lucky"
         },
         {
             "name": "Merciful",
@@ -1479,7 +2782,8 @@
             "crossbow": "yes",
             "thrown": "yes",
             "firearm": "yes",
-            "other": "yes"
+            "other": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Merciful"
         },
         {
             "name": "Planar",
@@ -1491,7 +2795,8 @@
             "crossbow": "yes",
             "thrown": "yes",
             "firearm": "yes",
-            "other": "yes"
+            "other": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Planar"
         },
         {
             "name": "Reliable",
@@ -1501,7 +2806,8 @@
             "Source": "PZO1123",
             "type": "ranged",
             "firearm": "yes",
-            "shared": "reliable"
+            "shared": "reliable",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Reliable"
         },
         {
             "name": "Returning",
@@ -1510,7 +2816,8 @@
             "frequency": "8",
             "Source": "PZO1123",
             "type": "ranged",
-            "thrown": "yes"
+            "thrown": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Returning"
         },
         {
             "name": "Seeking",
@@ -1522,7 +2829,8 @@
             "crossbow": "yes",
             "thrown": "yes",
             "firearm": "yes",
-            "other": "yes"
+            "other": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Seeking"
         },
         {
             "name": "Shock",
@@ -1535,7 +2843,8 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
-            "shared": "shock"
+            "shared": "shock",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Shock"
         },
         {
             "name": "Thundering",
@@ -1547,7 +2856,8 @@
             "crossbow": "yes",
             "thrown": "yes",
             "firearm": "yes",
-            "other": "yes"
+            "other": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Thundering"
         },
         {
             "name": "Anarchic",
@@ -1559,7 +2869,8 @@
             "crossbow": "yes",
             "thrown": "yes",
             "firearm": "yes",
-            "other": "yes"
+            "other": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Anarchic"
         },
         {
             "name": "Anchoring",
@@ -1568,7 +2879,8 @@
             "frequency": "3",
             "Source": "PZO1123",
             "type": "ranged",
-            "firearm": "yes"
+            "firearm": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Anchoring"
         },
         {
             "name": "Axiomatic",
@@ -1580,7 +2892,8 @@
             "crossbow": "yes",
             "thrown": "yes",
             "firearm": "yes",
-            "other": "yes"
+            "other": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Axiomatic"
         },
         {
             "name": "Corrosive burst",
@@ -1593,7 +2906,8 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
-            "shared": "corrosive"
+            "shared": "corrosive",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Corrosive%20Burst"
         },
         {
             "name": "Lesser designating",
@@ -1606,7 +2920,8 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
-            "shared": "designating"
+            "shared": "designating",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Lesser%20Designating"
         },
         {
             "name": "Endless ammunition",
@@ -1615,7 +2930,8 @@
             "frequency": "3",
             "Source": "PZO1123",
             "type": "ranged",
-            "crossbow": "yes"
+            "crossbow": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Endless%20Ammunition"
         },
         {
             "name": "Flaming burst",
@@ -1628,7 +2944,8 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
-            "shared": "flaming"
+            "shared": "flaming",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Flaming%20Burst"
         },
         {
             "name": "Holy",
@@ -1640,7 +2957,8 @@
             "crossbow": "yes",
             "thrown": "yes",
             "firearm": "yes",
-            "other": "yes"
+            "other": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Holy"
         },
         {
             "name": "Icy burst",
@@ -1653,7 +2971,8 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
-            "shared": "frost"
+            "shared": "frost",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Icy%20Burst"
         },
         {
             "name": "Igniting",
@@ -1665,7 +2984,8 @@
             "crossbow": "yes",
             "thrown": "yes",
             "firearm": "yes",
-            "other": "yes"
+            "other": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Igniting"
         },
         {
             "name": "Phase locking",
@@ -1677,7 +2997,8 @@
             "crossbow": "yes",
             "thrown": "yes",
             "firearm": "yes",
-            "other": "yes"
+            "other": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Phase%20Locking"
         },
         {
             "name": "Shocking burst",
@@ -1690,7 +3011,8 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
-            "shared": "shock"
+            "shared": "shock",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Shocking%20Burst"
         },
         {
             "name": "Stalking",
@@ -1702,7 +3024,8 @@
             "crossbow": "yes",
             "thrown": "yes",
             "firearm": "yes",
-            "other": "yes"
+            "other": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Stalking"
         },
         {
             "name": "Unholy",
@@ -1714,7 +3037,8 @@
             "crossbow": "yes",
             "thrown": "yes",
             "firearm": "yes",
-            "other": "yes"
+            "other": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Unholy"
         },
         {
             "name": "Greater lucky",
@@ -1724,7 +3048,8 @@
             "Source": "PZO1123",
             "type": "ranged",
             "firearm": "yes",
-            "shared": "lucky"
+            "shared": "lucky",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Greater%20Lucky"
         },
         {
             "name": "Greater reliable",
@@ -1734,7 +3059,8 @@
             "Source": "PZO1123",
             "type": "ranged",
             "firearm": "yes",
-            "shared": "reliable"
+            "shared": "reliable",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Greater%20Reliable"
         },
         {
             "name": "Speed",
@@ -1746,7 +3072,8 @@
             "crossbow": "yes",
             "thrown": "yes",
             "firearm": "yes",
-            "other": "yes"
+            "other": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Speed"
         },
         {
             "name": "Brilliant energy",
@@ -1758,7 +3085,8 @@
             "crossbow": "yes",
             "thrown": "yes",
             "firearm": "yes",
-            "other": "yes"
+            "other": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Brilliant%20Energy"
         },
         {
             "name": "Greater designating",
@@ -1771,7 +3099,8 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
-            "shared": "designating"
+            "shared": "designating",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Greater%20Designating"
         },
         {
             "name": "Nimble shot",
@@ -1783,7 +3112,8 @@
             "crossbow": "yes",
             "thrown": "yes",
             "firearm": "yes",
-            "other": "yes"
+            "other": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Nimble%20Shot"
         },
         {
             "name": "Second chance",
@@ -1795,7 +3125,8 @@
             "crossbow": "yes",
             "thrown": "yes",
             "firearm": "yes",
-            "other": "yes"
+            "other": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Second%20Chance"
         },
         {
             "name": "Allying",
@@ -1807,7 +3138,36 @@
             "crossbow": "yes",
             "thrown": "yes",
             "firearm": "yes",
-            "other": "yes"
+            "other": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Allying"
+        },
+        {
+            "name": "Penetrating",
+            "base_price": "+2 bonus",
+            "magic_level": "2",
+            "frequency": "2",
+            "type": "ranged",
+            "ammunition": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Penetrating"
+        },
+        {
+            "name": "Sharding",
+            "base_price": "+2 bonus",
+            "magic_level": "2",
+            "frequency": "2",
+            "type": "ranged",
+            "thrown": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Sharding"
+        },
+        {
+            "name": "Sniping",
+            "base_price": "+2 bonus",
+            "magic_level": "2",
+            "frequency": "2",
+            "type": "ranged",
+            "crossbow": "yes",
+            "thrown": "yes",
+            "firearm": "yes"
         }
     ],
     "mythic weapon enchantments": [
@@ -1826,7 +3186,8 @@
             "crossbow": "yes",
             "thrown": "yes",
             "firearm": "yes",
-            "other": "yes"
+            "other": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Disjoining"
         },
         {
             "name": "Harvesting",
@@ -1843,7 +3204,8 @@
             "crossbow": "yes",
             "thrown": "yes",
             "firearm": "yes",
-            "other": "yes"
+            "other": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Harvesting"
         },
         {
             "name": "Mythic Bane",
@@ -1861,7 +3223,8 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
-            "shared": "bane"
+            "shared": "bane",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Mythic%20Bane"
         },
         {
             "name": "Sacrosanct",
@@ -1878,7 +3241,25 @@
             "crossbow": "yes",
             "thrown": "yes",
             "firearm": "yes",
-            "other": "yes"
+            "other": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Sacrosanct"
+        },
+        {
+            "name": "Potent",
+            "base_price": "+2 bonus",
+            "magic_level": "2",
+            "frequency": "2",
+            "source": "Mythic Adventures",
+            "type": "mythic",
+            "blunt": "yes",
+            "piercing": "yes",
+            "slashing": "yes",
+            "light_weapon": "yes",
+            "bow": "yes",
+            "crossbow": "yes",
+            "thrown": "yes",
+            "firearm": "yes",
+            "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Potent"
         }
     ],
     "armor enchantments": [
@@ -1888,7 +3269,8 @@
             "magic_level": "0",
             "frequency": "6",
             "source": "PZO1123",
-            "type": "armor"
+            "type": "armor",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Benevolent"
         },
         {
             "name": "Poison-resistant",
@@ -1896,7 +3278,8 @@
             "magic_level": "0",
             "frequency": "6",
             "source": "PZO1123",
-            "type": "armor"
+            "type": "armor",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Poison-Resistant"
         },
         {
             "name": "Glamered",
@@ -1904,7 +3287,8 @@
             "magic_level": "0",
             "frequency": "12",
             "source": "PZO1123",
-            "type": "armor"
+            "type": "armor",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Glamered"
         },
         {
             "name": "Jousting",
@@ -1912,7 +3296,8 @@
             "magic_level": "0",
             "frequency": "12",
             "source": "PZO1123",
-            "type": "armor"
+            "type": "armor",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Jousting"
         },
         {
             "name": "Shadow",
@@ -1921,7 +3306,8 @@
             "frequency": "14",
             "source": "PZO1123",
             "type": "armor",
-            "shared": "shadow"
+            "shared": "shadow",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Shadow"
         },
         {
             "name": "Slick",
@@ -1930,7 +3316,8 @@
             "frequency": "14",
             "source": "PZO1123",
             "type": "armor",
-            "shared": "slick"
+            "shared": "slick",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Slick"
         },
         {
             "name": "Expeditious",
@@ -1938,7 +3325,8 @@
             "magic_level": "0",
             "frequency": "12",
             "source": "PZO1123",
-            "type": "armor"
+            "type": "armor",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Expeditious"
         },
         {
             "name": "Creeping",
@@ -1946,7 +3334,8 @@
             "magic_level": "0",
             "frequency": "12",
             "source": "PZO1123",
-            "type": "armor"
+            "type": "armor",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Creeping"
         },
         {
             "name": "Rallying",
@@ -1954,7 +3343,8 @@
             "magic_level": "0",
             "frequency": "12",
             "source": "PZO1123",
-            "type": "armor"
+            "type": "armor",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Rallying"
         },
         {
             "name": "Adhesive",
@@ -1962,7 +3352,8 @@
             "magic_level": "0",
             "frequency": "8",
             "source": "PZO1123",
-            "type": "armor"
+            "type": "armor",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Adhesive"
         },
         {
             "name": "Hosteling",
@@ -1970,7 +3361,8 @@
             "magic_level": "0",
             "frequency": "7",
             "source": "PZO1123",
-            "type": "armor"
+            "type": "armor",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Hosteling"
         },
         {
             "name": "Radiant",
@@ -1978,7 +3370,8 @@
             "magic_level": "0",
             "frequency": "9",
             "source": "PZO1123",
-            "type": "armor"
+            "type": "armor",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Radiant"
         },
         {
             "name": "Delving",
@@ -1986,7 +3379,8 @@
             "magic_level": "0",
             "frequency": "9",
             "source": "PZO1123",
-            "type": "armor"
+            "type": "armor",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Delving"
         },
         {
             "name": "Putrid",
@@ -1994,7 +3388,8 @@
             "magic_level": "0",
             "frequency": "8",
             "source": "PZO1123",
-            "type": "armor"
+            "type": "armor",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Putrid"
         },
         {
             "name": "Harmonizing",
@@ -2002,7 +3397,8 @@
             "magic_level": "0",
             "frequency": "16",
             "source": "PZO1123",
-            "type": "armor"
+            "type": "armor",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Harmonizing"
         },
         {
             "name": "Improved shadow",
@@ -2011,7 +3407,8 @@
             "frequency": "16",
             "source": "PZO1123",
             "type": "armor",
-            "shared": "shadow"
+            "shared": "shadow",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Improved%20Shadow"
         },
         {
             "name": "Improved slick",
@@ -2020,7 +3417,8 @@
             "frequency": "17",
             "source": "PZO1123",
             "type": "armor",
-            "shared": "slick"
+            "shared": "slick",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Improved%20Slick"
         },
         {
             "name": "Energy resistance",
@@ -2029,7 +3427,8 @@
             "frequency": "17",
             "source": "PZO1123",
             "type": "armor",
-            "shared": "energy"
+            "shared": "energy",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Energy%20Resistance"
         },
         {
             "name": "Martyring",
@@ -2037,7 +3436,8 @@
             "magic_level": "0",
             "frequency": "16",
             "source": "PZO1123",
-            "type": "armor"
+            "type": "armor",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Martyring"
         },
         {
             "name": "Righteous",
@@ -2045,7 +3445,8 @@
             "magic_level": "0",
             "frequency": "8",
             "source": "PZO1123",
-            "type": "armor"
+            "type": "armor",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Righteous"
         },
         {
             "name": "Unbound",
@@ -2053,7 +3454,8 @@
             "magic_level": "0",
             "frequency": "7",
             "source": "PZO1123",
-            "type": "armor"
+            "type": "armor",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Unbound"
         },
         {
             "name": "Unrighteous",
@@ -2061,7 +3463,8 @@
             "magic_level": "0",
             "frequency": "8",
             "source": "PZO1123",
-            "type": "armor"
+            "type": "armor",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Unrighteous"
         },
         {
             "name": "Vigilant",
@@ -2069,7 +3472,8 @@
             "magic_level": "0",
             "frequency": "7",
             "source": "PZO1123",
-            "type": "armor"
+            "type": "armor",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Vigilant"
         },
         {
             "name": "Determination",
@@ -2077,7 +3481,8 @@
             "magic_level": "0",
             "frequency": "7",
             "source": "PZO1123",
-            "type": "armor"
+            "type": "armor",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Determination"
         },
         {
             "name": "Greater shadow",
@@ -2086,7 +3491,8 @@
             "frequency": "8",
             "source": "PZO1123",
             "type": "armor",
-            "shared": "shadow"
+            "shared": "shadow",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Greater%20Shadow"
         },
         {
             "name": "Greater slick",
@@ -2095,7 +3501,8 @@
             "frequency": "8",
             "source": "PZO1123",
             "type": "armor",
-            "shared": "slick"
+            "shared": "slick",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Greater%20Slick"
         },
         {
             "name": "Improved energy resistance",
@@ -2104,7 +3511,8 @@
             "frequency": "8",
             "source": "PZO1123",
             "type": "armor",
-            "shared": "energy"
+            "shared": "energy",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Improved%20Energy%20Resistance"
         },
         {
             "name": "Etherealness",
@@ -2112,7 +3520,8 @@
             "magic_level": "0",
             "frequency": "8",
             "source": "PZO1123",
-            "type": "armor"
+            "type": "armor",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Etherealness"
         },
         {
             "name": "Undead controlling",
@@ -2120,7 +3529,8 @@
             "magic_level": "0",
             "frequency": "7",
             "source": "PZO1123",
-            "type": "armor"
+            "type": "armor",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Undead%20Controlling"
         },
         {
             "name": "Greater energy resistance",
@@ -2129,7 +3539,8 @@
             "frequency": "8",
             "source": "PZO1123",
             "type": "armor",
-            "shared": "energy"
+            "shared": "energy",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Greater%20Energy%20Resistance"
         },
         {
             "name": "Billowing",
@@ -2137,7 +3548,8 @@
             "magic_level": "1",
             "frequency": "1",
             "source": "PRG:PA",
-            "type": "armor"
+            "type": "armor",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Billowing"
         },
         {
             "name": "Cocooning",
@@ -2145,7 +3557,8 @@
             "magic_level": "1",
             "frequency": "1",
             "source": "PRG:PA",
-            "type": "armor"
+            "type": "armor",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Cocooning"
         },
         {
             "name": "Balanced",
@@ -2153,7 +3566,8 @@
             "magic_level": "1",
             "frequency": "6",
             "source": "PZO1123",
-            "type": "armor"
+            "type": "armor",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Balanced"
         },
         {
             "name": "Bitter",
@@ -2161,7 +3575,8 @@
             "magic_level": "1",
             "frequency": "6",
             "source": "PZO1123",
-            "type": "armor"
+            "type": "armor",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Bitter"
         },
         {
             "name": "Bolstering",
@@ -2169,7 +3584,8 @@
             "magic_level": "1",
             "frequency": "6",
             "source": "PZO1123",
-            "type": "armor"
+            "type": "armor",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Bolstering"
         },
         {
             "name": "Champion",
@@ -2177,7 +3593,8 @@
             "magic_level": "1",
             "frequency": "7",
             "source": "PZO1123",
-            "type": "armor"
+            "type": "armor",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Champion"
         },
         {
             "name": "Dastard",
@@ -2185,7 +3602,8 @@
             "magic_level": "1",
             "frequency": "6",
             "source": "PZO1123",
-            "type": "armor"
+            "type": "armor",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Dastard"
         },
         {
             "name": "Deathless",
@@ -2193,7 +3611,8 @@
             "magic_level": "1",
             "frequency": "7",
             "source": "PZO1123",
-            "type": "armor"
+            "type": "armor",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Deathless"
         },
         {
             "name": "Defiant",
@@ -2201,7 +3620,8 @@
             "magic_level": "1",
             "frequency": "6",
             "source": "PZO1123",
-            "type": "armor"
+            "type": "armor",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Defiant"
         },
         {
             "name": "Fortification (light)",
@@ -2210,7 +3630,8 @@
             "frequency": "7",
             "source": "PZO1123",
             "type": "armor",
-            "shared": "fort"
+            "shared": "fort",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Fortification%20(Light)"
         },
         {
             "name": "Grinding",
@@ -2218,7 +3639,8 @@
             "magic_level": "1",
             "frequency": "6",
             "source": "PZO1123",
-            "type": "armor"
+            "type": "armor",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Grinding"
         },
         {
             "name": "Impervious",
@@ -2226,7 +3648,8 @@
             "magic_level": "1",
             "frequency": "6",
             "source": "PZO1123",
-            "type": "armor"
+            "type": "armor",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Impervious"
         },
         {
             "name": "Mirrored",
@@ -2234,7 +3657,8 @@
             "magic_level": "1",
             "frequency": "6",
             "source": "PZO1123",
-            "type": "armor"
+            "type": "armor",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Mirrored"
         },
         {
             "name": "Spell storing",
@@ -2242,7 +3666,8 @@
             "magic_level": "1",
             "frequency": "7",
             "source": "PZO1123",
-            "type": "armor"
+            "type": "armor",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Spell%20Storing"
         },
         {
             "name": "Stanching",
@@ -2250,7 +3675,8 @@
             "magic_level": "1",
             "frequency": "6",
             "source": "PZO1123",
-            "type": "armor"
+            "type": "armor",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Stanching"
         },
         {
             "name": "Warding",
@@ -2258,7 +3684,8 @@
             "magic_level": "1",
             "frequency": "6",
             "source": "PZO1123",
-            "type": "armor"
+            "type": "armor",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Warding"
         },
         {
             "name": "Spell resistance (13)",
@@ -2267,7 +3694,8 @@
             "frequency": "12",
             "source": "PZO1123",
             "type": "armor",
-            "shared": "SR"
+            "shared": "SR",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Spell%20Resistance%20(13)"
         },
         {
             "name": "Cotraveling",
@@ -2275,7 +3703,8 @@
             "magic_level": "3",
             "frequency": "1",
             "source": "PRG:PA",
-            "type": "armor"
+            "type": "armor",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Cotraveling"
         },
         {
             "name": "Brawling",
@@ -2283,7 +3712,8 @@
             "magic_level": "3",
             "frequency": "7",
             "source": "Brawling",
-            "type": "armor"
+            "type": "armor",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Brawling"
         },
         {
             "name": "Fortification (moderate)",
@@ -2292,7 +3722,8 @@
             "frequency": "9",
             "source": "PZO1123",
             "type": "armor",
-            "shared": "fort"
+            "shared": "fort",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Fortification%20(Moderate)"
         },
         {
             "name": "Ghost touch",
@@ -2300,7 +3731,8 @@
             "magic_level": "3",
             "frequency": "9",
             "source": "PZO1123",
-            "type": "armor"
+            "type": "armor",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Ghost%20Touch"
         },
         {
             "name": "Invulnerability",
@@ -2308,7 +3740,8 @@
             "magic_level": "3",
             "frequency": "9",
             "source": "PZO1123",
-            "type": "armor"
+            "type": "armor",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Invulnerability"
         },
         {
             "name": "Shadow blending",
@@ -2316,7 +3749,8 @@
             "magic_level": "3",
             "frequency": "1",
             "source": "PRG:PA",
-            "type": "armor"
+            "type": "armor",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Shadow%20Blending"
         },
         {
             "name": "Spell resistance (15)",
@@ -2325,7 +3759,8 @@
             "frequency": "9",
             "source": "PZO1123",
             "type": "armor",
-            "shared": "SR"
+            "shared": "SR",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Spell%20Resistance%20(15)"
         },
         {
             "name": "Titanic",
@@ -2333,7 +3768,8 @@
             "magic_level": "3",
             "frequency": "8",
             "source": "PZO1123",
-            "type": "armor"
+            "type": "armor",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Titanic"
         },
         {
             "name": "Wild",
@@ -2341,7 +3777,8 @@
             "magic_level": "3",
             "frequency": "8",
             "source": "PZO1123",
-            "type": "armor"
+            "type": "armor",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Wild"
         },
         {
             "name": "Spell resistance (17)",
@@ -2350,7 +3787,8 @@
             "frequency": "17",
             "source": "PZO1123",
             "type": "armor",
-            "shared": "SR"
+            "shared": "SR",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Spell%20Resistance%20(17)"
         },
         {
             "name": "Fortification (heavy)",
@@ -2359,7 +3797,8 @@
             "frequency": "8",
             "source": "PZO1123",
             "type": "armor",
-            "shared": "fort"
+            "shared": "fort",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Fortification%20(Heavy)"
         },
         {
             "name": "Spell resistance (19)",
@@ -2368,7 +3807,8 @@
             "frequency": "8",
             "source": "PZO1123",
             "type": "armor",
-            "shared": "SR"
+            "shared": "SR",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Spell%20Resistance%20(19)"
         }
     ],
     "mythic armor enchantments": [
@@ -2379,15 +3819,17 @@
             "frequency": "25",
             "source": "Mythic Adventures",
             "type": "mythic",
-            "req": "heavy"
+            "req": "heavy",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Denying"
         },
         {
-            "name": "Resonating]",
+            "name": "Resonating",
             "base_price": "+1 Bonus",
             "magic_level": "1",
             "frequency": "25",
             "source": "Mythic Adventures",
-            "type": "mythic"
+            "type": "mythic",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Resonating"
         }
     ],
     "shield enchantments": [
@@ -2397,7 +3839,8 @@
             "magic_level": "0",
             "frequency": "10",
             "source": "PZO1123",
-            "type": "shield"
+            "type": "shield",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Poison-Resistant"
         },
         {
             "name": "Rallying",
@@ -2405,7 +3848,8 @@
             "magic_level": "0",
             "frequency": "15",
             "source": "PZO1123",
-            "type": "shield"
+            "type": "shield",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Rallying"
         },
         {
             "name": "Wyrmsbreath",
@@ -2413,7 +3857,8 @@
             "magic_level": "0",
             "frequency": "15",
             "source": "PZO1123",
-            "type": "shield"
+            "type": "shield",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Wyrmsbreath"
         },
         {
             "name": "Hosteling",
@@ -2421,7 +3866,8 @@
             "magic_level": "0",
             "frequency": "15",
             "source": "PZO1123",
-            "type": "shield"
+            "type": "shield",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Hosteling"
         },
         {
             "name": "Radiant",
@@ -2429,7 +3875,8 @@
             "magic_level": "0",
             "frequency": "16",
             "source": "PZO1123",
-            "type": "shield"
+            "type": "shield",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Radiant"
         },
         {
             "name": "Energy resistance",
@@ -2438,7 +3885,8 @@
             "frequency": "50",
             "source": "PZO1123",
             "type": "shield",
-            "shared": "energy"
+            "shared": "energy",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Energy%20Resistance"
         },
         {
             "name": "Determination",
@@ -2446,7 +3894,8 @@
             "magic_level": "0",
             "frequency": "11",
             "source": "PZO1123",
-            "type": "shield"
+            "type": "shield",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Determination"
         },
         {
             "name": "Improved energy resistance",
@@ -2455,7 +3904,8 @@
             "frequency": "16",
             "source": "PZO1123",
             "type": "shield",
-            "shared": "energy"
+            "shared": "energy",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Improved%20Energy%20Resistance"
         },
         {
             "name": "Undead controlling",
@@ -2463,7 +3913,8 @@
             "magic_level": "0",
             "frequency": "11",
             "source": "PZO1123",
-            "type": "shield"
+            "type": "shield",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Undead%20Controlling"
         },
         {
             "name": "Greater energy resistance",
@@ -2472,7 +3923,8 @@
             "frequency": "17",
             "source": "PZO1123",
             "type": "shield",
-            "shared": "energy"
+            "shared": "energy",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Greater%20Energy%20Resistance"
         },
         {
             "name": "Arrow catching",
@@ -2480,7 +3932,8 @@
             "magic_level": "1",
             "frequency": "9",
             "source": "PZO1123",
-            "type": "shield"
+            "type": "shield",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Arrow%20Catching"
         },
         {
             "name": "Bashing",
@@ -2488,7 +3941,8 @@
             "magic_level": "1",
             "frequency": "9",
             "source": "PZO1123",
-            "type": "shield"
+            "type": "shield",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Bashing"
         },
         {
             "name": "Blinding",
@@ -2496,7 +3950,8 @@
             "magic_level": "1",
             "frequency": "9",
             "source": "PZO1123",
-            "type": "shield"
+            "type": "shield",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Blinding"
         },
         {
             "name": "Clangorous",
@@ -2504,7 +3959,8 @@
             "magic_level": "1",
             "frequency": "9",
             "source": "PZO1123",
-            "type": "shield"
+            "type": "shield",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Clangorous"
         },
         {
             "name": "Defiant",
@@ -2512,7 +3968,8 @@
             "magic_level": "1",
             "frequency": "9",
             "source": "PZO1123",
-            "type": "shield"
+            "type": "shield",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Defiant"
         },
         {
             "name": "Fortification (light)",
@@ -2521,7 +3978,8 @@
             "frequency": "9",
             "source": "PZO1123",
             "type": "shield",
-            "shared": "fort"
+            "shared": "fort",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Fortification%20(Light)"
         },
         {
             "name": "Grinding",
@@ -2529,7 +3987,8 @@
             "magic_level": "1",
             "frequency": "9",
             "source": "PZO1123",
-            "type": "shield"
+            "type": "shield",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Grinding"
         },
         {
             "name": "Impervious",
@@ -2537,7 +3996,8 @@
             "magic_level": "1",
             "frequency": "9",
             "source": "PZO1123",
-            "type": "shield"
+            "type": "shield",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Impervious"
         },
         {
             "name": "Mirrored",
@@ -2545,7 +4005,8 @@
             "magic_level": "1",
             "frequency": "9",
             "source": "PZO1123",
-            "type": "shield"
+            "type": "shield",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Mirrored"
         },
         {
             "name": "Ramming",
@@ -2553,7 +4014,8 @@
             "magic_level": "1",
             "frequency": "9",
             "source": "PZO1123",
-            "type": "shield"
+            "type": "shield",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Ramming"
         },
         {
             "name": "Animated",
@@ -2561,7 +4023,8 @@
             "magic_level": "2",
             "frequency": "20",
             "source": "PZO1123",
-            "type": "shield"
+            "type": "shield",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Animated"
         },
         {
             "name": "Arrow deflection",
@@ -2569,7 +4032,8 @@
             "magic_level": "2",
             "frequency": "17",
             "source": "PZO1123",
-            "type": "shield"
+            "type": "shield",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Arrow%20Deflection"
         },
         {
             "name": "Merging",
@@ -2577,7 +4041,8 @@
             "magic_level": "2",
             "frequency": "15",
             "source": "PZO1123",
-            "type": "shield"
+            "type": "shield",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Merging"
         },
         {
             "name": "Spell resistance (13)",
@@ -2586,7 +4051,8 @@
             "frequency": "18",
             "source": "PZO1123",
             "type": "shield",
-            "shared": "SR"
+            "shared": "SR",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Spell%20Resistance%20(13)"
         },
         {
             "name": "Fortification (moderate)",
@@ -2595,7 +4061,8 @@
             "frequency": "17",
             "source": "PZO1123",
             "type": "shield",
-            "shared": "fort"
+            "shared": "fort",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Fortification%20(Moderate)"
         },
         {
             "name": "Ghost touch",
@@ -2603,7 +4070,8 @@
             "magic_level": "3",
             "frequency": "17",
             "source": "PZO1123",
-            "type": "shield"
+            "type": "shield",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Ghost%20Touch"
         },
         {
             "name": "Spell resistance (15)",
@@ -2612,7 +4080,8 @@
             "frequency": "17",
             "source": "PZO1123",
             "type": "shield",
-            "shared": "SR"
+            "shared": "SR",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Spell%20Resistance%20(15)"
         },
         {
             "name": "Wild",
@@ -2620,7 +4089,8 @@
             "magic_level": "3",
             "frequency": "15",
             "source": "PZO1123",
-            "type": "shield"
+            "type": "shield",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Wild"
         },
         {
             "name": "Spell resistance (17)",
@@ -2629,7 +4099,8 @@
             "frequency": "50",
             "source": "PZO1123",
             "type": "shield",
-            "shared": "SR"
+            "shared": "SR",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Spell%20Resistance%20(17)"
         },
         {
             "name": "Fortification (heavy)",
@@ -2638,7 +4109,8 @@
             "frequency": "15",
             "source": "PZO1123",
             "type": "shield",
-            "shared": "fort"
+            "shared": "fort",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Fortification%20(Heavy)"
         },
         {
             "name": "Reflecting",
@@ -2646,7 +4118,8 @@
             "magic_level": "5",
             "frequency": "15",
             "source": "PZO1123",
-            "type": "shield"
+            "type": "shield",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Reflecting"
         },
         {
             "name": "Spell resistance (19)",
@@ -2655,7 +4128,8 @@
             "frequency": "15",
             "source": "PZO1123",
             "type": "shield",
-            "shared": "SR"
+            "shared": "SR",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Spell%20Resistance%20(19)"
         }
     ],
     "mythic shield enchantments": [
@@ -2666,7 +4140,8 @@
             "frequency": "25",
             "source": "Mythic Adventures",
             "type": "mythic",
-            "req": "metal"
+            "req": "metal",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Deflecting"
         }
     ]
 }

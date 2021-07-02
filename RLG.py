@@ -2,6 +2,9 @@ from tkinter import *
 from tkinter import ttk
 from main import create_loot_list, checkBudget, priceFormat, enchFormat
 from configparser import ConfigParser
+import webbrowser
+from functools import partial
+from tkHyperlinkManager import HyperlinkManager
 
 
 ### config ###
@@ -31,10 +34,37 @@ def click():
 
         for item in sorted(results, key=lambda item: item.strname):
             if item.quantity > 1:
-                output.insert(END, str(item.quantity) + "x " + item.strname[:-1] + " each)" +  '\n')
+                output.insert(END, str(item.quantity) + "x ")
+                if hasattr(item, 'magical'):
+                    if hasattr(item, 'magic'):
+                        output.insert(END, item.magic)
+                    elif item.is_Mwk:
+                        output.insert(END, "Masterwork ")
+                    for n in item.l_itemEnch:
+                        output.insert(END, '[' + n.name + ']', hyperlink.add(createLink(n, 'enchant')))
+                        output.insert(END, ' ')
+                if hasattr(item, 'mat'):
+                    output.insert(END, item.mat.name, hyperlink.add(createLink(item, 'material')))
+                    output.insert(END, ' ')
+
+                output.insert(END, item.name)
+                output.insert(END, " (" + item.fprice + ")")
+                output.insert(END, " each)" + '\n')
             else:
-                output.insert(END, item.strname + '\n')
-        output.insert(END, "\n")
+                if hasattr(item, 'magical'):
+                    if hasattr(item, 'magic'):
+                        output.insert(END, item.magic)
+                    elif item.is_Mwk:
+                        output.insert(END, "Masterwork ")
+                    for n in item.l_itemEnch:
+                        output.insert(END, '[' + n.name + ']', hyperlink.add(createLink(n, 'enchant')))
+                        output.insert(END, ' ')
+                if hasattr(item, 'mat'):
+                    output.insert(END, item.mat.name, hyperlink.add(createLink(item, 'material')))
+                    output.insert(END, ' ')
+                output.insert(END, item.name)
+                output.insert(END, " (" + item.fprice + ")")
+                output.insert(END, "\n")
 
         if int(checkBudget('p')) > 0:
             output.insert(END, "Coins: " + str(checkBudget('p')) + " pp, " + str(checkBudget('g')) + " gp, " +
@@ -60,6 +90,13 @@ def copy():
     r.clipboard_append(output.get("1.0", END))
     r.update()
     r.destroy()
+
+
+def createLink(item, type):
+    if type == 'material':
+        return partial(webbrowser.open, item.mat.link)
+    if type == 'enchant':
+        return partial(webbrowser.open, item.link)
 
 
 class SettingsWindow(Toplevel):
@@ -272,7 +309,7 @@ Label (app, text=" Rai's Encounter Treasure Generator", bg='#84344D', fg="white"
        font="none 14 bold") .grid(row=0, column=1, columnspan=2, sticky=NS)
 
 # settings button
-img = PhotoImage(file='settings_icon.png')
+img = PhotoImage(file='Resources/settings_icon.png')
 settings = Button(app, image=img, bg='#84344D', activebackground='#84344D', border=0, command=SettingsWindow) \
     .grid(row=10, column=3, sticky=NSEW)
 
@@ -320,6 +357,7 @@ Label(app, text="", bg='#84344D', fg='white', font="none 10") .grid(row=11, colu
 # results box
 output = Text(app, wrap=WORD, bg='#B08A95', fg='white', state="normal", font="none 11", relief=GROOVE)
 output.grid(row=12, column=0, columnspan=4, sticky=EW)
+hyperlink = HyperlinkManager(output)
 scrollb = Scrollbar(app, command=output.yview)
 scrollb.grid(row=12, column=4, sticky=NSEW)
 output['yscrollcommand'] = scrollb.set
