@@ -682,7 +682,7 @@ def assignmod(i):
                     list_mods.remove(m)
 
     chosenMod = choice(list_mods)
-    i.name = "{" + chosenMod.name + "} " + i.name
+    i.mod = chosenMod
     i.modded = True
     i.weight = str(float(i.weight.replace("s", "").replace(" lb.", "")) + int(chosenMod.weight)) + " lbs."
     if hasattr(i, 'magical'):
@@ -891,17 +891,22 @@ def random_item():
     If item would break budget program runs again.'''
     if lootBudget - float(chosen_item.price) > 0:
         lootBudget = lootBudget - float(chosen_item.price)
+        chosen_item.fmod = modFormat(chosen_item)
+        chosen_item.fench = enchFormat(chosen_item)
+
+        chosen_item.check = str("{}{}{}{}".format(chosen_item.fench, chosen_item.fmod, chosen_item.material,
+                                                  chosen_item.name))
         for x in encounterLootList:
             if hasattr(x, 'aquantity'):
                 if chosen_item.category == 'Nonmagical Ammunition':
-                    if x.name.split('- (')[0] == chosen_item.name.split('- (')[0]:
+                    if x.check.split('- (')[0] == chosen_item.check.split('- (')[0]:
                         aq = x.name.split('- (')[1].split(')')[0]
                         x.name = x.name.replace(aq, str(x.aquantity + chosen_item.aquantity))
                         x.aquantity = int(aq) + chosen_item.aquantity
                         x.price = x.price + chosen_item.price
                         return encounterLoot
 
-            elif chosen_item.name == x.name:
+            elif chosen_item.check == x.check:
                 x.quantity += 1
                 return encounterLoot
 
@@ -991,6 +996,13 @@ def enchFormat(i):
     elif i.is_Mwk:
         i.enchname = "Masterwork "
     return i.enchname
+
+
+def modFormat(i):
+    i.modname = ""
+    if hasattr(i, 'mod'):
+        i.modname = '{' + i.mod.name + '}'
+    return i.modname
 
 
 def startup():

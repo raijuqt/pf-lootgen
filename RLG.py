@@ -1,6 +1,6 @@
 from tkinter import *
 from tkinter import ttk
-from main import create_loot_list, checkBudget, priceFormat, enchFormat
+from main import create_loot_list, checkBudget, priceFormat, enchFormat, modFormat
 from configparser import ConfigParser
 import webbrowser
 from functools import partial
@@ -28,7 +28,8 @@ def click():
         for item in results:
             item.fprice = priceFormat(item.price)
             item.fench = enchFormat(item)
-            item.strname = str("{}{}{} ({})".format(item.fench, item.material, item.name, item.fprice))
+            item.fmod = modFormat(item)
+            item.strname = str("{}{}{}{} ({})".format(item.fench, item.fmod, item.material, item.name, item.fprice))
             while item.strname[0] == " ":
                 item.strname = item.strname[1:]
 
@@ -43,6 +44,9 @@ def click():
                     for n in item.l_itemEnch:
                         output.insert(END, '[' + n.name + ']', hyperlink.add(createLink(n, 'enchant')))
                         output.insert(END, ' ')
+                if hasattr(item, 'mod'):
+                    output.insert(END, '{' + item.mod.name + '}', hyperlink.add(createLink(item, 'mod')))
+                    output.insert(END, ' ')
                 if hasattr(item, 'mat'):
                     output.insert(END, item.mat.name, hyperlink.add(createLink(item, 'material')))
                     output.insert(END, ' ')
@@ -59,6 +63,9 @@ def click():
                     for n in item.l_itemEnch:
                         output.insert(END, '[' + n.name + ']', hyperlink.add(createLink(n, 'enchant')))
                         output.insert(END, ' ')
+                if hasattr(item, 'mod'):
+                    output.insert(END, '{' + item.mod.name + '}', hyperlink.add(createLink(item, 'mod')))
+                    output.insert(END, ' ')
                 if hasattr(item, 'mat'):
                     output.insert(END, item.mat.name, hyperlink.add(createLink(item, 'material')))
                     output.insert(END, ' ')
@@ -97,6 +104,8 @@ def createLink(item, type):
         return partial(webbrowser.open, item.mat.link)
     if type == 'enchant':
         return partial(webbrowser.open, item.link)
+    if type == 'mod':
+        return partial(webbrowser.open, item.mod.link)
 
 
 class SettingsWindow(Toplevel):

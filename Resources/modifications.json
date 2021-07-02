@@ -7,14 +7,16 @@
             "type1": "melee",
             "damage_type": "B",
             "named_weapon1": "Greatclub",
-            "named_weapon2": "Tetsubo"
+            "named_weapon2": "Tetsubo",
+            "link": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Brutally%20weighted"
         },
         {
             "name": "Dual-Balanced",
             "price": "2000",
             "weight": "0",
             "type1": "melee",
-            "damage_type": "B, P , S"
+            "damage_type": "B, P , S",
+            "link": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Dual-balanced"
         },
         {
             "name": "Jagged Hooks",
@@ -22,7 +24,8 @@
             "weight": "1",
             "type1": "melee",
             "type2": "ammo",
-            "damage_type": "P, S"
+            "damage_type": "P, S",
+            "link": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Jagged%20hooks"
         },
         {
             "name": "Razor-Sharp",
@@ -30,7 +33,8 @@
             "weight": "0",
             "type1": "melee",
             "type2": "ammo",
-            "damage_type": "P, S"
+            "damage_type": "P, S",
+            "link": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Razor-sharp"
         },
         {
             "name": "Serrated Edge",
@@ -39,7 +43,8 @@
             "type1": "melee",
             "damage_type": "P, S",
             "named_weapon1": "Sawtooth Sabre",
-            "named_weapon2": "Rhoka"
+            "named_weapon2": "Rhoka",
+            "link": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Serrated%20edge"
         },
         {
             "name": "Tactically Adapted",
@@ -47,7 +52,8 @@
             "weight": "0",
             "type1": "melee",
             "damage_type": "B, P , S",
-            "traitlist": "blocking, price, disarm, distracting, nonlethal, performance, trip"
+            "traitlist": "blocking, price, disarm, distracting, nonlethal, performance, trip",
+            "link": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Tactically%20adapted"
         },
         {
             "name": "Versatile Design",
@@ -55,7 +61,8 @@
             "weight": "0",
             "damage_type": "B, P , S",
             "mgroup": "axes, heavy blades, light blades, close, double, flails, hammers, monk, polearms, spears, tribal",
-            "rgroup": "bows, crossbows, firearms, thrown"
+            "rgroup": "bows, crossbows, firearms, thrown",
+            "link": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Versatile%20design"
         }
     ],
     "armor modifications": [
@@ -63,43 +70,51 @@
             "name": "Burnished",
             "price": "500",
             "weight": "5",
-            "type": "metal"
+            "type": "metal",
+            "link": "https://aonprd.com/EquipmentArmorDisplay.aspx?ItemName=Burnished"
         },
         {
             "name": "Deflecting",
             "price": "1000",
-            "weight": "10"
+            "weight": "10",
+            "link": "https://aonprd.com/EquipmentArmorDisplay.aspx?ItemName=Deflecting"
         },
         {
             "name": "Double-Plated",
             "price": "1000",
             "weight": "20",
-            "type": "metal"
+            "type": "metal",
+            "link": "https://aonprd.com/EquipmentArmorDisplay.aspx?ItemName=Double-plated"
         },
         {
             "name": "Jarring",
             "price": "1000",
-            "weight": "20"
+            "weight": "20",
+            "link": "https://aonprd.com/EquipmentArmorDisplay.aspx?ItemName=Jarring"
         },
         {
             "name": "Nimble",
             "price": "1000",
-            "weight": "5"
+            "weight": "5",
+            "link": "https://aonprd.com/EquipmentArmorDisplay.aspx?ItemName=Nimble"
         },
         {
             "name": "Razored",
             "price": "1350",
-            "weight": "10"
+            "weight": "10",
+            "link": "https://aonprd.com/EquipmentArmorDisplay.aspx?ItemName=Razored"
         },
         {
             "name": "Slumbering",
             "price": "500",
-            "weight": "5"
+            "weight": "5",
+            "link": "https://aonprd.com/EquipmentArmorDisplay.aspx?ItemName=Slumbering"
         },
         {
             "name": "Vitalguard",
             "price": "500",
-            "weight": "15"
+            "weight": "15",
+            "link": "https://aonprd.com/EquipmentArmorDisplay.aspx?ItemName=Vitalguard"
         }
     ]
 }
