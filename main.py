@@ -730,6 +730,7 @@ def assignenchant(i):
 
             hBane = choices(hsubtypes, sfrequency, k=1)[0]
             chosenenchant.name = chosenenchant.name + ' (' + hBane.name + ')'
+
             '''outsider bane/misery'''
         elif chosenenchant.name in 'Outsider Bane, Outsider Misery, Outsider Withstanding':
             osubtypes = [Subtype(i) for i in data['Outsider']]
@@ -747,7 +748,7 @@ def assignenchant(i):
                 sfrequency.append(int(x.frequency))
 
             dAlignment = choices(asubtypes, sfrequency, k=1)[0]
-            chosenenchant.name == chosenenchant.name + ' (' + dAlignment.name + ')'
+            chosenenchant.name = chosenenchant.name + ' (' + dAlignment.name + ')'
 
         elif chosenenchant.name == 'Blood-Hunting':
             bsubtypes = [Subtype(i) for i in data['Bloodlines']]
@@ -756,7 +757,7 @@ def assignenchant(i):
                 sfrequency.append(int(x.frequency))
 
             bLine = choices(bsubtypes, sfrequency, k=1)[0]
-            chosenenchant.name == chosenenchant.name + ' (' + bLine.name + ')'
+            chosenenchant.name = chosenenchant.name + ' (' + bLine.name + ')'
 
         elif chosenenchant.name == 'Spirit-Hunting':
             ssubtypes = [Subtype(i) for i in data['Mysteries']]
@@ -765,7 +766,7 @@ def assignenchant(i):
                 sfrequency.append(int(x.frequency))
 
             sMystery = choices(ssubtypes, sfrequency, k=1)[0]
-            chosenenchant.name == chosenenchant.name + ' (' + sMystery.name + ')'
+            chosenenchant.name = chosenenchant.name + ' (' + sMystery.name + ')'
 
         elif chosenenchant.name == 'Runeforged':
             rsubtypes = [Subtype(i) for i in data['Runeforged']]
@@ -774,7 +775,7 @@ def assignenchant(i):
                 sfrequency.append(int(x.frequency))
 
             rSin = choices(rsubtypes, sfrequency, k=1)[0]
-            chosenenchant.name == chosenenchant.name + ' (' + rSin.name + ')'
+            chosenenchant.name = chosenenchant.name + ' (' + rSin.name + ')'
 
         elif chosenenchant.name == 'Training':
             tsubtypes = [Subtype(i) for i in data['Training Feats']]
@@ -782,15 +783,17 @@ def assignenchant(i):
             for x in tsubtypes:
                 if hasattr(x, 'req_type'):
                     if hasattr(i, 'proficiency'):
-                        if i.proficiency not in 'Exotic':
+                        if i.proficiency != 'Exotic':
                             x.frequency = 0
                 if hasattr(x, 'excl_ench'):
                     for y in i.l_itemEnch:
-                        if y.name == 'Keen':
+                        if y.name in 'Keen':
                             x.frequency = 0
+            for x in tsubtypes:
+                sfrequency.append(int(x.frequency))
 
             tFeat = choices(tsubtypes, sfrequency, k=1)[0]
-            chosenenchant.name == chosenenchant.name + ' (' + tFeat.name + ')'
+            chosenenchant.name = chosenenchant.name + ' (' + tFeat.name + ')'
 
         elif chosenenchant.name in 'Patriotic, Treasonous':
             psubtypes = [Subtype(i) for i in data['Nationalities']]
@@ -799,7 +802,7 @@ def assignenchant(i):
                 sfrequency.append(int(x.frequency))
 
             pNation = choices(psubtypes, sfrequency, k=1)[0]
-            chosenenchant.name == chosenenchant.name + ' (' + pNation.name + ')'
+            chosenenchant.name = chosenenchant.name + ' (' + pNation.name + ')'
 
         i.l_itemEnch.append(chosenenchant)
         i.magicbudget = i.magicbudget - int(chosenenchant.magic_level)

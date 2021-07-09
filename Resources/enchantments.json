@@ -1284,7 +1284,7 @@
             "name": "Brawling",
             "base_price": "+1 bonus",
             "magic_level": "1",
-            "frequency": "0",
+            "frequency": "1",
             "type": "melee",
             "blunt": "yes",
             "light_weapon": "yes",
@@ -1518,7 +1518,7 @@
             "name": "Inspired",
             "base_price": "+1 bonus",
             "magic_level": "1",
-            "frequency": "0",
+            "frequency": "1",
             "source": "",
             "type": "melee",
             "req_type": "simple",
@@ -1790,7 +1790,7 @@
             "name": "Sapping",
             "base_price": "+1 bonus",
             "magic_level": "1",
-            "frequency": "0",
+            "frequency": "1",
             "source": "",
             "type": "melee",
             "blunt": "yes",
@@ -1801,7 +1801,7 @@
             "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Sapping"
         },
         {
-            "name": "Ow",
+            "name": "Skewering",
             "base_price": "+1 bonus",
             "magic_level": "1",
             "frequency": "1",
@@ -1852,7 +1852,7 @@
             "name": "Sticky",
             "base_price": "+1 bonus",
             "magic_level": "1",
-            "frequency": "0",
+            "frequency": "1",
             "source": "",
             "type": "melee",
             "piercing": "yes",
@@ -1876,7 +1876,7 @@
             "name": "Training",
             "base_price": "+1 bonus",
             "magic_level": "1",
-            "frequency": "0",
+            "frequency": "2",
             "source": "",
             "type": "melee",
             "blunt": "yes",
@@ -1927,7 +1927,7 @@
             "name": "Prehensile",
             "base_price": "2500",
             "magic_level": "0",
-            "frequency": "0",
+            "frequency": "1",
             "source": "",
             "type": "melee",
             "slashing": "yes",
@@ -2408,6 +2408,7 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
+            "ammunition": "yes",
             "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Impervious"
         },
         {
@@ -2421,6 +2422,7 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
+            "ammunition": "yes",
             "shared": "bane",
             "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Glamered"
         },
@@ -2435,6 +2437,7 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
+            "ammunition": "yes",
             "shared": "bane",
             "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Bane"
         },
@@ -2449,6 +2452,7 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
+            "ammunition": "yes",
             "shared": "bane",
             "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Bane"
         },
@@ -2463,6 +2467,7 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
+            "ammunition": "yes",
             "shared": "bane",
             "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Bane"
         },
@@ -2477,6 +2482,7 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
+            "ammunition": "yes",
             "shared": "bane",
             "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Bane"
         },
@@ -2491,6 +2497,7 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
+            "ammunition": "yes",
             "shared": "bane",
             "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Bane"
         },
@@ -2505,6 +2512,7 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
+            "ammunition": "yes",
             "shared": "bane",
             "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Bane"
         },
@@ -2519,6 +2527,7 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
+            "ammunition": "yes",
             "shared": "bane",
             "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Bane"
         },
@@ -2533,6 +2542,7 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
+            "ammunition": "yes",
             "shared": "bane",
             "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Bane"
         },
@@ -2547,6 +2557,7 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
+            "ammunition": "yes",
             "shared": "bane",
             "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Bane"
         },
@@ -2561,6 +2572,7 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
+            "ammunition": "yes",
             "shared": "bane",
             "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Bane"
         },
@@ -2575,6 +2587,7 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
+            "ammunition": "yes",
             "shared": "bane",
             "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Bane"
         },
@@ -2589,6 +2602,7 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
+            "ammunition": "yes",
             "shared": "bane",
             "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Bane"
         },
@@ -2603,6 +2617,7 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
+            "ammunition": "yes",
             "shared": "bane",
             "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Bane"
         },
@@ -2617,6 +2632,7 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
+            "ammunition": "yes",
             "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Called"
         },
         {
@@ -2630,6 +2646,7 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
+            "ammunition": "yes",
             "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Conductive"
         },
         {
@@ -2654,6 +2671,7 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
+            "ammunition": "yes",
             "shared": "corrosive",
             "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Corrosive"
         },
@@ -2668,6 +2686,7 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
+            "ammunition": "yes",
             "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Cruel"
         },
         {
@@ -2681,6 +2700,7 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
+            "ammunition": "yes",
             "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Cunning"
         },
         {
@@ -2694,6 +2714,7 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
+            "ammunition": "yes",
             "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Distance"
         },
         {
@@ -2707,6 +2728,7 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
+            "ammunition": "yes",
             "shared": "flaming",
             "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Flaming"
         },
@@ -2721,6 +2743,7 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
+            "ammunition": "yes",
             "shared": "frost",
             "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Frost"
         },
@@ -2735,6 +2758,7 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
+            "ammunition": "yes",
             "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Huntsman"
         },
         {
@@ -2748,6 +2772,7 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
+            "ammunition": "yes",
             "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Jurist"
         },
         {
@@ -2761,6 +2786,7 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
+            "ammunition": "yes",
             "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Limning"
         },
         {
@@ -2785,6 +2811,7 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
+            "ammunition": "yes",
             "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Merciful"
         },
         {
@@ -2798,6 +2825,7 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
+            "ammunition": "yes",
             "shared": "planar",
             "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Planar"
         },
@@ -2833,6 +2861,7 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
+            "ammunition": "yes",
             "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Seeking"
         },
         {
@@ -2846,6 +2875,7 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
+            "ammunition": "yes",
             "shared": "shock",
             "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Shock"
         },
@@ -2860,6 +2890,7 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
+            "ammunition": "yes",
             "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Thundering"
         },
         {
@@ -2873,6 +2904,7 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
+            "ammunition": "yes",
             "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Anarchic"
         },
         {
@@ -2896,6 +2928,7 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
+            "ammunition": "yes",
             "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Axiomatic"
         },
         {
@@ -2909,6 +2942,7 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
+            "ammunition": "yes",
             "shared": "corrosive",
             "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Corrosive%20Burst"
         },
@@ -2923,6 +2957,7 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
+            "ammunition": "yes",
             "shared": "designating",
             "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Lesser%20Designating"
         },
@@ -2947,6 +2982,7 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
+            "ammunition": "yes",
             "shared": "flaming",
             "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Flaming%20Burst"
         },
@@ -2961,6 +2997,7 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
+            "ammunition": "yes",
             "shared": "holy",
             "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Holy"
         },
@@ -2975,6 +3012,7 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
+            "ammunition": "yes",
             "shared": "frost",
             "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Icy%20Burst"
         },
@@ -2989,6 +3027,7 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
+            "ammunition": "yes",
             "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Igniting"
         },
         {
@@ -3002,6 +3041,7 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
+            "ammunition": "yes",
             "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Phase%20Locking"
         },
         {
@@ -3015,6 +3055,7 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
+            "ammunition": "yes",
             "shared": "shock",
             "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Shocking%20Burst"
         },
@@ -3029,6 +3070,7 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
+            "ammunition": "yes",
             "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Stalking"
         },
         {
@@ -3042,6 +3084,7 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
+            "ammunition": "yes",
             "shared": "holy",
             "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Unholy"
         },
@@ -3078,6 +3121,7 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
+            "ammunition": "yes",
             "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Speed"
         },
         {
@@ -3091,6 +3135,7 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
+            "ammunition": "yes",
             "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Brilliant%20Energy"
         },
         {
@@ -3104,6 +3149,7 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
+            "ammunition": "yes",
             "shared": "designating",
             "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Greater%20Designating"
         },
@@ -3118,6 +3164,7 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
+            "ammunition": "yes",
             "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Nimble%20Shot"
         },
         {
@@ -3141,6 +3188,7 @@
             "thrown": "yes",
             "firearm": "yes",
             "other": "yes",
+            "ammunition": "yes",
             "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Allying"
         },
         {
@@ -3149,7 +3197,6 @@
             "magic_level": "2",
             "frequency": "2",
             "type": "ranged",
-            "ammunition": "yes",
             "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Penetrating"
         },
         {
@@ -3371,7 +3418,7 @@
             "name": "Inspired",
             "base_price": "+1 bonus",
             "magic_level": "1",
-            "frequency": "0",
+            "frequency": "1",
             "type": "ranged",
             "crossbow": "yes",
             "other": "yes",
@@ -3579,7 +3626,7 @@
             "name": "Training",
             "base_price": "+1 bonus",
             "magic_level": "1",
-            "frequency": "0",
+            "frequency": "3",
             "type": "ranged",
             "crossbow": "yes",
             "thrown": "yes",
@@ -3614,6 +3661,7 @@
             "firearm": "yes",
             "other": "yes",
             "ammunition": "yes",
+            "shared": "aligned",
             "link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Unaligned"
         },
         {
@@ -5103,14 +5151,160 @@
             "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Vouchsafing"
         },
         {
-            "name": "Withstanding",
+            "name": "Aberration Withstanding",
             "base_price": "+1 bonus",
             "magic_level": "1",
             "frequency": "1",
             "source": "AMH",
             "type": "armor",
             "medium": "yes",
-            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Withstanding"
+            "shared": "bane",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Withstanding",
+            "undefined": "Aberration Bane"
+        },
+        {
+            "name": "Animal Withstanding",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "AMH",
+            "type": "armor",
+            "medium": "yes",
+            "shared": "bane",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Withstanding",
+            "undefined": "Animal Bane"
+        },
+        {
+            "name": "Construct Withstanding",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "AMH",
+            "type": "armor",
+            "medium": "yes",
+            "shared": "bane",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Withstanding",
+            "undefined": "Construct Bane"
+        },
+        {
+            "name": "Dragon Withstanding",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "AMH",
+            "type": "armor",
+            "medium": "yes",
+            "shared": "bane",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Withstanding",
+            "undefined": "Dragon Bane"
+        },
+        {
+            "name": "Fey Withstanding",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "AMH",
+            "type": "armor",
+            "medium": "yes",
+            "shared": "bane",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Withstanding",
+            "undefined": "Fey Bane"
+        },
+        {
+            "name": "Magical Beast Withstanding",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "AMH",
+            "type": "armor",
+            "medium": "yes",
+            "shared": "bane",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Withstanding",
+            "undefined": "Magical Beast Bane"
+        },
+        {
+            "name": "Monstrous Humanoid Withstanding",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "AMH",
+            "type": "armor",
+            "medium": "yes",
+            "shared": "bane",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Withstanding",
+            "undefined": "Monstrous Humanoid Bane"
+        },
+        {
+            "name": "Ooze Withstanding",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "AMH",
+            "type": "armor",
+            "medium": "yes",
+            "shared": "bane",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Withstanding",
+            "undefined": "Ooze Bane"
+        },
+        {
+            "name": "Plant Withstanding",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "AMH",
+            "type": "armor",
+            "medium": "yes",
+            "shared": "bane",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Withstanding",
+            "undefined": "Plant Bane"
+        },
+        {
+            "name": "Undead Withstanding",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "AMH",
+            "type": "armor",
+            "medium": "yes",
+            "shared": "bane",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Withstanding",
+            "undefined": "Undead Bane"
+        },
+        {
+            "name": "Vermin Withstanding",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "AMH",
+            "type": "armor",
+            "medium": "yes",
+            "shared": "bane",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Withstanding",
+            "undefined": "Vermin  Bane"
+        },
+        {
+            "name": "Humanoid Withstanding",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "AMH",
+            "type": "armor",
+            "medium": "yes",
+            "shared": "bane",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Withstanding",
+            "undefined": "Humanoid Bane"
+        },
+        {
+            "name": "Outsider Withstanding",
+            "base_price": "+1 bonus",
+            "magic_level": "1",
+            "frequency": "1",
+            "source": "AMH",
+            "type": "armor",
+            "medium": "yes",
+            "shared": "bane",
+            "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Withstanding",
+            "undefined": "Outsider Bane"
         },
         {
             "name": "Buoyant",
@@ -5202,7 +5396,6 @@
             "type": "armor",
             "light": "yes",
             "medium": "yes",
-            "heavy": "yes",
             "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Bloodthirsty"
         },
         {
@@ -6079,7 +6272,7 @@
             "name": "Spellrending",
             "base_price": "+1 bonus",
             "magic_level": "1",
-            "frequency": "5",
+            "frequency": "50",
             "source": "AMH",
             "type": "shield",
             "buckler": "yes",
@@ -6229,6 +6422,7 @@
             "light": "yes",
             "heavy": "yes",
             "tower": "yes",
+            "req_enchant": "channel",
             "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Channeling"
         },
         {
@@ -6242,6 +6436,7 @@
             "light": "yes",
             "heavy": "yes",
             "tower": "yes",
+            "req_enchant": "channel",
             "link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Channeling"
         }
     ],
