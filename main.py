@@ -70,6 +70,7 @@ class Item:
             self.enchant_cost = 0
             self.l_itemEnch = []
             self.material = ""
+            self.forename = ""
 
     def updateprice(self, num):
         self.price = float(self.price) + float(num)
@@ -180,16 +181,16 @@ class Spelltoitem:
             print("Error generating scroll price")
 
     def name_pot(self):
-        self.name = "Potion of " + self.name
+        self.forename = "Potion of "
 
     def name_wand(self):
-        self.name = "Wand of " + self.name
+        self.forename = "Wand of "
 
     def name_scroll(self):
-        self.name = "Scroll of " + self.name
+        self.forename = "Scroll of "
 
     def __repr__(self):
-        return "Name: " + self.name + " -  Price: " + str(self.price) + " gp"
+        return "Name: " + self.forename + self.name + " -  Price: " + str(self.price) + " gp"
 
 
 class Material:
@@ -455,97 +456,196 @@ def magicalitem(item):
             if item.type == 'Light Melee' or item.type == 'One-Handed Melee' or item.type == 'Two-Handed Melee' \
                     or item.type == 'Unarmed':
                 templist = [Enchantment(i) for i in data["melee weapon enchantments"]]
-                templist = templist + [Enchantment(i) for i in data["mythic weapon enchantments"]]
+                if config.getboolean('flags', 'set_mth'):
+                    templist = templist + [Enchantment(i) for i in data["mythic weapon enchantments"]]
 
                 if item.type == 'Light Melee':
                     for x in templist:
                         if not hasattr(x, 'light_weapon'):
                             templist.remove(x)
 
-                if not hasattr(item, 'blunt'):
-                    """remove disruption"""
+                if item.type == 'Two-handed Melee':
                     for x in templist:
-                        if not hasattr(x, 'slashing') and not hasattr(x, 'piercing'):
+                        if hasattr(x, 'onehand'):
+                            templist.remove(x)
+
+                if not hasattr(item, 'blunt'):
+                    """remove brawling, disruption, smashing, legbreaker, obliviating, quaking"""
+                    for x in templist:
+                        if hasattr(x, 'blunt') and not hasattr(x, 'slashing') and not hasattr(x, 'piercing'):
                             templist.remove(x)
 
                 if not hasattr(item, 'slashing') and not hasattr(item, 'piercing'):
-                    """remove keen"""
+                    """remove keen, bloodsong, vampiric, culling"""
                     for x in templist:
                         if hasattr(x, 'slashing') and hasattr(x, 'piercing') and not hasattr(x, 'blunt'):
                             templist.remove(x)
 
+                if not hasattr(item, 'blunt') and not hasattr(item, 'slashing'):
+                    """remove underwater"""
+                    for x in templist:
+                        if hasattr(x, 'slashing') and hasattr(x, 'blunt') and not hasattr(x, 'piercing'):
+                            templist.remove(x)
+
                 if not hasattr(item, 'slashing'):
-                    """remove vorpal"""
+                    """remove vorpal, injecting, prehensile"""
                     for x in templist:
-                        if not hasattr(x, 'piercing') and not hasattr(x, 'blunt'):
+                        if hasattr(x, 'slashing') and not hasattr(x, 'piercing') and not hasattr(x, 'blunt'):
                             templist.remove(x)
-                if not config.getboolean('flags', 'set_mth'):
+
+                if not hasattr(item, 'piercing'):
+                    """remove flamboyant, ow, sticky"""
                     for x in templist:
-                        if x.type == 'Mythic':
+                        if hasattr(x, 'piercing') and not hasattr(item, 'slashing') and not hasattr(item, 'blunt'):
                             templist.remove(x)
+
+                if not hasattr(item, 'finessable'):
+                    for x in templist:
+                        if hasattr(x, 'finesse'):
+                            templist.remove(x)
+
+                if not hasattr(item, 'reach'):
+                    for x in templist:
+                        if hasattr(x,'req_feature'):
+                            templist.remove(x)
+
+                if not hasattr(item, 'nonlethal'):
+                    for x in templist:
+                        if hasattr(x, 'nonlethal'):
+                            templist.remove(x)
+
+                for x in templist:
+                    '''remove catalytic from base list'''
+                    if hasattr(x, 'req_enchant'):
+                        templist.remove(x)
+
+                for x in templist:
+                    '''remove brawling/inspired/prehensile'''
+                    if hasattr(x, 'weaponlist'):
+                        if item.name.lower() not in x.weaponlist:
+                            if not hasattr(x, 'req_type'):
+                                templist.remove(x)
+                            elif hasattr(x, 'req_type') and not item.proficiency == 'Simple':
+                                templist.remove(x)
+
+
             elif item.type == 'Ranged':
                 if item.ranged_type == 'bow' or item.ranged_type == 'crossbow':
                     templist = [Enchantment(i) for i in data["ranged weapon enchantments"]]
-                    templist = templist + [Enchantment(i) for i in data["mythic weapon enchantments"]]
+                    if config.getboolean('flags', 'set_mth'):
+                        templist = templist + [Enchantment(i) for i in data["mythic weapon enchantments"]]
                     for x in templist:
                         if hasattr(x, 'bow'):
                             templist2 = [x]
                         if not hasattr(x, 'crossbow'):
                             templist.remove(x)
-                    if not config.getboolean('flags', 'set_mth'):
-                        for x in templist:
-                            if x.type == 'Mythic':
-                                templist.remove(x)
                         '''composite check'''
                     if item.name.find('+') != -1:
                         templist = templist + templist2
 
                 elif item.ranged_type == 'thrown':
                     templist = [Enchantment(i) for i in data["ranged weapon enchantments"]]
-                    templist = templist + [Enchantment(i) for i in data["mythic weapon enchantments"]]
+                    if config.getboolean('flags', 'set_mth'):
+                        templist = templist + [Enchantment(i) for i in data["mythic weapon enchantments"]]
                     for x in templist:
                         if not hasattr(x, 'thrown'):
                             templist.remove(x)
+
                 elif item.ranged_type == 'other':
                     templist = [Enchantment(i) for i in data["ranged weapon enchantments"]]
-                    templist = templist + [Enchantment(i) for i in data["mythic weapon enchantments"]]
+                    if config.getboolean('flags', 'set_mth'):
+                        templist = templist + [Enchantment(i) for i in data["mythic weapon enchantments"]]
                     for x in templist:
                         if not hasattr(x, 'other'):
                             templist.remove(x)
+
+                for x in templist:
+                    '''remove catalytic from base list'''
+                    if hasattr(x, 'req_enchant'):
+                        templist.remove(x)
+                    if hasattr(x, 'weaponlist'):
+                        if item.name.lower() not in x.weaponlist:
+                            if not hasattr(x, 'req_type'):
+                                templist.remove(x)
+                            elif hasattr(x, 'req_type') and not item.proficiency == 'Simple':
+                                templist.remove(x)
+
+                if not hasattr(item, 'piercing'):
+                    for x in templist:
+                        if hasattr(x, 'piercing'):
+                            templist.remove(x)
+
             elif item.type == 'One-Handed Firearms' or item.type == 'Two-Handed Firearms':
                 if item.ranged_type == 'firearms':
                     templist = [Enchantment(i) for i in data["ranged weapon enchantments"]]
-                    templist = templist + [Enchantment(i) for i in data["mythic weapon enchantments"]]
+                    if config.getboolean('flags', 'set_mth'):
+                        templist = templist + [Enchantment(i) for i in data["mythic weapon enchantments"]]
                     for x in templist:
                         if not hasattr(x, 'firearms'):
                             templist.remove(x)
-                    if not config.getboolean('flags', 'set_mth'):
-                        for x in templist:
-                            if x.type == 'Mythic':
-                                templist.remove(x)
+
+                for x in templist:
+                    '''remove catalytic from base list'''
+                    if hasattr(x, 'req_enchant'):
+                        templist.remove(x)
+
+                if not hasattr(item, 'piercing'):
+                    for x in templist:
+                        if hasattr(x, 'piercing'):
+                            templist.remove(x)
+
             elif item.type == 'ammo':
                 templist = [Enchantment(i) for i in data["ranged weapon enchantments"]]
-                templist = templist + [Enchantment(i) for i in data["mythic weapon enchantments"]]
-                for x in templist:
-                    if not hasattr(x, 'other'):
-                        templist.remove(x)
                 if config.getboolean('flags', 'set_mth'):
-                    for i in data["mythic weapon enchantments"]:
-                        templist.append(Enchantment(i))
+                    templist = templist + [Enchantment(i) for i in data["mythic weapon enchantments"]]
+                for x in templist:
+                    if not hasattr(x, 'ammunition'):
+                        templist.remove(x)
+
+                for x in templist:
+                    '''remove catalytic from base list'''
+                    if hasattr(x, 'req_enchant'):
+                        templist.remove(x)
+
+                if 'cartridge' not in item.name.lower():
+                    for x in templist:
+                        if hasattr(x, 'is_cartridge'):
+                            templist.remove(x)
+
             elif item.slot == 'Armor':
                 templist = [Enchantment(i) for i in data["armor enchantments"]]
-                templist = templist + [Enchantment(i) for i in data["mythic armor enchantments"]]
-                if not config.getboolean('flags', 'set_mth'):
+                if config.getboolean('flags', 'set_mth'):
+                    templist = templist + [Enchantment(i) for i in data["mythic armor enchantments"]]
+
+                if not hasattr(item, 'is_leather'):
                     for x in templist:
-                        if x.type == 'Mythic':
+                        if hasattr(x, 'is_leather'):
                             templist.remove(x)
+
+                if not hasattr(item, 'is_padded'):
+                    for x in templist:
+                        if hasattr(x, 'is_padded'):
+                            templist.remove(x)
+
+                if item.name not in 'Full Plate, Hellknight Half-Plate, Hellknight Leather, Hellknight Plate, ' \
+                                    'Dragonhide Plate, Gray Maiden Plate, Dwarven Plate':
+                    for x in templist:
+                        if hasattr(x, 'is_fullplate'):
+                            templist.remove(x)
+
             elif item.slot == 'Shield':
                 templist = [Enchantment(i) for i in data["shield enchantments"]]
-                templist = templist + [Enchantment(i) for i in data["mythic shield enchantments"]]
-                if not config.getboolean('flags', 'set_mth'):
-                    for x in templist:
-                        if x.type == 'Mythic':
-                            templist.remove(x)
+                if config.getboolean('flags', 'set_mth'):
+                    templist = templist + [Enchantment(i) for i in data["mythic shield enchantments"]]
+                for e in templist:
+                    if not hasattr(e, item.shield_type):
+                        templist.remove(e)
+
+                for x in templist:
+                    '''remove spellrending from base list'''
+                    if hasattr(x, 'req_enchant'):
+                        templist.remove(x)
+
 
         if magiclevel == 0:
             item.name = "Masterwork " + item.name
@@ -555,6 +655,7 @@ def magicalitem(item):
             item.price = item.price + item.enchant_cost
             item.magical = True
         else:
+            item.l_itemEnch = []
             magicbudget = magiclevel - 1
             originallevel = magiclevel
             item.magicbudget = magicbudget
@@ -586,33 +687,119 @@ def assignenchant(i):
     """chooses an enchant from templist to put on the item, and then removes the enchant from templist
     so that 1 item cannot get the same enchant multiple times."""
     efrequency = []
+
+    for x in i.l_itemEnch:
+        if x.name == 'Corrosive' or x.name == 'Corrosive Burst':
+            with open('Resources/enchantments.json') as j:
+                data = json.load(j)
+            if i.type in 'Light Melee, One-Handed Melee, Two-Handed Melee, Unarmed':
+                templist.append(Enchantment(data["melee weapon enchantments"][99]))
+            elif i.type in 'Ranged, One-Handed Firearms, Two-Handed Firearms':
+                templist.append(Enchantment(data["ranged weapon enchantments"][64]))
+
+        if x.name == 'Catalytic':
+            for e in templist:
+                if e.name == 'Catalytic':
+                    templist.remove(e)
+
+    for x in i.l_itemEnch:
+        if 'Spell resistance' in x.name:
+            with open('Resources/enchantments.json') as j:
+                data = json.load(j)
+            if i.type == 'Shield':
+                templist.append(Enchantment(data["shield enchantments"][38]))
+
+        if x.name == 'Spellrending':
+            for e in templist:
+                if e.name == 'Spellrending':
+                    templist.remove(e)
+
     for x in templist:
         efrequency.append(int(x.frequency))
     chosenenchant = choices(templist, efrequency, k=1)[0]
 
     if int(chosenenchant.magic_level) <= i.magicbudget:
-        '''humanoid bane'''
-        if chosenenchant.name == 'Humanoid Bane':
-            with open('Resources/subtypes.json') as j:
-                data = json.load(j)
-                hsubtypes = [Subtype(i) for i in data['Humanoid']]
-                sfrequency = []
-                for x in hsubtypes:
-                    sfrequency.append(int(x.frequency))
+        with open('Resources/subtypes.json') as j:
+            data = json.load(j)
+        '''humanoid bane/misery'''
+        if chosenenchant.name in 'Humanoid Bane, Humanoid Misery, Humanoid Withstanding':
+            hsubtypes = [Subtype(i) for i in data['Humanoid']]
+            sfrequency = []
+            for x in hsubtypes:
+                sfrequency.append(int(x.frequency))
 
             hBane = choices(hsubtypes, sfrequency, k=1)[0]
             chosenenchant.name = chosenenchant.name + ' (' + hBane.name + ')'
-            '''outsider bane'''
-        elif chosenenchant.name == 'Outsider Bane':
-            with open('Resources/subtypes.json') as j:
-                data = json.load(j)
-                osubtypes = [Subtype(i) for i in data['Outsider']]
-                sfrequency = []
-                for x in osubtypes:
-                    sfrequency.append(int(x.frequency))
+            '''outsider bane/misery'''
+        elif chosenenchant.name in 'Outsider Bane, Outsider Misery, Outsider Withstanding':
+            osubtypes = [Subtype(i) for i in data['Outsider']]
+            sfrequency = []
+            for x in osubtypes:
+                sfrequency.append(int(x.frequency))
 
             oBane = choices(osubtypes, sfrequency, k=1)[0]
             chosenenchant.name = chosenenchant.name + ' (' + oBane.name + ')'
+
+        elif chosenenchant.name == 'Deceiving':
+            asubtypes = [Subtype(i) for i in data['Alignments']]
+            sfrequency = []
+            for x in asubtypes:
+                sfrequency.append(int(x.frequency))
+
+            dAlignment = choices(asubtypes, sfrequency, k=1)[0]
+            chosenenchant.name == chosenenchant.name + ' (' + dAlignment.name + ')'
+
+        elif chosenenchant.name == 'Blood-Hunting':
+            bsubtypes = [Subtype(i) for i in data['Bloodlines']]
+            sfrequency = []
+            for x in bsubtypes:
+                sfrequency.append(int(x.frequency))
+
+            bLine = choices(bsubtypes, sfrequency, k=1)[0]
+            chosenenchant.name == chosenenchant.name + ' (' + bLine.name + ')'
+
+        elif chosenenchant.name == 'Spirit-Hunting':
+            ssubtypes = [Subtype(i) for i in data['Mysteries']]
+            sfrequency = []
+            for x in ssubtypes:
+                sfrequency.append(int(x.frequency))
+
+            sMystery = choices(ssubtypes, sfrequency, k=1)[0]
+            chosenenchant.name == chosenenchant.name + ' (' + sMystery.name + ')'
+
+        elif chosenenchant.name == 'Runeforged':
+            rsubtypes = [Subtype(i) for i in data['Runeforged']]
+            sfrequency = []
+            for x in rsubtypes:
+                sfrequency.append(int(x.frequency))
+
+            rSin = choices(rsubtypes, sfrequency, k=1)[0]
+            chosenenchant.name == chosenenchant.name + ' (' + rSin.name + ')'
+
+        elif chosenenchant.name == 'Training':
+            tsubtypes = [Subtype(i) for i in data['Training Feats']]
+            sfrequency = []
+            for x in tsubtypes:
+                if hasattr(x, 'req_type'):
+                    if hasattr(i, 'proficiency'):
+                        if i.proficiency not in 'Exotic':
+                            x.frequency = 0
+                if hasattr(x, 'excl_ench'):
+                    for y in i.l_itemEnch:
+                        if y.name == 'Keen':
+                            x.frequency = 0
+
+            tFeat = choices(tsubtypes, sfrequency, k=1)[0]
+            chosenenchant.name == chosenenchant.name + ' (' + tFeat.name + ')'
+
+        elif chosenenchant.name in 'Patriotic, Treasonous':
+            psubtypes = [Subtype(i) for i in data['Nationalities']]
+            sfrequency = []
+            for x in psubtypes:
+                sfrequency.append(int(x.frequency))
+
+            pNation = choices(psubtypes, sfrequency, k=1)[0]
+            chosenenchant.name == chosenenchant.name + ' (' + pNation.name + ')'
 
         i.l_itemEnch.append(chosenenchant)
         i.magicbudget = i.magicbudget - int(chosenenchant.magic_level)
@@ -660,18 +847,12 @@ def assignmod(i):
                 if m.damage_type == 'P, S':
                     list_mods.remove(m)
 
-        '''elif i.category == 'Nonmagical Ammunition':
-        print(i.type)
-        print(i.name)
+    elif i.category == 'Nonmagical Ammunition':
         for m in data['weapon modifications']:
             list_mods.append(Modification(m))
         for x in list_mods:
-            print("1" + x.name)
-        for x in list_mods:
             if not hasattr(x, 'type2'):
                 list_mods.remove(x)
-        for x in list_mods:
-            print("2" + x.name)'''
 
     elif i.category == 'Nonmagical Armor':
         for m in data['armor modifications']:
@@ -882,8 +1063,9 @@ def random_item():
             magicalitem(chosen_item)
 
     if config.getboolean('flags', 'flg_mods'):
-        if chosen_item.category == 'Nonmagical Weapons' or chosen_item.category == 'Nonmagical Armor':
-            if randint(1, 100) > 95:
+        if chosen_item.category == 'Nonmagical Weapons' or chosen_item.category == 'Nonmagical Armor' or \
+                chosen_item.category == 'Nonmagical Ammunition':
+            if randint(1, 100) > 94:
                 assignmod(chosen_item)
     if chosen_item.name == 'Slaying Arrow ^' or chosen_item.name == 'Greater Slaying Arrow ^':
         chosen_item.slayingtype()
@@ -894,8 +1076,8 @@ def random_item():
         chosen_item.fmod = modFormat(chosen_item)
         chosen_item.fench = enchFormat(chosen_item)
 
-        chosen_item.check = str("{}{}{}{}".format(chosen_item.fench, chosen_item.fmod, chosen_item.material,
-                                                  chosen_item.name))
+        chosen_item.check = str("{}{}{}{}{}".format(chosen_item.fench, chosen_item.fmod, chosen_item.material,
+                                                  chosen_item.forename, chosen_item.name))
         for x in encounterLootList:
             if hasattr(x, 'aquantity'):
                 if chosen_item.category == 'Nonmagical Ammunition':
@@ -1009,7 +1191,7 @@ def startup():
     global itemlist, list_nmi, list_nma, list_nmw, list_nmu, list_ma, list_mw, list_mu, list_st, list_ro, list_wie, \
         list_wis, list_cur, list_art, list_pot, list_ri
 
-    with open('Resources/filtered_lootlist.json') as j:
+    with open('Resources/items.json') as j:
         data = json.load(j)
         list_nmi = [Item(i) for i in data["Nonmagical Items"]]
         list_nma = [Item(i) for i in data["Nonmagical Armor"]]

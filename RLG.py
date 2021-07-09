@@ -29,49 +29,62 @@ def click():
             item.fprice = priceFormat(item.price)
             item.fench = enchFormat(item)
             item.fmod = modFormat(item)
-            item.strname = str("{}{}{}{} ({})".format(item.fench, item.fmod, item.material, item.name, item.fprice))
+            item.strname = str("{}{}{}{}{} ({})".format(item.fench, item.fmod, item.material, item.forename, item.name,
+                                                        item.fprice))
             while item.strname[0] == " ":
                 item.strname = item.strname[1:]
 
         for item in sorted(results, key=lambda item: item.strname):
             if item.quantity > 1:
                 output.insert(END, str(item.quantity) + "x ")
-                if hasattr(item, 'magical'):
-                    if hasattr(item, 'magic'):
-                        output.insert(END, item.magic)
-                    elif item.is_Mwk:
-                        output.insert(END, "Masterwork ")
-                    for n in item.l_itemEnch:
-                        output.insert(END, '[' + n.name + ']', hyperlink.add(createLink(n, 'enchant')))
+                if item.forename != "":
+                    output.insert(END, item.forename)
+                    output.insert(END, item.name, hyperlink.add(createLink(item, 'spell')))
+                    output.insert(END, " (" + item.fprice)
+                    output.insert(END, " each)" + '\n')
+                else:
+                    if hasattr(item, 'magical'):
+                        if hasattr(item, 'magic'):
+                            output.insert(END, item.magic)
+                        elif item.is_Mwk:
+                            output.insert(END, "Masterwork ")
+                        for n in item.l_itemEnch:
+                            output.insert(END, '[' + n.name + ']', hyperlink.add(createLink(n, 'enchant')))
+                            output.insert(END, ' ')
+                    if hasattr(item, 'mod'):
+                        output.insert(END, '{' + item.mod.name + '}', hyperlink.add(createLink(item, 'mod')))
                         output.insert(END, ' ')
-                if hasattr(item, 'mod'):
-                    output.insert(END, '{' + item.mod.name + '}', hyperlink.add(createLink(item, 'mod')))
-                    output.insert(END, ' ')
-                if hasattr(item, 'mat'):
-                    output.insert(END, item.mat.name, hyperlink.add(createLink(item, 'material')))
-                    output.insert(END, ' ')
+                    if hasattr(item, 'mat'):
+                        output.insert(END, item.mat.name, hyperlink.add(createLink(item, 'material')))
+                        output.insert(END, ' ')
 
-                output.insert(END, item.name)
-                output.insert(END, " (" + item.fprice + ")")
-                output.insert(END, " each)" + '\n')
+                    output.insert(END, item.name)
+                    output.insert(END, " (" + item.fprice)
+                    output.insert(END, " each)" + '\n')
             else:
-                if hasattr(item, 'magical'):
-                    if hasattr(item, 'magic'):
-                        output.insert(END, item.magic)
-                    elif item.is_Mwk:
-                        output.insert(END, "Masterwork ")
-                    for n in item.l_itemEnch:
-                        output.insert(END, '[' + n.name + ']', hyperlink.add(createLink(n, 'enchant')))
+                if item.forename != "":
+                    output.insert(END, item.forename)
+                    output.insert(END, item.name, hyperlink.add(createLink(item, 'spell')))
+                    output.insert(END, " (" + item.fprice + ")")
+                    output.insert(END, "\n")
+                else:
+                    if hasattr(item, 'magical'):
+                        if hasattr(item, 'magic'):
+                            output.insert(END, item.magic)
+                        elif item.is_Mwk:
+                            output.insert(END, "Masterwork ")
+                        for n in item.l_itemEnch:
+                            output.insert(END, '[' + n.name + ']', hyperlink.add(createLink(n, 'enchant')))
+                            output.insert(END, ' ')
+                    if hasattr(item, 'mod'):
+                        output.insert(END, '{' + item.mod.name + '}', hyperlink.add(createLink(item, 'mod')))
                         output.insert(END, ' ')
-                if hasattr(item, 'mod'):
-                    output.insert(END, '{' + item.mod.name + '}', hyperlink.add(createLink(item, 'mod')))
-                    output.insert(END, ' ')
-                if hasattr(item, 'mat'):
-                    output.insert(END, item.mat.name, hyperlink.add(createLink(item, 'material')))
-                    output.insert(END, ' ')
-                output.insert(END, item.name)
-                output.insert(END, " (" + item.fprice + ")")
-                output.insert(END, "\n")
+                    if hasattr(item, 'mat'):
+                        output.insert(END, item.mat.name, hyperlink.add(createLink(item, 'material')))
+                        output.insert(END, ' ')
+                    output.insert(END, item.name)
+                    output.insert(END, " (" + item.fprice + ")")
+                    output.insert(END, "\n")
 
         if int(checkBudget('p')) > 0:
             output.insert(END, "Coins: " + str(checkBudget('p')) + " pp, " + str(checkBudget('g')) + " gp, " +
@@ -106,6 +119,8 @@ def createLink(item, type):
         return partial(webbrowser.open, item.link)
     if type == 'mod':
         return partial(webbrowser.open, item.mod.link)
+    if type == 'spell':
+        return partial(webbrowser.open, item.link)
 
 
 class SettingsWindow(Toplevel):
@@ -366,7 +381,7 @@ Label(app, text="", bg='#84344D', fg='white', font="none 10") .grid(row=11, colu
 # results box
 output = Text(app, wrap=WORD, bg='#B08A95', fg='white', state="normal", font="none 11", relief=GROOVE)
 output.grid(row=12, column=0, columnspan=4, sticky=EW)
-hyperlink = HyperlinkManager(output)
+hyperlink = HyperlinkManager(output, 'White')
 scrollb = Scrollbar(app, command=output.yview)
 scrollb.grid(row=12, column=4, sticky=NSEW)
 output['yscrollcommand'] = scrollb.set

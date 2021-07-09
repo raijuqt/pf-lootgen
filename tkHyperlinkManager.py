@@ -3,12 +3,12 @@ from tkinter import *
 
 class HyperlinkManager:
 
-    def __init__(self, text):
+    def __init__(self, text, colour):
 
         self.text = text
 
-        # nice colour #86E7FF
-        self.text.tag_config("hyper", foreground="white", underline=1)
+        # nice colour Blue: #86E7FF, Green: #8FFF92
+        self.text.tag_config("hyper", foreground=colour, underline=1)
 
         self.text.tag_bind("hyper", "<Enter>", self._enter)
         self.text.tag_bind("hyper", "<Leave>", self._leave)

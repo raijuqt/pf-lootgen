@@ -362,5 +362,5031 @@
             "name": "rakshasa",
             "frequency": "10"
         }
+    ],
+    "Alignments": [
+        {
+            "name": "Chaotic Good",
+            "frequency": "1"
+        },
+        {
+            "name": "Neutral Good",
+            "frequency": "1"
+        },
+        {
+            "name": "Lawful Good",
+            "frequency": "1"
+        },
+        {
+            "name": "Chaotic Neutral",
+            "frequency": "1"
+        },
+        {
+            "name": "Neutral",
+            "frequency": "1"
+        },
+        {
+            "name": "Lawful Neutral",
+            "frequency": "1"
+        },
+        {
+            "name": "Chaotic Evil",
+            "frequency": "1"
+        },
+        {
+            "name": "Neutral Evil",
+            "frequency": "1"
+        },
+        {
+            "name": "Lawful Evil",
+            "frequency": "1"
+        }
+    ],
+    "Deities": [
+        {
+            "name": " Erastil",
+            "pantheon": "Core Deities",
+            "alignment": "LG",
+            "areas_of_concern": "Family, farming, hunting, trade",
+            "domains": "Animal, Community, Good, Law, Plant",
+            "favored_weapon": "Longbow",
+            "frequency": "100"
+        },
+        {
+            "name": " Iomedae",
+            "pantheon": "Core Deities",
+            "alignment": "LG",
+            "areas_of_concern": "Honor, justice, rulership, valor",
+            "domains": "Glory, Good, Law, Sun, War",
+            "favored_weapon": "Longsword",
+            "frequency": "100"
+        },
+        {
+            "name": " Torag",
+            "pantheon": "Core Deities",
+            "alignment": "LG",
+            "areas_of_concern": "Forges, protection, strategy",
+            "domains": "Artifice, Earth, Good, Law, Protection",
+            "favored_weapon": "Warhammer",
+            "frequency": "100"
+        },
+        {
+            "name": " Sarenrae",
+            "pantheon": "Core Deities",
+            "alignment": "NG",
+            "areas_of_concern": "Healing, honesty, redemption, the sun",
+            "domains": "Fire, Glory, Good, Healing, Sun",
+            "favored_weapon": "Scimitar",
+            "frequency": "100"
+        },
+        {
+            "name": " Shelyn",
+            "pantheon": "Core Deities",
+            "alignment": "NG",
+            "areas_of_concern": "Art, beauty, love, music",
+            "domains": "Air, Charm, Good, Luck, Protection",
+            "favored_weapon": "Glaive",
+            "frequency": "100"
+        },
+        {
+            "name": " Cayden Cailean",
+            "pantheon": "Core Deities",
+            "alignment": "CG",
+            "areas_of_concern": "Ale, bravery, freedom, wine",
+            "domains": "Chaos, Charm, Good, Strength, Travel",
+            "favored_weapon": "Rapier",
+            "frequency": "100"
+        },
+        {
+            "name": " Desna",
+            "pantheon": "Core Deities",
+            "alignment": "CG",
+            "areas_of_concern": "Dreams, luck, stars, travelers",
+            "domains": "Chaos, Good, Liberation, Luck, Travel",
+            "favored_weapon": "Starknife",
+            "frequency": "100"
+        },
+        {
+            "name": " Abadar",
+            "pantheon": "Core Deities",
+            "alignment": "LN",
+            "areas_of_concern": "Cities, laws, merchants, wealth",
+            "domains": "Earth, Law, Nobility, Protection, Travel",
+            "favored_weapon": "Light crossbow",
+            "frequency": "100"
+        },
+        {
+            "name": " Irori",
+            "pantheon": "Core Deities",
+            "alignment": "LN",
+            "areas_of_concern": "History, knowledge, self-perfection",
+            "domains": "Healing, Knowledge, Law, Rune, Strength",
+            "favored_weapon": "Unarmed strike",
+            "frequency": "100"
+        },
+        {
+            "name": " Gozreh",
+            "pantheon": "Core Deities",
+            "alignment": "N",
+            "areas_of_concern": "Nature, the sea, weather",
+            "domains": "Air, Animal, Plant, Water, Weather",
+            "favored_weapon": "Trident",
+            "frequency": "100"
+        },
+        {
+            "name": "Green Faith",
+            "pantheon": "Core Deities",
+            "alignment": "N",
+            "areas_of_concern": "Air, beast, earth, fire, water",
+            "domains": "Air, Animal, Earth, Fire, Plant",
+            "favored_weapon": "Druidic weapons",
+            "frequency": "100"
+        },
+        {
+            "name": " Nethys",
+            "pantheon": "Core Deities",
+            "alignment": "N",
+            "areas_of_concern": "Magic",
+            "domains": "Destruction, Knowledge, Magic, Protection, Rune",
+            "favored_weapon": "Quarterstaff",
+            "frequency": "100"
+        },
+        {
+            "name": " Pharasma",
+            "pantheon": "Core Deities",
+            "alignment": "N",
+            "areas_of_concern": "Birth, death, fate, prophecy",
+            "domains": "Death, Healing, Knowledge, Repose, Water",
+            "favored_weapon": "Dagger",
+            "frequency": "100"
+        },
+        {
+            "name": " Calistria",
+            "pantheon": "Core Deities",
+            "alignment": "CN",
+            "areas_of_concern": "Lust, revenge, trickery",
+            "domains": "Chaos, Charm, Knowledge, Luck, Trickery",
+            "favored_weapon": "Whip",
+            "frequency": "100"
+        },
+        {
+            "name": " Gorum",
+            "pantheon": "Core Deities",
+            "alignment": "CN",
+            "areas_of_concern": "Battle, strength, weapons",
+            "domains": "Chaos, Destruction, Glory, Strength, War",
+            "favored_weapon": "Greatsword",
+            "frequency": "100"
+        },
+        {
+            "name": " Asmodeus",
+            "pantheon": "Core Deities",
+            "alignment": "LE",
+            "areas_of_concern": "Contracts, pride, slavery, tyranny",
+            "domains": "Evil, Fire, Law, Magic, Trickery",
+            "favored_weapon": "Mace",
+            "frequency": "100"
+        },
+        {
+            "name": " Zon-Kuthon",
+            "pantheon": "Core Deities",
+            "alignment": "LE",
+            "areas_of_concern": "Darkness, envy, loss, pain",
+            "domains": "Darkness, Death, Destruction, Evil, Law",
+            "favored_weapon": "Spiked chain",
+            "frequency": "100"
+        },
+        {
+            "name": " Norgorber",
+            "pantheon": "Core Deities",
+            "alignment": "NE",
+            "areas_of_concern": "Greed, murder, poison, secrets",
+            "domains": "Charm, Death, Evil, Knowledge, Trickery",
+            "favored_weapon": "Short sword",
+            "frequency": "100"
+        },
+        {
+            "name": " Urgathoa",
+            "pantheon": "Core Deities",
+            "alignment": "NE",
+            "areas_of_concern": "Disease, gluttony, undeath",
+            "domains": "Death, Evil, Magic, Strength, War",
+            "favored_weapon": "Scythe",
+            "frequency": "100"
+        },
+        {
+            "name": " Lamashtu",
+            "pantheon": "Core Deities",
+            "alignment": "CE",
+            "areas_of_concern": "Madness, monsters, nightmares",
+            "domains": "Chaos, Evil, Madness, Strength, Trickery",
+            "favored_weapon": "Falchion",
+            "frequency": "100"
+        },
+        {
+            "name": " Rovagug",
+            "pantheon": "Core Deities",
+            "alignment": "CE",
+            "areas_of_concern": "Destruction, disaster, wrath",
+            "domains": "Chaos, Destruction, Evil, War, Weather",
+            "favored_weapon": "Greataxe",
+            "frequency": "100"
+        },
+        {
+            "name": " Apsu",
+            "pantheon": "Other Deities",
+            "alignment": "LG",
+            "areas_of_concern": "Good dragons, leadership, peace",
+            "domains": "Artifice, Good, Law, Scalykind, Travel",
+            "favored_weapon": "Bite or quarterstaff",
+            "frequency": "5"
+        },
+        {
+            "name": " Easivra",
+            "pantheon": "Other Deities",
+            "alignment": "LG",
+            "areas_of_concern": "Avians, gold, the sun",
+            "domains": "Animal, Good, Law, Sun",
+            "favored_weapon": "Morningstar",
+            "frequency": "5"
+        },
+        {
+            "name": " Gruhastha",
+            "pantheon": "Other Deities",
+            "alignment": "LG",
+            "areas_of_concern": "The Vudrani holy book",
+            "domains": "Animals, Good, Knowledge, Law, Travel",
+            "favored_weapon": "Shortbow",
+            "frequency": "5"
+        },
+        {
+            "name": "Cihua Couatl",
+            "pantheon": "Other Deities",
+            "alignment": "NG",
+            "areas_of_concern": "Childbirth, protection, and warfare",
+            "domains": "Good, Healing, Protection, Strength, War",
+            "favored_weapon": "Shortspear",
+            "frequency": "5"
+        },
+        {
+            "name": " Kazutal",
+            "pantheon": "Other Deities",
+            "alignment": "NG",
+            "areas_of_concern": "Community, liberty, and safety",
+            "domains": "Community, Good, Liberation, Protection, Strength",
+            "favored_weapon": "Machete",
+            "frequency": "5"
+        },
+        {
+            "name": " Kurgess",
+            "pantheon": "Other Deities",
+            "alignment": "NG",
+            "areas_of_concern": "Bravery, competition, sport",
+            "domains": "Community, Good, Luck, Strength, Travel",
+            "favored_weapon": "Javelin",
+            "frequency": "5"
+        },
+        {
+            "name": " Mazludeh",
+            "pantheon": "Other Deities",
+            "alignment": "NG",
+            "areas_of_concern": "Balance, community, negotiation, and twilight",
+            "domains": "Artifice, Community, Good, Knowledge",
+            "favored_weapon": "Heavy shield",
+            "frequency": "5"
+        },
+        {
+            "name": " Omrataji",
+            "pantheon": "Other Deities",
+            "alignment": "NG",
+            "areas_of_concern": "Silver, silverwork, and silver mining",
+            "domains": "Artifice, Earth, Good, Nobility",
+            "favored_weapon": "Spiked chain",
+            "frequency": "5"
+        },
+        {
+            "name": " Milani",
+            "pantheon": "Other Deities",
+            "alignment": "CG",
+            "areas_of_concern": "Devotion, hope, uprisings",
+            "domains": "Chaos, Good, Healing, Liberation, Protection",
+            "favored_weapon": "Morningstar",
+            "frequency": "5"
+        },
+        {
+            "name": " Alseta",
+            "pantheon": "Other Deities",
+            "alignment": "LN",
+            "areas_of_concern": "Doors, transitions, years",
+            "domains": "Community, Law, Magic, Protection",
+            "favored_weapon": "Dagger",
+            "frequency": "5"
+        },
+        {
+            "name": " Erecura",
+            "pantheon": "Other Deities",
+            "alignment": "LN",
+            "areas_of_concern": "Deduction, mind reading, subtlety",
+            "domains": "Knowledge, Law, Nobility, Trickery",
+            "favored_weapon": "Light mace",
+            "frequency": "5"
+        },
+        {
+            "name": " Matravash",
+            "pantheon": "Other Deities",
+            "alignment": "LN",
+            "areas_of_concern": "The Matra River",
+            "domains": "Community, Law, Travel, Water",
+            "favored_weapon": "Whip",
+            "frequency": "5"
+        },
+        {
+            "name": " Brigh",
+            "pantheon": "Other Deities",
+            "alignment": "N",
+            "areas_of_concern": "Clockwork, invention, time",
+            "domains": "Artifice, Earth, Fire, Knowledge",
+            "favored_weapon": "Light hammer",
+            "frequency": "5"
+        },
+        {
+            "name": " Feronia",
+            "pantheon": "Other Deities",
+            "alignment": "N",
+            "areas_of_concern": "Fertility, sacred fires, wildlife",
+            "domains": "Destruction, Fire, Liberation, Protection",
+            "favored_weapon": "Bastard sword",
+            "frequency": "5"
+        },
+        {
+            "name": " Grandmother Spider",
+            "pantheon": "Other Deities",
+            "alignment": "N",
+            "areas_of_concern": "Twilight, weaving, illusion, and family",
+            "domains": "Charm, Community, Darkness, Luck, Trickery",
+            "favored_weapon": "Net",
+            "frequency": "5"
+        },
+        {
+            "name": " Naderi",
+            "pantheon": "Other Deities",
+            "alignment": "N",
+            "areas_of_concern": "Drowning, romantic tragedy, suicide",
+            "domains": "Charm, Nobility, Repose, Water",
+            "favored_weapon": "Dagger",
+            "frequency": "5"
+        },
+        {
+            "name": " Nivi Rhombodazzle",
+            "pantheon": "Other Deities",
+            "alignment": "N",
+            "areas_of_concern": "Gems, stealth, gambling",
+            "domains": "Community, Earth, Luck, Trickery",
+            "favored_weapon": "Light hammer",
+            "frequency": "5"
+        },
+        {
+            "name": " Sivanah",
+            "pantheon": "Other Deities",
+            "alignment": "N",
+            "areas_of_concern": "Illusions, mystery, reflections",
+            "domains": "Knowledge, Madness, Magic, Rune, Trickery",
+            "favored_weapon": "Bladed scarf",
+            "frequency": "5"
+        },
+        {
+            "name": " Ashukharma",
+            "pantheon": "Other Deities",
+            "alignment": "CN",
+            "areas_of_concern": "Canyons, cliffs, gorges, and ravines",
+            "domains": "Chaos, Earth, Protection, Strength",
+            "favored_weapon": "Greatsword",
+            "frequency": "5"
+        },
+        {
+            "name": " Besmara",
+            "pantheon": "Other Deities",
+            "alignment": "CN",
+            "areas_of_concern": "Piracy, sea monsters, strife",
+            "domains": "Chaos, Trickery, War, Water, Weather",
+            "favored_weapon": "Rapier",
+            "frequency": "5"
+        },
+        {
+            "name": " Groetus",
+            "pantheon": "Other Deities",
+            "alignment": "CN",
+            "areas_of_concern": "Empty places, oblivion, ruins",
+            "domains": "Chaos, Darkness, Destruction, Madness, Void",
+            "favored_weapon": "Heavy flail",
+            "frequency": "5"
+        },
+        {
+            "name": " Hanspur",
+            "pantheon": "Other Deities",
+            "alignment": "CN",
+            "areas_of_concern": "River travel, rivers, smugglers",
+            "domains": "Chaos, Death, Travel, Water",
+            "favored_weapon": "Trident",
+            "frequency": "5"
+        },
+        {
+            "name": "Nocticula (Redeemed)",
+            "pantheon": "Other Deities",
+            "alignment": "CN",
+            "areas_of_concern": "Artists, exiles, midnight",
+            "domains": "Artifice, Chaos, Darkness, Travel, Void",
+            "favored_weapon": "dagger",
+            "frequency": "5"
+        },
+        {
+            "name": "Speakers of the Depths",
+            "pantheon": "Other Deities",
+            "alignment": "CN",
+            "areas_of_concern": "Chaos, creation, and destruction",
+            "domains": "Artifice, Chaos, Destruction, Madness, Water",
+            "favored_weapon": "Sickle",
+            "frequency": "5"
+        },
+        {
+            "name": " Achaekek",
+            "pantheon": "Other Deities",
+            "alignment": "LE",
+            "areas_of_concern": "Assassinations, divine punishment, the red mantis",
+            "domains": "Death, Evil, Law, Trickery, War",
+            "favored_weapon": "Sawtooth sabre",
+            "frequency": "5"
+        },
+        {
+            "name": "Dhalavei",
+            "pantheon": "Other Deities",
+            "alignment": "LE",
+            "areas_of_concern": "Secrets, discord, eclipses",
+            "domains": "Destruction, Evil, Knowledge, Law, Trickery",
+            "favored_weapon": "Temple sword",
+            "frequency": "5"
+        },
+        {
+            "name": " Lissala",
+            "pantheon": "Other Deities",
+            "alignment": "LE",
+            "areas_of_concern": "Obedience, reward of service, runes",
+            "domains": "Evil, Knowledge, Law, Nobility, Rune",
+            "favored_weapon": "Whip",
+            "frequency": "5"
+        },
+        {
+            "name": "Ah Pook",
+            "pantheon": "Other Deities",
+            "alignment": "NE",
+            "areas_of_concern": "Death, destruction, and the moon",
+            "domains": "Darkness, Death, Destruction, Evil, Void",
+            "favored_weapon": "Terbutje",
+            "frequency": "5"
+        },
+        {
+            "name": " Ahriman",
+            "pantheon": "Other Deities",
+            "alignment": "NE",
+            "areas_of_concern": "Destruction, div, nihilism",
+            "domains": "Darkness, Death, Destruction, Evil",
+            "favored_weapon": "Whip",
+            "frequency": "5"
+        },
+        {
+            "name": " Alazhra",
+            "pantheon": "Other Deities",
+            "alignment": "NE",
+            "areas_of_concern": "Dreams, night hags, planar travel",
+            "domains": "Darkness, Evil, Repose, Travel",
+            "favored_weapon": "Dagger",
+            "frequency": "5"
+        },
+        {
+            "name": " Arazni",
+            "pantheon": "Other Deities",
+            "alignment": "NE",
+            "areas_of_concern": "Command of undeath, lichdom",
+            "domains": "Evil, Nobility, Protection",
+            "favored_weapon": "Rapier",
+            "frequency": "5"
+        },
+        {
+            "name": " Zyphus",
+            "pantheon": "Other Deities",
+            "alignment": "NE",
+            "areas_of_concern": "Accidental death, graveyards, tragedy",
+            "domains": "Death, Destruction, Evil, Plant, War",
+            "favored_weapon": "Heavy pick",
+            "frequency": "5"
+        },
+        {
+            "name": " Camazotz",
+            "pantheon": "Other Deities",
+            "alignment": "CE",
+            "areas_of_concern": "Bats, blood, caverns, nocturnal predators",
+            "domains": "Animal, Chaos, Darkness, Evil, Trickery",
+            "favored_weapon": "Javelin",
+            "frequency": "5"
+        },
+        {
+            "name": " Dahak",
+            "pantheon": "Other Deities",
+            "alignment": "CE",
+            "areas_of_concern": "Destruction, evil dragons, greed",
+            "domains": "Chaos, Destruction, Evil, Scalykind, Trickery",
+            "favored_weapon": "Bite or whip",
+            "frequency": "5"
+        },
+        {
+            "name": " Ghlaunder",
+            "pantheon": "Other Deities",
+            "alignment": "CE",
+            "areas_of_concern": "Infection, parasites, stagnation",
+            "domains": "Air, Animal, Chaos, Destruction, Evil",
+            "favored_weapon": "Spear",
+            "frequency": "5"
+        },
+        {
+            "name": " Gyronna",
+            "pantheon": "Other Deities",
+            "alignment": "CE",
+            "areas_of_concern": "Extortion, hatred, spite",
+            "domains": "Chaos, Destruction, Evil, Madness",
+            "favored_weapon": "Dagger",
+            "frequency": "5"
+        },
+        {
+            "name": " Kitumu",
+            "pantheon": "Other Deities",
+            "alignment": "CE",
+            "areas_of_concern": "Fireflies, hibernation, swarms",
+            "domains": "Animal, Chaos, Evil, War",
+            "favored_weapon": "Dagger",
+            "frequency": "5"
+        },
+        {
+            "name": " Ydersius",
+            "pantheon": "Other Deities",
+            "alignment": "CE",
+            "areas_of_concern": "Serpentfolk, immortality, poison",
+            "domains": "Chaos, Evil, Nobility, Scalykind, War",
+            "favored_weapon": "Dagger",
+            "frequency": "5"
+        },
+        {
+            "name": "Monad",
+            "pantheon": "Aeon",
+            "alignment": "N",
+            "areas_of_concern": "Creation, the infinite, and truth",
+            "domains": "Artifice, Darkness, Knowledge, Void",
+            "favored_weapon": "Unarmed strike",
+            "frequency": "5"
+        },
+        {
+            "name": " Baalzebul",
+            "pantheon": "Archdevils",
+            "alignment": "LE",
+            "areas_of_concern": "Arrogance, flies, lies",
+            "domains": "Air, Death, Evil, Law",
+            "favored_weapon": "Spear",
+            "frequency": "5"
+        },
+        {
+            "name": " Barbatos",
+            "pantheon": "Archdevils",
+            "alignment": "LE",
+            "areas_of_concern": "Animals, corruption, gateways",
+            "domains": "Evil, Law, Magic, Travel",
+            "favored_weapon": "Quarterstaff",
+            "frequency": "5"
+        },
+        {
+            "name": " Belial",
+            "pantheon": "Archdevils",
+            "alignment": "LE",
+            "areas_of_concern": "Adultery, deception, desire",
+            "domains": "Charm, Destruction, Evil, Law",
+            "favored_weapon": "Ranseur",
+            "frequency": "5"
+        },
+        {
+            "name": " Dispater",
+            "pantheon": "Archdevils",
+            "alignment": "LE",
+            "areas_of_concern": "Cities, prisons, rulership",
+            "domains": "Evil, Law, Nobility, Trickery",
+            "favored_weapon": "Heavy mace",
+            "frequency": "5"
+        },
+        {
+            "name": " Geryon",
+            "pantheon": "Archdevils",
+            "alignment": "LE",
+            "areas_of_concern": "Forbidden knowledge, heresy, snakes",
+            "domains": "Evil, Law, Strength, Water",
+            "favored_weapon": "Heavy flail",
+            "frequency": "5"
+        },
+        {
+            "name": " Mammon",
+            "pantheon": "Archdevils",
+            "alignment": "LE",
+            "areas_of_concern": "Avarice, watchfulness, wealth",
+            "domains": "Artifice, Earth, Evil, Law",
+            "favored_weapon": "Shortspear",
+            "frequency": "5"
+        },
+        {
+            "name": " Mephistopheles",
+            "pantheon": "Archdevils",
+            "alignment": "LE",
+            "areas_of_concern": "Contracts, devils, secrets",
+            "domains": "Evil, Knowledge, Law, Rune",
+            "favored_weapon": "Trident",
+            "frequency": "5"
+        },
+        {
+            "name": " Moloch",
+            "pantheon": "Archdevils",
+            "alignment": "LE",
+            "areas_of_concern": "Fire, obedience, war",
+            "domains": "Evil, Fire, Law, War",
+            "favored_weapon": "Whip",
+            "frequency": "5"
+        },
+        {
+            "name": "Andak",
+            "pantheon": "Asura Ranas",
+            "alignment": "LE",
+            "areas_of_concern": "Axes, dismemberment, torture",
+            "domains": "Death, Destruction, Evil, Law",
+            "favored_weapon": "Battleaxe",
+            "frequency": "5"
+        },
+        {
+            "name": "Bohga",
+            "pantheon": "Asura Ranas",
+            "alignment": "LE",
+            "areas_of_concern": "Avarice, meditation, vigilance",
+            "domains": "Evil, Law, Protection, Strength",
+            "favored_weapon": "Halberd",
+            "frequency": "5"
+        },
+        {
+            "name": "Chugarra",
+            "pantheon": "Asura Ranas",
+            "alignment": "LE",
+            "areas_of_concern": "Blood, butchers, leather",
+            "domains": "Death, Evil, Law, War",
+            "favored_weapon": "Handaxe",
+            "frequency": "5"
+        },
+        {
+            "name": "Chupurvagasti",
+            "pantheon": "Asura Ranas",
+            "alignment": "LE",
+            "areas_of_concern": "Mist, poison, veils",
+            "domains": "Air, Evil, Law, Trickery",
+            "favored_weapon": "Handaxe",
+            "frequency": "5"
+        },
+        {
+            "name": "Gavidya",
+            "pantheon": "Asura Ranas",
+            "alignment": "LE",
+            "areas_of_concern": "Corruption, indoctrination, lies",
+            "domains": "Community, Evil, Law, Trickery",
+            "favored_weapon": "Sap",
+            "frequency": "5"
+        },
+        {
+            "name": "Hydim",
+            "pantheon": "Asura Ranas",
+            "alignment": "LE",
+            "areas_of_concern": "Eternity, hunger, madness",
+            "domains": "Evil, Knowledge, Law, Madness",
+            "favored_weapon": "Kukri",
+            "frequency": "5"
+        },
+        {
+            "name": "Ioramvol",
+            "pantheon": "Asura Ranas",
+            "alignment": "LE",
+            "areas_of_concern": "Caverns, Cliffs, Premature Burials",
+            "domains": "Death, Earth, Evil, Law",
+            "favored_weapon": "Heavy pick",
+            "frequency": "5"
+        },
+        {
+            "name": "Maeha",
+            "pantheon": "Asura Ranas",
+            "alignment": "LE",
+            "areas_of_concern": "Abduction, isolation, propaganda",
+            "domains": "Darkness, Evil, Law, Void",
+            "favored_weapon": "Net",
+            "frequency": "5"
+        },
+        {
+            "name": "Onamahli",
+            "pantheon": "Asura Ranas",
+            "alignment": "LE",
+            "areas_of_concern": "Beauty, double standards, self-mutalation",
+            "domains": "Charm, Evil, Law, Madness",
+            "favored_weapon": "Urumi",
+            "frequency": "5"
+        },
+        {
+            "name": "Rahu",
+            "pantheon": "Asura Ranas",
+            "alignment": "LE",
+            "areas_of_concern": "Eclipses, Executions, Gluttony",
+            "domains": "Darkness, Death, Evil, Law",
+            "favored_weapon": "Morningstar",
+            "frequency": "5"
+        },
+        {
+            "name": "Rytara",
+            "pantheon": "Asura Ranas",
+            "alignment": "LE",
+            "areas_of_concern": "Fearful memories, serpents, vision",
+            "domains": "Evil, Knowledge, Law, Scalykind",
+            "favored_weapon": "Whip",
+            "frequency": "5"
+        },
+        {
+            "name": "Taraksun",
+            "pantheon": "Asura Ranas",
+            "alignment": "LE",
+            "areas_of_concern": "Anger, dreams, shattering of bonds",
+            "domains": "Evil, Law, Liberation, Madness",
+            "favored_weapon": "Warhammer",
+            "frequency": "5"
+        },
+        {
+            "name": "Zurapadyn",
+            "pantheon": "Asura Ranas",
+            "alignment": "LE",
+            "areas_of_concern": "Fire, injustice, vendetts",
+            "domains": "Destruction, Evil, Fire, Law",
+            "favored_weapon": "Kukri",
+            "frequency": "5"
+        },
+        {
+            "name": " Aesocar",
+            "pantheon": "Azlanti Pantheon",
+            "alignment": "LG",
+            "areas_of_concern": "Creation of life, health, and medicine",
+            "domains": "Artifice, Good, Healing, Law, Protection",
+            "favored_weapon": "Mancatcher",
+            "frequency": "5"
+        },
+        {
+            "name": " Myr",
+            "pantheon": "Azlanti Pantheon",
+            "alignment": "LG",
+            "areas_of_concern": "Charity, lineage, and physical perfection",
+            "domains": "Glory, Good, Law, Nobility, Strength",
+            "favored_weapon": "Longsword",
+            "frequency": "5"
+        },
+        {
+            "name": " Jaidi",
+            "pantheon": "Azlanti Pantheon",
+            "alignment": "NG",
+            "areas_of_concern": "Agriculture, hard work, and self-sufficiency",
+            "domains": "Animal, Glory, Good, Plant, Sun",
+            "favored_weapon": "Scythe",
+            "frequency": "5"
+        },
+        {
+            "name": "Shelyn (pre-Earthfall)",
+            "pantheon": "Azlanti Pantheon",
+            "alignment": "NG",
+            "areas_of_concern": "Art, beauty, love, and music",
+            "domains": "Air, Charm, Good, Luck, Protection",
+            "favored_weapon": "Dagger",
+            "frequency": "5"
+        },
+        {
+            "name": " Elion",
+            "pantheon": "Azlanti Pantheon",
+            "alignment": "CG",
+            "areas_of_concern": "Colonization, discovery, and exploration",
+            "domains": "Chaos, Community, Good, Travel, Weather",
+            "favored_weapon": "Longbow",
+            "frequency": "5"
+        },
+        {
+            "name": "Amaznen",
+            "pantheon": "Azlanti Pantheon",
+            "alignment": "LN",
+            "areas_of_concern": "Invention, magic, and secret knowledge",
+            "domains": "Artifice, Knowledge, Law, Magic, Protection",
+            "favored_weapon": "light hammer",
+            "frequency": "5"
+        },
+        {
+            "name": "Lissala (pre-Earthfall)",
+            "pantheon": "Azlanti Pantheon",
+            "alignment": "LN",
+            "areas_of_concern": "Duty, fate, reward for service, and runes",
+            "domains": "Knowledge, Law, Nobility, Rune",
+            "favored_weapon": "Whip",
+            "frequency": "5"
+        },
+        {
+            "name": " Onos",
+            "pantheon": "Azlanti Pantheon",
+            "alignment": "N",
+            "areas_of_concern": "Elements, embassies, and extraplanar travel",
+            "domains": "Air, Earth, Fire, Travel, Water",
+            "favored_weapon": "Chakram",
+            "frequency": "5"
+        },
+        {
+            "name": "Acavna",
+            "pantheon": "Azlanti Pantheon",
+            "alignment": "CN",
+            "areas_of_concern": "Companionship, defensive battle, and the moon",
+            "domains": "Chaos, Darkness, Protection, Repose, War",
+            "favored_weapon": "Spear",
+            "frequency": "5"
+        },
+        {
+            "name": " Sicva",
+            "pantheon": "Azlanti Pantheon",
+            "alignment": "LE",
+            "areas_of_concern": "Domination, invasive species, and oppression",
+            "domains": "Animal, Evil, Law, Nobility, Strength",
+            "favored_weapon": "Lasso",
+            "frequency": "5"
+        },
+        {
+            "name": " Scal",
+            "pantheon": "Azlanti Pantheon",
+            "alignment": "NE",
+            "areas_of_concern": "Annihilation, catharsis, and purity",
+            "domains": "Destruction, Earth, Evil, Liberation, Void",
+            "favored_weapon": "Meteor hammer",
+            "frequency": "5"
+        },
+        {
+            "name": " Ulon",
+            "pantheon": "Azlanti Pantheon",
+            "alignment": "NE",
+            "areas_of_concern": "Conspiracy, isolation, and manipulation",
+            "domains": "Charm, Community, Evil, Knowledge, Trickery",
+            "favored_weapon": "Hand crossbow",
+            "frequency": "5"
+        },
+        {
+            "name": "Aesdurath",
+            "pantheon": "Daemon Harbingers",
+            "alignment": "NE",
+            "areas_of_concern": "Immortality, liches, magical catastrophes",
+            "domains": "Death, Evil, Magic, Trickery",
+            "favored_weapon": "Dagger",
+            "frequency": "5"
+        },
+        {
+            "name": "Ajids",
+            "pantheon": "Daemon Harbingers",
+            "alignment": "NE",
+            "areas_of_concern": "Mutilation, skinning, trophy taking",
+            "domains": "Death, Evil, Madness, War",
+            "favored_weapon": "War razor",
+            "frequency": "5"
+        },
+        {
+            "name": "Anogetz",
+            "pantheon": "Daemon Harbingers",
+            "alignment": "NE",
+            "areas_of_concern": "Animal attacks, coups, revolution",
+            "domains": "Animal, Destruction, Evil, Liberation",
+            "favored_weapon": "Spiked gauntlet",
+            "frequency": "5"
+        },
+        {
+            "name": "Arlachramas",
+            "pantheon": "Daemon Harbingers",
+            "alignment": "NE",
+            "areas_of_concern": "Dehumanization, disposal, euthanasia",
+            "domains": "Community, Death, Evil, Strength",
+            "favored_weapon": "Warhammer",
+            "frequency": "5"
+        },
+        {
+            "name": "Braismois",
+            "pantheon": "Daemon Harbingers",
+            "alignment": "NE",
+            "areas_of_concern": "Broken deals, fine print, unfair bargains",
+            "domains": "Evil, Knowledge, Rune, Trickery",
+            "favored_weapon": "Light mace",
+            "frequency": "5"
+        },
+        {
+            "name": "Cixyron",
+            "pantheon": "Daemon Harbingers",
+            "alignment": "NE",
+            "areas_of_concern": "Electricity, gunpowder, poisonous metals",
+            "domains": "Artifice, Earth, Evil, Knowledge",
+            "favored_weapon": "Musket",
+            "frequency": "5"
+        },
+        {
+            "name": "Corosbel",
+            "pantheon": "Daemon Harbingers",
+            "alignment": "NE",
+            "areas_of_concern": "Failed martyrdom, false worship, ritual death",
+            "domains": "Death, Evil, Repose, Trickery",
+            "favored_weapon": "Dagger",
+            "frequency": "5"
+        },
+        {
+            "name": "Diceid",
+            "pantheon": "Daemon Harbingers",
+            "alignment": "NE",
+            "areas_of_concern": "Invasive species, extinction, natural disaster",
+            "domains": "Animal, Evil, Plant, Weather",
+            "favored_weapon": "Scythe",
+            "frequency": "5"
+        },
+        {
+            "name": "Ealdeez",
+            "pantheon": "Daemon Harbingers",
+            "alignment": "NE",
+            "areas_of_concern": "Regression, reversion, savage revenge",
+            "domains": "Animal, Destruction, Evil, Strength",
+            "favored_weapon": "Greatclub",
+            "frequency": "5"
+        },
+        {
+            "name": "Folca",
+            "pantheon": "Daemon Harbingers",
+            "alignment": "NE",
+            "areas_of_concern": "Abduction, strangers, sweets",
+            "domains": "Charm, Evil, Travel, Trickery",
+            "favored_weapon": "Net",
+            "frequency": "5"
+        },
+        {
+            "name": "Geon",
+            "pantheon": "Daemon Harbingers",
+            "alignment": "NE",
+            "areas_of_concern": "Nightmares, quartering, trampling",
+            "domains": "Air, Evil, Fire, Travel",
+            "favored_weapon": "Lance",
+            "frequency": "5"
+        },
+        {
+            "name": "Hastrikhal",
+            "pantheon": "Daemon Harbingers",
+            "alignment": "NE",
+            "areas_of_concern": "Explosions, immolation, pyromaniacs",
+            "domains": "Destruction, Fire, Evil, Madness",
+            "favored_weapon": "Spear",
+            "frequency": "5"
+        },
+        {
+            "name": "Jacarkas",
+            "pantheon": "Daemon Harbingers",
+            "alignment": "NE",
+            "areas_of_concern": "Hobbling, lobotomizing, slavery",
+            "domains": "Death, Destruction, Evil, Nobility",
+            "favored_weapon": "Bolas",
+            "frequency": "5"
+        },
+        {
+            "name": "Laivatiniel",
+            "pantheon": "Daemon Harbingers",
+            "alignment": "NE",
+            "areas_of_concern": "Anxiety, coddling, unhealthy parental love",
+            "domains": "Charm, Evil, Madness, Trickery",
+            "favored_weapon": "Light crossbow",
+            "frequency": "5"
+        },
+        {
+            "name": "Llamolaek",
+            "pantheon": "Daemon Harbingers",
+            "alignment": "NE",
+            "areas_of_concern": "Rebirth, rites of passage, transformation",
+            "domains": "Air, Evil, Liberation, Strength",
+            "favored_weapon": "Whip",
+            "frequency": "5"
+        },
+        {
+            "name": "Mneoc",
+            "pantheon": "Daemon Harbingers",
+            "alignment": "NE",
+            "areas_of_concern": "Aging pains, organ failure, senility",
+            "domains": "Death, Evil, Liberation, Rune",
+            "favored_weapon": "Dagger",
+            "frequency": "5"
+        },
+        {
+            "name": "Nalmungder",
+            "pantheon": "Daemon Harbingers",
+            "alignment": "NE",
+            "areas_of_concern": "Basements, closets, delusions of safety",
+            "domains": "Darkness, Earth, Evil, Trickery",
+            "favored_weapon": "Sickle",
+            "frequency": "5"
+        },
+        {
+            "name": "Osolmyr",
+            "pantheon": "Daemon Harbingers",
+            "alignment": "NE",
+            "areas_of_concern": "Flagellation, repression, self denial",
+            "domains": "Evil, Glory, Healing, Madness",
+            "favored_weapon": "Flail",
+            "frequency": "5"
+        },
+        {
+            "name": "Pavnuri",
+            "pantheon": "Daemon Harbingers",
+            "alignment": "NE",
+            "areas_of_concern": "Cacodaemons, cannibalism, secret messages",
+            "domains": "Death, Evil, Knowledge, Travel",
+            "favored_weapon": "Morningstar",
+            "frequency": "5"
+        },
+        {
+            "name": "Roqorolos",
+            "pantheon": "Daemon Harbingers",
+            "alignment": "NE",
+            "areas_of_concern": "Castaways, fouled water, oceans",
+            "domains": "Evil, Travel, Water, Weather",
+            "favored_weapon": "Net",
+            "frequency": "5"
+        },
+        {
+            "name": "Ruapceras",
+            "pantheon": "Daemon Harbingers",
+            "alignment": "NE",
+            "areas_of_concern": "Cyclical revenge, crusades, intolerance",
+            "domains": "Evil, Nobility, Strength, War",
+            "favored_weapon": "Heavy flail",
+            "frequency": "5"
+        },
+        {
+            "name": "Slandrais",
+            "pantheon": "Daemon Harbingers",
+            "alignment": "NE",
+            "areas_of_concern": "Lechery, love potions, obsession",
+            "domains": "Darkness, Evil, Knowledge, Magic",
+            "favored_weapon": "Shortbow",
+            "frequency": "5"
+        },
+        {
+            "name": "Stygidvod",
+            "pantheon": "Daemon Harbingers",
+            "alignment": "NE",
+            "areas_of_concern": "Fear of aging, radical routes to immortality, wills",
+            "domains": "Artifice, Evil, Knowledge, Rune",
+            "favored_weapon": "Quarterstaff",
+            "frequency": "5"
+        },
+        {
+            "name": "Tamede",
+            "pantheon": "Daemon Harbingers",
+            "alignment": "NE",
+            "areas_of_concern": "Fungi, infected wounds, rot",
+            "domains": "Destruction, Evil, Plant, War",
+            "favored_weapon": "Sickle",
+            "frequency": "5"
+        },
+        {
+            "name": "Tresmalvos",
+            "pantheon": "Daemon Harbingers",
+            "alignment": "NE",
+            "areas_of_concern": "Cesspools, rat catchers, sewers",
+            "domains": "Animal, Darkness, Evil, Water",
+            "favored_weapon": "Halberd",
+            "frequency": "5"
+        },
+        {
+            "name": "Uaransaph",
+            "pantheon": "Daemon Harbingers",
+            "alignment": "NE",
+            "areas_of_concern": "Falling, nonmagical flight, projectiles",
+            "domains": "Air, Evil, Luck, Void",
+            "favored_weapon": "Repeating crossbow",
+            "frequency": "5"
+        },
+        {
+            "name": "Vorasha",
+            "pantheon": "Daemon Harbingers",
+            "alignment": "NE",
+            "areas_of_concern": "Incurable afflictions, poison, toxicity",
+            "domains": "Evil, Magic, Scalykind, Water",
+            "favored_weapon": "Spiked chain",
+            "frequency": "5"
+        },
+        {
+            "name": "Xsistaid",
+            "pantheon": "Daemon Harbingers",
+            "alignment": "NE",
+            "areas_of_concern": "Maggots, myiasis, parasites",
+            "domains": "Animal, Charm, Destruction, Evil",
+            "favored_weapon": "Dart",
+            "frequency": "5"
+        },
+        {
+            "name": "Zaigasnar",
+            "pantheon": "Daemon Harbingers",
+            "alignment": "NE",
+            "areas_of_concern": "Body modification, destructive vanity, pins",
+            "domains": "Charm, Destruction, Evil, Liberation",
+            "favored_weapon": "Javelin",
+            "frequency": "5"
+        },
+        {
+            "name": "Zelishkar",
+            "pantheon": "Daemon Harbingers",
+            "alignment": "NE",
+            "areas_of_concern": "Arson, burning alive, cremation",
+            "domains": "Animal, Evil, Fire, War",
+            "favored_weapon": "Ranseur",
+            "frequency": "5"
+        },
+        {
+            "name": "Aroden",
+            "pantheon": "Dead Deities",
+            "alignment": "LN",
+            "areas_of_concern": "Humanity, innovation, history, culture, and fulfillment of destiny",
+            "domains": "Community, Glory, Knowledge, Law, Protection",
+            "favored_weapon": "Longsword",
+            "frequency": "5"
+        },
+        {
+            "name": " Osiris",
+            "pantheon": "Deities of Ancient Osirion",
+            "alignment": "LG",
+            "areas_of_concern": "Afterlife, fertility, rebirth, resurrection",
+            "domains": "Good, Healing, Law, Plant, Repose",
+            "favored_weapon": "Flail",
+            "frequency": "5"
+        },
+        {
+            "name": " Wadjet",
+            "pantheon": "Deities of Ancient Osirion",
+            "alignment": "LG",
+            "areas_of_concern": "Good serpents, the River Sphinx, wisdom",
+            "domains": "Good, Law, Protection, Travel, Water",
+            "favored_weapon": "Light mace",
+            "frequency": "5"
+        },
+        {
+            "name": " Bes",
+            "pantheon": "Deities of Ancient Osirion",
+            "alignment": "NG",
+            "areas_of_concern": "Households, luck, marriage, protection",
+            "domains": "Community, Earth, Good, Luck, Protection",
+            "favored_weapon": "Hunga munga",
+            "frequency": "5"
+        },
+        {
+            "name": " Isis",
+            "pantheon": "Deities of Ancient Osirion",
+            "alignment": "NG",
+            "areas_of_concern": "Fertility, magic, motherhood, rebirth",
+            "domains": "Charm, Community, Good, Healing, Magic",
+            "favored_weapon": "Quarterstaff",
+            "frequency": "5"
+        },
+        {
+            "name": " Khepri",
+            "pantheon": "Deities of Ancient Osirion",
+            "alignment": "NG",
+            "areas_of_concern": "Freedom, the rising sun, work",
+            "domains": "Artifice, Good, Liberation, Sun, Trickery",
+            "favored_weapon": "Sling",
+            "frequency": "5"
+        },
+        {
+            "name": " Neith",
+            "pantheon": "Deities of Ancient Osirion",
+            "alignment": "NG",
+            "areas_of_concern": "Hunting, war, weaving",
+            "domains": "Animal, Artifice, Good, War, Water",
+            "favored_weapon": "Shortbow",
+            "frequency": "5"
+        },
+        {
+            "name": " Hathor",
+            "pantheon": "Deities of Ancient Osirion",
+            "alignment": "CG",
+            "areas_of_concern": "Dance, joy, love, music, the sky",
+            "domains": "Air, Chaos, Charm, Good, Travel",
+            "favored_weapon": "Short sword",
+            "frequency": "5"
+        },
+        {
+            "name": " Selket",
+            "pantheon": "Deities of Ancient Osirion",
+            "alignment": "CG",
+            "areas_of_concern": "Embalming, healing, scorpions",
+            "domains": "Chaos, Good, Healing, Protection, Repose",
+            "favored_weapon": "Scorpion whip",
+            "frequency": "5"
+        },
+        {
+            "name": " Anubis",
+            "pantheon": "Deities of Ancient Osirion",
+            "alignment": "LN",
+            "areas_of_concern": "Burial, the dead, funeral rites, mummification, tombs",
+            "domains": "Death, Earth, Law, Protection, Repose",
+            "favored_weapon": "Flail",
+            "frequency": "5"
+        },
+        {
+            "name": " Horus",
+            "pantheon": "Deities of Ancient Osirion",
+            "alignment": "LN",
+            "areas_of_concern": "Rulership, the sky, the sun",
+            "domains": "Air, Animal, Law, Nobility, Sun",
+            "favored_weapon": "Khopesh",
+            "frequency": "5"
+        },
+        {
+            "name": " Maat",
+            "pantheon": "Deities of Ancient Osirion",
+            "alignment": "LN",
+            "areas_of_concern": "Justice, law, order, truth",
+            "domains": "Knowledge, Law, Protection, Void, Weather",
+            "favored_weapon": "Starknife",
+            "frequency": "5"
+        },
+        {
+            "name": " Ra",
+            "pantheon": "Deities of Ancient Osirion",
+            "alignment": "LN",
+            "areas_of_concern": "Creation, rulership, the sun",
+            "domains": "Fire, Glory, Law, Nobility, Sun",
+            "favored_weapon": "Spear",
+            "frequency": "5"
+        },
+        {
+            "name": " Thoth",
+            "pantheon": "Deities of Ancient Osirion",
+            "alignment": "LN",
+            "areas_of_concern": "Magic, the moon, wisdom, writing",
+            "domains": "Darkness, Knowledge, Law, Magic, Rune",
+            "favored_weapon": "Sickle",
+            "frequency": "5"
+        },
+        {
+            "name": " Ptah",
+            "pantheon": "Deities of Ancient Osirion",
+            "alignment": "N",
+            "areas_of_concern": "Architecture, craftsmanship, creation, metalworking",
+            "domains": "Artifice, Earth, Fire, Knowledge, Travel",
+            "favored_weapon": "Quarterstaff",
+            "frequency": "5"
+        },
+        {
+            "name": " Bastet",
+            "pantheon": "Deities of Ancient Osirion",
+            "alignment": "CN",
+            "areas_of_concern": "Cats, pleasure, secrets",
+            "domains": "Animal, Chaos, Charm, Protection, Trickery",
+            "favored_weapon": "Cat's claws (tekko-kagi)",
+            "frequency": "5"
+        },
+        {
+            "name": " Nephthys",
+            "pantheon": "Deities of Ancient Osirion",
+            "alignment": "CN",
+            "areas_of_concern": "Mourning, night, protection of the dead",
+            "domains": "Chaos, Charm, Community, Darkness, Protection",
+            "favored_weapon": "Light mace",
+            "frequency": "5"
+        },
+        {
+            "name": " Sekhmet",
+            "pantheon": "Deities of Ancient Osirion",
+            "alignment": "CN",
+            "areas_of_concern": "Fire, healing, vengeance, war",
+            "domains": "Chaos, Destruction, Fire, Healing, War",
+            "favored_weapon": "Battleaxe",
+            "frequency": "5"
+        },
+        {
+            "name": " Sobek",
+            "pantheon": "Deities of Ancient Osirion",
+            "alignment": "CN",
+            "areas_of_concern": "Crocodiles, fertility, military prowess, rivers",
+            "domains": "Chaos, Scalykind, Strength, War, Water",
+            "favored_weapon": "Falchion",
+            "frequency": "5"
+        },
+        {
+            "name": " Set",
+            "pantheon": "Deities of Ancient Osirion",
+            "alignment": "NE",
+            "areas_of_concern": "Darkness, deserts, murder, storms",
+            "domains": "Darkness, Death, Evil, Madness, Weather",
+            "favored_weapon": "Spear",
+            "frequency": "5"
+        },
+        {
+            "name": " Apep",
+            "pantheon": "Deities of Ancient Osirion",
+            "alignment": "CE",
+            "areas_of_concern": "Chaos, darkness, destruction, snakes",
+            "domains": "Chaos, Darkness, Destruction, Evil, Scalykind",
+            "favored_weapon": "Dagger",
+            "frequency": "5"
+        },
+        {
+            "name": " Shizuru",
+            "pantheon": "Deities of Tian Xia",
+            "alignment": "LG",
+            "areas_of_concern": "Ancestors, honor, the sun, swordplay",
+            "domains": "Glory, Good, Law, Repose, Sun",
+            "favored_weapon": "Katana",
+            "frequency": "5"
+        },
+        {
+            "name": " Tsukiyo",
+            "pantheon": "Deities of Tian Xia",
+            "alignment": "LG",
+            "areas_of_concern": "Jade, the moon, spirits",
+            "domains": "Darkness, Good, Law, Madness, Repose",
+            "favored_weapon": "Longspear",
+            "frequency": "5"
+        },
+        {
+            "name": " Qi Zhong",
+            "pantheon": "Deities of Tian Xia",
+            "alignment": "NG",
+            "areas_of_concern": "Healing, magic, medicine",
+            "domains": "Good, Healing, Knowledge, Magic, Protection",
+            "favored_weapon": "Heavy mace",
+            "frequency": "5"
+        },
+        {
+            "name": " Kofusachi",
+            "pantheon": "Deities of Tian Xia",
+            "alignment": "CG",
+            "areas_of_concern": "Abundance, discovery, happiness, prosperity",
+            "domains": "Chaos, Charm, Good, Luck, Travel",
+            "favored_weapon": "Bo staff",
+            "frequency": "5"
+        },
+        {
+            "name": " Daikitsu",
+            "pantheon": "Deities of Tian Xia",
+            "alignment": "N",
+            "areas_of_concern": "Agriculture, craftsmanship, kitsune, rice",
+            "domains": "Animal, Artifice, Community, Plant, Weather",
+            "favored_weapon": "Flail",
+            "frequency": "5"
+        },
+        {
+            "name": " Nalinivati",
+            "pantheon": "Deities of Tian Xia",
+            "alignment": "N",
+            "areas_of_concern": "Fertility, nagaji, snakes, sorcery",
+            "domains": "Charm, Magic, Nobility, Rune, Scalykind",
+            "favored_weapon": "Urumi",
+            "frequency": "5"
+        },
+        {
+            "name": " Yamatsumi",
+            "pantheon": "Deities of Tian Xia",
+            "alignment": "N",
+            "areas_of_concern": "Mountains, volcanoes, winter",
+            "domains": "Earth, Fire, Protection, Strength, Water",
+            "favored_weapon": "Tetsubo",
+            "frequency": "5"
+        },
+        {
+            "name": " Hei Feng",
+            "pantheon": "Deities of Tian Xia",
+            "alignment": "CN",
+            "areas_of_concern": "Sea, storms, thunder, wind",
+            "domains": "Air, Chaos, Destruction, Water, Weather",
+            "favored_weapon": "Nine-ring broadsword",
+            "frequency": "5"
+        },
+        {
+            "name": " Sun Wukong",
+            "pantheon": "Deities of Tian Xia",
+            "alignment": "CN",
+            "areas_of_concern": "Drunkenness, nature, trickery",
+            "domains": "Animal, Chaos, Liberation, Travel, Trickery",
+            "favored_weapon": "Quarterstaff",
+            "frequency": "5"
+        },
+        {
+            "name": " General Susumu",
+            "pantheon": "Deities of Tian Xia",
+            "alignment": "LE",
+            "areas_of_concern": "Archery, horses, personal glory, war",
+            "domains": "Evil, Glory, Law, Nobility, War",
+            "favored_weapon": "Longbow",
+            "frequency": "5"
+        },
+        {
+            "name": " Yaezhing",
+            "pantheon": "Deities of Tian Xia",
+            "alignment": "LE",
+            "areas_of_concern": "Harsh justice, murder, punishment",
+            "domains": "Artifice, Death, Evil, Law, Trickery",
+            "favored_weapon": "Shuriken",
+            "frequency": "5"
+        },
+        {
+            "name": " Fumeiyoshi",
+            "pantheon": "Deities of Tian Xia",
+            "alignment": "NE",
+            "areas_of_concern": "Dishonor, envy, graves, undead",
+            "domains": "Death, Destruction, Evil, Repose, War",
+            "favored_weapon": "Naginata",
+            "frequency": "5"
+        },
+        {
+            "name": " Lao Shu Po",
+            "pantheon": "Deities of Tian Xia",
+            "alignment": "NE",
+            "areas_of_concern": "Night, rats, thieves",
+            "domains": "Animal, Darkness, Evil, Luck, Trickery",
+            "favored_weapon": "Dagger",
+            "frequency": "5"
+        },
+        {
+            "name": " Lady Nanbyo",
+            "pantheon": "Deities of Tian Xia",
+            "alignment": "CE",
+            "areas_of_concern": "Earthquakes, fire, plague, suffering",
+            "domains": "Chaos, Destruction, Evil, Fire, Plant",
+            "favored_weapon": "Warhammer",
+            "frequency": "5"
+        },
+        {
+            "name": " Abraxas",
+            "pantheon": "Demon Lords",
+            "alignment": "CE",
+            "areas_of_concern": "Forbidden lore, magic, snakes",
+            "domains": "Chaos, Evil, Knowledge, Magic",
+            "favored_weapon": "Whip",
+            "frequency": "5"
+        },
+        {
+            "name": " Aldinach",
+            "pantheon": "Demon Lords",
+            "alignment": "CE",
+            "areas_of_concern": "Sand, scorpions, thirst",
+            "domains": "Animal, Chaos, Evil, Sun",
+            "favored_weapon": "Kukri",
+            "frequency": "5"
+        },
+        {
+            "name": " Andirifkhu",
+            "pantheon": "Demon Lords",
+            "alignment": "CE",
+            "areas_of_concern": "Knives, illusions, traps",
+            "domains": "Chaos, Evil, Luck, Trickery",
+            "favored_weapon": "Kukri",
+            "frequency": "5"
+        },
+        {
+            "name": " Angazhan",
+            "pantheon": "Demon Lords",
+            "alignment": "CE",
+            "areas_of_concern": "Apes, jungles, tyrants",
+            "domains": "Animal, Chaos, Evil, Plant",
+            "favored_weapon": "Spear",
+            "frequency": "5"
+        },
+        {
+            "name": " Areshkagal",
+            "pantheon": "Demon Lords",
+            "alignment": "CE",
+            "areas_of_concern": "Greed, portals, riddles",
+            "domains": "Air, Chaos, Evil, Trickery",
+            "favored_weapon": "Sickle",
+            "frequency": "5"
+        },
+        {
+            "name": " Baphomet",
+            "pantheon": "Demon Lords",
+            "alignment": "CE",
+            "areas_of_concern": "Beasts, labyrinths, minotaurs",
+            "domains": "Animal, Chaos, Evil, Strength",
+            "favored_weapon": "Glaive",
+            "frequency": "5"
+        },
+        {
+            "name": " Cyth-V'sug",
+            "pantheon": "Demon Lords",
+            "alignment": "CE",
+            "areas_of_concern": "Disease, fungus, parasites",
+            "domains": "Chaos, Earth, Evil, Plant",
+            "favored_weapon": "Scimitar",
+            "frequency": "5"
+        },
+        {
+            "name": " Dagon",
+            "pantheon": "Demon Lords",
+            "alignment": "CE",
+            "areas_of_concern": "Deformity, sea monsters, the sea",
+            "domains": "Chaos, Destruction, Evil, Water",
+            "favored_weapon": "Trident",
+            "frequency": "5"
+        },
+        {
+            "name": " Deskari",
+            "pantheon": "Demon Lords",
+            "alignment": "CE",
+            "areas_of_concern": "Chasms, infestations, locusts",
+            "domains": "Chaos, Destruction, Evil, War",
+            "favored_weapon": "Scythe",
+            "frequency": "5"
+        },
+        {
+            "name": " Flauros",
+            "pantheon": "Demon Lords",
+            "alignment": "CE",
+            "areas_of_concern": "Fire, salamanders, volcanoes",
+            "domains": "Chaos, Evil, Fire, War",
+            "favored_weapon": "Spear",
+            "frequency": "5"
+        },
+        {
+            "name": " Gogunta",
+            "pantheon": "Demon Lords",
+            "alignment": "CE",
+            "areas_of_concern": "Amphibians, boggards, swamps",
+            "domains": "Chaos, Death, Evil, Water",
+            "favored_weapon": "Whip",
+            "frequency": "5"
+        },
+        {
+            "name": " Haagenti",
+            "pantheon": "Demon Lords",
+            "alignment": "CE",
+            "areas_of_concern": "Alchemy, invention, transformation",
+            "domains": "Artifice, Chaos, Evil, Strength",
+            "favored_weapon": "Battleaxe",
+            "frequency": "5"
+        },
+        {
+            "name": " Jezelda",
+            "pantheon": "Demon Lords",
+            "alignment": "CE",
+            "areas_of_concern": "Desolation, the moon, werewolves",
+            "domains": "Animal, Chaos, Evil, Trickery",
+            "favored_weapon": "Scimitar",
+            "frequency": "5"
+        },
+        {
+            "name": " Jubilex",
+            "pantheon": "Demon Lords",
+            "alignment": "CE",
+            "areas_of_concern": "Ooze, poison, sloth",
+            "domains": "Chaos, Destruction, Evil, Water",
+            "favored_weapon": "Heavy mace",
+            "frequency": "5"
+        },
+        {
+            "name": " Kabriri",
+            "pantheon": "Demon Lords",
+            "alignment": "CE",
+            "areas_of_concern": "Ghouls, graves, secrets kept by the dead",
+            "domains": "Chaos, Death, Evil, Knowledge",
+            "favored_weapon": "Flail",
+            "frequency": "5"
+        },
+        {
+            "name": " Kostchtchie",
+            "pantheon": "Demon Lords",
+            "alignment": "CE",
+            "areas_of_concern": "Cold, giants, revenge",
+            "domains": "Chaos, Evil, Strength, War",
+            "favored_weapon": "Warhammer",
+            "frequency": "5"
+        },
+        {
+            "name": " Mazmezz",
+            "pantheon": "Demon Lords",
+            "alignment": "CE",
+            "areas_of_concern": "Bindings, driders, vermin",
+            "domains": "Animal, Chaos, Destruction, Evil",
+            "favored_weapon": "Net",
+            "frequency": "5"
+        },
+        {
+            "name": " Mestama",
+            "pantheon": "Demon Lords",
+            "alignment": "CE",
+            "areas_of_concern": "Cruelty, deception, hags",
+            "domains": "Chaos, Charm, Evil, Trickery",
+            "favored_weapon": "Punching dagger",
+            "frequency": "5"
+        },
+        {
+            "name": " Nocticula",
+            "pantheon": "Demon Lords",
+            "alignment": "CE",
+            "areas_of_concern": "Assassins, darkness, lust",
+            "domains": "Chaos, Charm, Darkness, Evil",
+            "favored_weapon": "Hand crossbow",
+            "frequency": "5"
+        },
+        {
+            "name": " Nurgal",
+            "pantheon": "Demon Lords",
+            "alignment": "CE",
+            "areas_of_concern": "Deserts, senseless warfare, the sun",
+            "domains": "Chaos, Evil, Fire, Sun",
+            "favored_weapon": "Heavy mace",
+            "frequency": "5"
+        },
+        {
+            "name": " Orcus",
+            "pantheon": "Demon Lords",
+            "alignment": "CE",
+            "areas_of_concern": "Death, necromancy, wrath",
+            "domains": "Chaos, Death, Evil, Magic",
+            "favored_weapon": "Heavy mace",
+            "frequency": "5"
+        },
+        {
+            "name": " Pazuzu",
+            "pantheon": "Demon Lords",
+            "alignment": "CE",
+            "areas_of_concern": "The sky, temptation, winged creatures",
+            "domains": "Air, Chaos, Evil, Trickery",
+            "favored_weapon": "Longsword",
+            "frequency": "5"
+        },
+        {
+            "name": " Shax",
+            "pantheon": "Demon Lords",
+            "alignment": "CE",
+            "areas_of_concern": "Envy, lies, murder",
+            "domains": "Chaos, Destruction, Evil, Nobility",
+            "favored_weapon": "Dagger",
+            "frequency": "5"
+        },
+        {
+            "name": " Shivaska",
+            "pantheon": "Demon Lords",
+            "alignment": "CE",
+            "areas_of_concern": "Aberrations, clocks, prisons",
+            "domains": "Chaos, Darkness, Evil, Madness",
+            "favored_weapon": "Heavy flail",
+            "frequency": "5"
+        },
+        {
+            "name": " Sifkesh",
+            "pantheon": "Demon Lords",
+            "alignment": "CE",
+            "areas_of_concern": "Despair, heresy, suicide",
+            "domains": "Chaos, Evil, Madness, Trickery",
+            "favored_weapon": "War razor",
+            "frequency": "5"
+        },
+        {
+            "name": " Socothbenoth",
+            "pantheon": "Demon Lords",
+            "alignment": "CE",
+            "areas_of_concern": "Perversion, pride, taboos",
+            "domains": "Chaos, Charm, Evil, Travel",
+            "favored_weapon": "Quarterstaff",
+            "frequency": "5"
+        },
+        {
+            "name": " Urxehl",
+            "pantheon": "Demon Lords",
+            "alignment": "CE",
+            "areas_of_concern": "Natural disasters, storms, trolls",
+            "domains": "Chaos, Evil, Fire, Weather",
+            "favored_weapon": "Greatclub",
+            "frequency": "5"
+        },
+        {
+            "name": " Xoveron",
+            "pantheon": "Demon Lords",
+            "alignment": "CE",
+            "areas_of_concern": "Gargoyles, gluttony, ruins",
+            "domains": "Chaos, Earth, Evil, Strength",
+            "favored_weapon": "Ranseur",
+            "frequency": "5"
+        },
+        {
+            "name": " Yhidothrus",
+            "pantheon": "Demon Lords",
+            "alignment": "CE",
+            "areas_of_concern": "Age, time, worms",
+            "domains": "Chaos, Death, Evil, Repose",
+            "favored_weapon": "Spiked chain",
+            "frequency": "5"
+        },
+        {
+            "name": " Zevgavizeb",
+            "pantheon": "Demon Lords",
+            "alignment": "CE",
+            "areas_of_concern": "Caverns, reptiles, troglodytes",
+            "domains": "Animal, Chaos, Evil, Strength",
+            "favored_weapon": "Spiked gauntlet",
+            "frequency": "5"
+        },
+        {
+            "name": " Zura",
+            "pantheon": "Demon Lords",
+            "alignment": "CE",
+            "areas_of_concern": "Blood, cannibalism, vampires",
+            "domains": "Chaos, Death, Evil, Madness",
+            "favored_weapon": "Rapier",
+            "frequency": "5"
+        },
+        {
+            "name": " Angradd",
+            "pantheon": "Dwarven Deities",
+            "alignment": "LG",
+            "areas_of_concern": "Fire, tradition, war",
+            "domains": "Fire, Good, Law, War",
+            "favored_weapon": "Greataxe",
+            "frequency": "5"
+        },
+        {
+            "name": " Folgrit",
+            "pantheon": "Dwarven Deities",
+            "alignment": "LG",
+            "areas_of_concern": "Children, hearths, mothers",
+            "domains": "Community, Law, Nobility, Good",
+            "favored_weapon": "Quarterstaff",
+            "frequency": "5"
+        },
+        {
+            "name": " Grundinnar",
+            "pantheon": "Dwarven Deities",
+            "alignment": "LG",
+            "areas_of_concern": "Friendship, loyalty, peace",
+            "domains": "Community, Good, Law, Protection",
+            "favored_weapon": "Hammer",
+            "frequency": "5"
+        },
+        {
+            "name": " Bolka",
+            "pantheon": "Dwarven Deities",
+            "alignment": "NG",
+            "areas_of_concern": "Beauty, desire, love",
+            "domains": "Charm, Community, Good, Healing",
+            "favored_weapon": "Mace",
+            "frequency": "5"
+        },
+        {
+            "name": " Trudd",
+            "pantheon": "Dwarven Deities",
+            "alignment": "NG",
+            "areas_of_concern": "Bravery, defense, strength",
+            "domains": "Good, Nobility, Protection, Strength",
+            "favored_weapon": "Warhammer",
+            "frequency": "5"
+        },
+        {
+            "name": " Dranngvit",
+            "pantheon": "Dwarven Deities",
+            "alignment": "LN",
+            "areas_of_concern": "Debt, pursuit, vengeance",
+            "domains": "Knowledge, Law, Strength, Travel",
+            "favored_weapon": "Light pick",
+            "frequency": "5"
+        },
+        {
+            "name": " Kols",
+            "pantheon": "Dwarven Deities",
+            "alignment": "LN",
+            "areas_of_concern": "Duty, honor, promises",
+            "domains": "Glory, Law, Nobility, Strength",
+            "favored_weapon": "Hammer",
+            "frequency": "5"
+        },
+        {
+            "name": " Magrim",
+            "pantheon": "Dwarven Deities",
+            "alignment": "LN",
+            "areas_of_concern": "Death, fate, underworld",
+            "domains": "Earth, Law, Repose, Rune",
+            "favored_weapon": "Hammer",
+            "frequency": "5"
+        },
+        {
+            "name": " Droskar",
+            "pantheon": "Dwarven Deities",
+            "alignment": "NE",
+            "areas_of_concern": "Cheating, slavery, toil",
+            "domains": "Artifice, Charm, Darkness, Evil, Trickery",
+            "favored_weapon": "Light hammer",
+            "frequency": "5"
+        },
+        {
+            "name": " Imbrex",
+            "pantheon": "Eldest",
+            "alignment": "LN",
+            "areas_of_concern": "Endings, statues, twins",
+            "domains": "Community, Earth, Law, Strength",
+            "favored_weapon": "Dire flail",
+            "frequency": "5"
+        },
+        {
+            "name": " Magdh",
+            "pantheon": "Eldest",
+            "alignment": "LN",
+            "areas_of_concern": "Complexity, fate, triplets",
+            "domains": "Knowledge, Law, Luck, Rune",
+            "favored_weapon": "Scythe",
+            "frequency": "5"
+        },
+        {
+            "name": " Ng",
+            "pantheon": "Eldest",
+            "alignment": "N",
+            "areas_of_concern": "Seasons, secrets, wanderers",
+            "domains": "Knowledge, Magic, Travel, Weather",
+            "favored_weapon": "Gauntlet",
+            "frequency": "5"
+        },
+        {
+            "name": " Shyka",
+            "pantheon": "Eldest",
+            "alignment": "N",
+            "areas_of_concern": "Entropy, reincarnation, time",
+            "domains": "Death, Destruction, Madness, Magic",
+            "favored_weapon": "Light mace",
+            "frequency": "5"
+        },
+        {
+            "name": " The Lost Prince",
+            "pantheon": "Eldest",
+            "alignment": "N",
+            "areas_of_concern": "Forgotten things, sadness, solitude",
+            "domains": "Knowledge, Madness, Nobility, Repose",
+            "favored_weapon": "Quarterstaff",
+            "frequency": "5"
+        },
+        {
+            "name": " Count Ranalc",
+            "pantheon": "Eldest",
+            "alignment": "CN",
+            "areas_of_concern": "Betrayal, exiles, shadows",
+            "domains": "Chaos, Darkness, Nobility, Travel",
+            "favored_weapon": "Rapier",
+            "frequency": "5"
+        },
+        {
+            "name": " The Lantern King",
+            "pantheon": "Eldest",
+            "alignment": "CN",
+            "areas_of_concern": "Laughter, mischief, transformation",
+            "domains": "Charm, Chaos, Madness, Trickery",
+            "favored_weapon": "Dagger",
+            "frequency": "5"
+        },
+        {
+            "name": " The Green Mother",
+            "pantheon": "Eldest",
+            "alignment": "NE",
+            "areas_of_concern": "Carnivorous plants, intrigue, seduction",
+            "domains": "Charm, Earth, Evil, Plant",
+            "favored_weapon": "Sickle",
+            "frequency": "5"
+        },
+        {
+            "name": " Ragadahn",
+            "pantheon": "Eldest",
+            "alignment": "CE",
+            "areas_of_concern": "Linnorms, oceans, spirals",
+            "domains": "Chaos, Evil, Scalykind, Water",
+            "favored_weapon": "Whip",
+            "frequency": "5"
+        },
+        {
+            "name": " Ayrzul",
+            "pantheon": "Elemental Lords",
+            "alignment": "NE",
+            "areas_of_concern": "Buried secrets, earth, metal",
+            "domains": "Destruction, Earth, Evil, Strength",
+            "favored_weapon": "Morningstar",
+            "frequency": "5"
+        },
+        {
+            "name": " Hshurha",
+            "pantheon": "Elemental Lords",
+            "alignment": "NE",
+            "areas_of_concern": "Air, last breaths, windstorms",
+            "domains": "Air, Destruction, Evil, Weather",
+            "favored_weapon": "Longbow",
+            "frequency": "5"
+        },
+        {
+            "name": " Kelizandri",
+            "pantheon": "Elemental Lords",
+            "alignment": "NE",
+            "areas_of_concern": "Drowning, water, waves",
+            "domains": "Destruction, Evil, Travel, Water",
+            "favored_weapon": "Trident",
+            "frequency": "5"
+        },
+        {
+            "name": " Ymeri",
+            "pantheon": "Elemental Lords",
+            "alignment": "NE",
+            "areas_of_concern": "Deserts, fire, volcanoes",
+            "domains": "Destruction, Evil, Fire, War",
+            "favored_weapon": "Longsword",
+            "frequency": "5"
+        },
+        {
+            "name": " Yuelral",
+            "pantheon": "Elven Deities",
+            "alignment": "NG",
+            "areas_of_concern": "Crystals, jewelers, magic",
+            "domains": "Artifice, Earth, Good, Knowledge, Magic",
+            "favored_weapon": "Dagger",
+            "frequency": "5"
+        },
+        {
+            "name": " Findeladlara",
+            "pantheon": "Elven Deities",
+            "alignment": "CG",
+            "areas_of_concern": "Architecture, art, twilight",
+            "domains": "Air, Artifice, Chaos, Community, Good",
+            "favored_weapon": "Quarterstaff",
+            "frequency": "5"
+        },
+        {
+            "name": " Ketephys",
+            "pantheon": "Elven Deities",
+            "alignment": "CG",
+            "areas_of_concern": "Forestry, hunting, the moon",
+            "domains": "Animal, Chaos, Good, Plant, Weather",
+            "favored_weapon": "Bow",
+            "frequency": "5"
+        },
+        {
+            "name": " Andoletta",
+            "pantheon": "Empyreal Lords",
+            "alignment": "LG",
+            "areas_of_concern": "Consolation, respect, security",
+            "domains": "Good, Knowledge, Law, Protection",
+            "favored_weapon": "Quarterstaff",
+            "frequency": "5"
+        },
+        {
+            "name": " Arqueros",
+            "pantheon": "Empyreal Lords",
+            "alignment": "LG",
+            "areas_of_concern": "Bodyguards, protection, watchfulness",
+            "domains": "Good, Law, Protection, War",
+            "favored_weapon": "Longspear",
+            "frequency": "5"
+        },
+        {
+            "name": " Damerrich",
+            "pantheon": "Empyreal Lords",
+            "alignment": "LG",
+            "areas_of_concern": "Executions, judiciousness, responsibility",
+            "domains": "Death, Glory, Good, Law",
+            "favored_weapon": "Greataxe",
+            "frequency": "5"
+        },
+        {
+            "name": " Eldas",
+            "pantheon": "Empyreal Lords",
+            "alignment": "LG",
+            "areas_of_concern": "Architecture, masonry, planning",
+            "domains": "Artifice, Earth, Good, Law",
+            "favored_weapon": "Light pick",
+            "frequency": "5"
+        },
+        {
+            "name": " Falayna",
+            "pantheon": "Empyreal Lords",
+            "alignment": "LG",
+            "areas_of_concern": "Femininity, martial training, rings",
+            "domains": "Good, Law, Liberation, Strength",
+            "favored_weapon": "Longsword",
+            "frequency": "5"
+        },
+        {
+            "name": " Ghenshau",
+            "pantheon": "Empyreal Lords",
+            "alignment": "LG",
+            "areas_of_concern": "Ignorance, placidity, simplicity",
+            "domains": "Community, Good, Law, Repose",
+            "favored_weapon": "Handaxe",
+            "frequency": "5"
+        },
+        {
+            "name": " Kelinahat",
+            "pantheon": "Empyreal Lords",
+            "alignment": "LG",
+            "areas_of_concern": "Intelligence, spies, stealth",
+            "domains": "Darkness, Good, Knowledge, Law",
+            "favored_weapon": "Short sword",
+            "frequency": "5"
+        },
+        {
+            "name": " Kroina",
+            "pantheon": "Empyreal Lords",
+            "alignment": "LG",
+            "areas_of_concern": "Divination, eyes, instincts",
+            "domains": "Good, Knowledge, Law, Magic",
+            "favored_weapon": "Longbow",
+            "frequency": "5"
+        },
+        {
+            "name": " Lymnieris",
+            "pantheon": "Empyreal Lords",
+            "alignment": "LG",
+            "areas_of_concern": "Prostitution, rites of passage, virginity",
+            "domains": "Community, Good, Law, Protection",
+            "favored_weapon": "Longsword",
+            "frequency": "5"
+        },
+        {
+            "name": " Neshen",
+            "pantheon": "Empyreal Lords",
+            "alignment": "LG",
+            "areas_of_concern": "Penitence, repentance, suffering",
+            "domains": "Good, Law, Liberation, Strength",
+            "favored_weapon": "Ranseur",
+            "frequency": "5"
+        },
+        {
+            "name": " Olheon",
+            "pantheon": "Empyreal Lords",
+            "alignment": "LG",
+            "areas_of_concern": "Deservedness, nobility, rulership",
+            "domains": "Good, Law, Nobility, Protection",
+            "favored_weapon": "Halberd",
+            "frequency": "5"
+        },
+        {
+            "name": " Ragathiel",
+            "pantheon": "Empyreal Lords",
+            "alignment": "LG",
+            "areas_of_concern": "Chivalry, duty, vengeance",
+            "domains": "Destruction, Good, Law, Nobility",
+            "favored_weapon": "Bastard sword",
+            "frequency": "5"
+        },
+        {
+            "name": " Smiad",
+            "pantheon": "Empyreal Lords",
+            "alignment": "LG",
+            "areas_of_concern": "Dragon-hunting, honor, renown",
+            "domains": "Good, Law, Nobility, War",
+            "favored_weapon": "Greatsword",
+            "frequency": "5"
+        },
+        {
+            "name": " Svarozic",
+            "pantheon": "Empyreal Lords",
+            "alignment": "LG",
+            "areas_of_concern": "Ingenuity, parenthood, refinement",
+            "domains": "Community, Fire, Good, Law",
+            "favored_weapon": "Scythe",
+            "frequency": "5"
+        },
+        {
+            "name": " Tanagaar",
+            "pantheon": "Empyreal Lords",
+            "alignment": "LG",
+            "areas_of_concern": "Night, owls, watchfulness",
+            "domains": "Animal, Darkness, Good, Law",
+            "favored_weapon": "Kukri",
+            "frequency": "5"
+        },
+        {
+            "name": " Vildeis",
+            "pantheon": "Empyreal Lords",
+            "alignment": "LG",
+            "areas_of_concern": "Devotion, sacrifice, scars",
+            "domains": "Destruction, Good, Healing, Law",
+            "favored_weapon": "Dagger",
+            "frequency": "5"
+        },
+        {
+            "name": " Winlas",
+            "pantheon": "Empyreal Lords",
+            "alignment": "LG",
+            "areas_of_concern": "Ceremonies, religiousness, service",
+            "domains": "Good, Knowledge, Law, Protection",
+            "favored_weapon": "Heavy mace",
+            "frequency": "5"
+        },
+        {
+            "name": " Zohls",
+            "pantheon": "Empyreal Lords",
+            "alignment": "LG",
+            "areas_of_concern": "Determination, investigation, truth",
+            "domains": "Good, Knowledge, Law, Travel",
+            "favored_weapon": "Heavy crossbow",
+            "frequency": "5"
+        },
+        {
+            "name": " Arshea",
+            "pantheon": "Empyreal Lords",
+            "alignment": "NG",
+            "areas_of_concern": "Freedom, physical beauty, sexuality",
+            "domains": "Charm, Good, Liberation, Strength",
+            "favored_weapon": "Flail",
+            "frequency": "5"
+        },
+        {
+            "name": " Benorus",
+            "pantheon": "Empyreal Lords",
+            "alignment": "NG",
+            "areas_of_concern": "Hidden wonders, mines, subterranean creatures",
+            "domains": "Darkness, Earth, Good, Rune",
+            "favored_weapon": "Heavy mace",
+            "frequency": "5"
+        },
+        {
+            "name": " Bharnarol",
+            "pantheon": "Empyreal Lords",
+            "alignment": "NG",
+            "areas_of_concern": "Creativity, invention, persistence",
+            "domains": "Artifice, Community, Good, Knowledge",
+            "favored_weapon": "Sickle",
+            "frequency": "5"
+        },
+        {
+            "name": " Dalenydra",
+            "pantheon": "Empyreal Lords",
+            "alignment": "NG",
+            "areas_of_concern": "Battlefield healing, caregiving, sanctuaries",
+            "domains": "Good, Healing, Protection, Repose",
+            "favored_weapon": "Light mace",
+            "frequency": "5"
+        },
+        {
+            "name": " Eritrice",
+            "pantheon": "Empyreal Lords",
+            "alignment": "NG",
+            "areas_of_concern": "Debate, opinions, truth",
+            "domains": "Charm, Good, Knowledge, Nobility",
+            "favored_weapon": "Dagger",
+            "frequency": "5"
+        },
+        {
+            "name": " Halcamora",
+            "pantheon": "Empyreal Lords",
+            "alignment": "NG",
+            "areas_of_concern": "Gardens, orchards, wine",
+            "domains": "Good, Luck, Plant, Weather",
+            "favored_weapon": "Club",
+            "frequency": "5"
+        },
+        {
+            "name": " Irez",
+            "pantheon": "Empyreal Lords",
+            "alignment": "NG",
+            "areas_of_concern": "Cards, scribes, spells",
+            "domains": "Good, Luck, Magic, Rune",
+            "favored_weapon": "Dart",
+            "frequency": "5"
+        },
+        {
+            "name": " Jaidz",
+            "pantheon": "Empyreal Lords",
+            "alignment": "NG",
+            "areas_of_concern": "Cowards, the untested, youths",
+            "domains": "Glory, Good, Protection, Travel",
+            "favored_weapon": "Short sword",
+            "frequency": "5"
+        },
+        {
+            "name": " Korada",
+            "pantheon": "Empyreal Lords",
+            "alignment": "NG",
+            "areas_of_concern": "Foresight, forgiveness, peace",
+            "domains": "Good, Healing, Magic, Protection",
+            "favored_weapon": "Unarmed strike",
+            "frequency": "5"
+        },
+        {
+            "name": " Lorris",
+            "pantheon": "Empyreal Lords",
+            "alignment": "NG",
+            "areas_of_concern": "Charity, the disadvantaged, volunteering",
+            "domains": "Community, Good, Liberation, Protection",
+            "favored_weapon": "Shortspear",
+            "frequency": "5"
+        },
+        {
+            "name": " Lythertida",
+            "pantheon": "Empyreal Lords",
+            "alignment": "NG",
+            "areas_of_concern": "Idealism, potential, young death",
+            "domains": "Community, Death, Good, Healing",
+            "favored_weapon": "Unarmed strike",
+            "frequency": "5"
+        },
+        {
+            "name": " Ondisso",
+            "pantheon": "Empyreal Lords",
+            "alignment": "NG",
+            "areas_of_concern": "Elevation, incorruptibility, resisting temptation",
+            "domains": "Good, Liberation, Protection, Strength",
+            "favored_weapon": "Light crossbow",
+            "frequency": "5"
+        },
+        {
+            "name": " Rowdrosh",
+            "pantheon": "Empyreal Lords",
+            "alignment": "NG",
+            "areas_of_concern": "Herd animals, husbandry, shepherds",
+            "domains": "Animal, Good, Protection, Travel",
+            "favored_weapon": "Quarterstaff",
+            "frequency": "5"
+        },
+        {
+            "name": " Seramaydiel",
+            "pantheon": "Empyreal Lords",
+            "alignment": "NG",
+            "areas_of_concern": "Communication, inspiration, music",
+            "domains": "Air, Charm, Good, Nobility",
+            "favored_weapon": "Blowgun",
+            "frequency": "5"
+        },
+        {
+            "name": " Shei",
+            "pantheon": "Empyreal Lords",
+            "alignment": "NG",
+            "areas_of_concern": "Age, life, self-actualization",
+            "domains": "Community, Good, Healing, Liberation",
+            "favored_weapon": "Sickle",
+            "frequency": "5"
+        },
+        {
+            "name": " Soralyon",
+            "pantheon": "Empyreal Lords",
+            "alignment": "NG",
+            "areas_of_concern": "Guardians, magic, monuments",
+            "domains": "Artifice, Earth, Good, Protection",
+            "favored_weapon": "Heavy pick",
+            "frequency": "5"
+        },
+        {
+            "name": " Uskyeria",
+            "pantheon": "Empyreal Lords",
+            "alignment": "NG",
+            "areas_of_concern": "Hunting, prudence, slumber",
+            "domains": "Animal, Good, Repose, Strength",
+            "favored_weapon": "Scimitar",
+            "frequency": "5"
+        },
+        {
+            "name": " Ylimancha",
+            "pantheon": "Empyreal Lords",
+            "alignment": "NG",
+            "areas_of_concern": "Coastal waters, fisherfolk, flying creatures",
+            "domains": "Air, Animal, Good, Water",
+            "favored_weapon": "Longbow",
+            "frequency": "5"
+        },
+        {
+            "name": " Ashava",
+            "pantheon": "Empyreal Lords",
+            "alignment": "CG",
+            "areas_of_concern": "Dancers, lonely spirits, moonlight",
+            "domains": "Chaos, Darkness, Good, Repose",
+            "favored_weapon": "Bladed scarf",
+            "frequency": "5"
+        },
+        {
+            "name": " Black Butterfly",
+            "pantheon": "Empyreal Lords",
+            "alignment": "CG",
+            "areas_of_concern": "Distance, silence, space",
+            "domains": "Chaos, Good, Liberation, Void",
+            "favored_weapon": "Starknife",
+            "frequency": "5"
+        },
+        {
+            "name": " Cernunnos",
+            "pantheon": "Empyreal Lords",
+            "alignment": "CG",
+            "areas_of_concern": "Fertility, seasons, wild animals",
+            "domains": "Animal, Chaos, Good, Plant",
+            "favored_weapon": "Longbow",
+            "frequency": "5"
+        },
+        {
+            "name": " Chadali",
+            "pantheon": "Empyreal Lords",
+            "alignment": "CG",
+            "areas_of_concern": "Fate, safety, serendipity",
+            "domains": "Chaos, Good, Luck, Protection",
+            "favored_weapon": "Net",
+            "frequency": "5"
+        },
+        {
+            "name": " Chucaro",
+            "pantheon": "Empyreal Lords",
+            "alignment": "CG",
+            "areas_of_concern": "Dreams, hallucinations, mists",
+            "domains": "Chaos, Good, Madness, Magic",
+            "favored_weapon": "Morningstar",
+            "frequency": "5"
+        },
+        {
+            "name": " Hembad",
+            "pantheon": "Empyreal Lords",
+            "alignment": "CG",
+            "areas_of_concern": "Connections, matchmaking, synergy",
+            "domains": "Chaos, Charm, Good, Luck",
+            "favored_weapon": "Spiked chain",
+            "frequency": "5"
+        },
+        {
+            "name": " Immonhiel",
+            "pantheon": "Empyreal Lords",
+            "alignment": "CG",
+            "areas_of_concern": "Herbs, medicine, toads",
+            "domains": "Chaos, Good, Healing, Plant",
+            "favored_weapon": "Handaxe",
+            "frequency": "5"
+        },
+        {
+            "name": " Jalaijatali",
+            "pantheon": "Empyreal Lords",
+            "alignment": "CG",
+            "areas_of_concern": "Natural music, rapids, waterfalls",
+            "domains": "Chaos, Good, Scalykind, Water",
+            "favored_weapon": "Whip",
+            "frequency": "5"
+        },
+        {
+            "name": " Keltheald",
+            "pantheon": "Empyreal Lords",
+            "alignment": "CG",
+            "areas_of_concern": "Natural formations, sunsets, vistas",
+            "domains": "Chaos, Good, Sun, Travel",
+            "favored_weapon": "Halberd",
+            "frequency": "5"
+        },
+        {
+            "name": " Lalaci",
+            "pantheon": "Empyreal Lords",
+            "alignment": "CG",
+            "areas_of_concern": "Rainbows, relaxation, shade",
+            "domains": "Chaos, Good, Luck, Sun",
+            "favored_weapon": "Sling",
+            "frequency": "5"
+        },
+        {
+            "name": " Marishi",
+            "pantheon": "Empyreal Lords",
+            "alignment": "CG",
+            "areas_of_concern": "Athletics, contests, sports",
+            "domains": "Chaos, Good, Healing, Strength",
+            "favored_weapon": "Spiked gauntlet",
+            "frequency": "5"
+        },
+        {
+            "name": " Picoperi",
+            "pantheon": "Empyreal Lords",
+            "alignment": "CG",
+            "areas_of_concern": "Jokes, pranks, surprises",
+            "domains": "Chaos, Charm, Good, Trickery",
+            "favored_weapon": "Blowgun",
+            "frequency": "5"
+        },
+        {
+            "name": " Pulura",
+            "pantheon": "Empyreal Lords",
+            "alignment": "CG",
+            "areas_of_concern": "Constellations, homesickness, northern lights",
+            "domains": "Air, Chaos, Good, Weather",
+            "favored_weapon": "Sling",
+            "frequency": "5"
+        },
+        {
+            "name": " Reymenda",
+            "pantheon": "Empyreal Lords",
+            "alignment": "CG",
+            "areas_of_concern": "Childlessness, endings, responsibility",
+            "domains": "Chaos, Destruction, Good, Healing",
+            "favored_weapon": "Falchion",
+            "frequency": "5"
+        },
+        {
+            "name": " Sinashakti",
+            "pantheon": "Empyreal Lords",
+            "alignment": "CG",
+            "areas_of_concern": "Journeys, joy, messengers",
+            "domains": "Chaos, Good, Luck, Travel",
+            "favored_weapon": "Shortbow",
+            "frequency": "5"
+        },
+        {
+            "name": " Thisamet",
+            "pantheon": "Empyreal Lords",
+            "alignment": "CG",
+            "areas_of_concern": "Celebrations, feasts, holidays",
+            "domains": "Chaos, Community, Fire, Good",
+            "favored_weapon": "Short sword",
+            "frequency": "5"
+        },
+        {
+            "name": " Tolc",
+            "pantheon": "Empyreal Lords",
+            "alignment": "CG",
+            "areas_of_concern": "Cold, frozen wilds, survival",
+            "domains": "Chaos, Good, Travel, Water",
+            "favored_weapon": "Javelin",
+            "frequency": "5"
+        },
+        {
+            "name": " Valani",
+            "pantheon": "Empyreal Lords",
+            "alignment": "CG",
+            "areas_of_concern": "Change, growth, primal forces",
+            "domains": "Chaos, Earth, Good, Weather",
+            "favored_weapon": "Club",
+            "frequency": "5"
+        },
+        {
+            "name": " Aegirran",
+            "pantheon": "Giant Deities",
+            "alignment": "NG",
+            "areas_of_concern": "Dreams, sailing, voyages",
+            "domains": "Good, Travel, Water, Weather",
+            "favored_weapon": "Trident",
+            "frequency": "5"
+        },
+        {
+            "name": " Bergelmir",
+            "pantheon": "Giant Deities",
+            "alignment": "CG",
+            "areas_of_concern": "Elders, family, genealogy",
+            "domains": "Chaos, Community, Good, Knowledge",
+            "favored_weapon": "Quarterstaff",
+            "frequency": "5"
+        },
+        {
+            "name": " Skode",
+            "pantheon": "Giant Deities",
+            "alignment": "CG",
+            "areas_of_concern": "Diurnal beasts, hunting evil, trophies",
+            "domains": "Chaos, Glory, Good, Sun",
+            "favored_weapon": "Longbow",
+            "frequency": "5"
+        },
+        {
+            "name": " Skrymir",
+            "pantheon": "Giant Deities",
+            "alignment": "CG",
+            "areas_of_concern": "Riddles, wanderlust, wit",
+            "domains": "Chaos, Good, Magic, Trickery",
+            "favored_weapon": "Rapier",
+            "frequency": "5"
+        },
+        {
+            "name": " Fandarra",
+            "pantheon": "Giant Deities",
+            "alignment": "N",
+            "areas_of_concern": "Cycle of life, earth, knowledge",
+            "domains": "Community, Death, Earth, Knowledge, Plant",
+            "favored_weapon": "Stone dagger",
+            "frequency": "5"
+        },
+        {
+            "name": " Tjasse",
+            "pantheon": "Giant Deities",
+            "alignment": "CN",
+            "areas_of_concern": "Giant birds, mountain peaks, pride",
+            "domains": "Air, Animal, Chaos, Destruction",
+            "favored_weapon": "Spear",
+            "frequency": "5"
+        },
+        {
+            "name": " Minderhal",
+            "pantheon": "Giant Deities",
+            "alignment": "LE",
+            "areas_of_concern": "Creation, justice, giants, strength",
+            "domains": "Artifice, Earth, Evil, Law, Strength",
+            "favored_weapon": "Warhammer",
+            "frequency": "5"
+        },
+        {
+            "name": " Zursvaater",
+            "pantheon": "Giant Deities",
+            "alignment": "LE",
+            "areas_of_concern": "Conquest, slavery, weapons",
+            "domains": "Evil, Fire, Law, Trickery, War",
+            "favored_weapon": "Greatsword",
+            "frequency": "5"
+        },
+        {
+            "name": " Haggakal",
+            "pantheon": "Giant Deities",
+            "alignment": "CE",
+            "areas_of_concern": "Darkness, inbreeding, ogres",
+            "domains": "Chaos, Evil, Madness, Strength",
+            "favored_weapon": "Greatclub",
+            "frequency": "5"
+        },
+        {
+            "name": " Thremyr",
+            "pantheon": "Giant Deities",
+            "alignment": "CE",
+            "areas_of_concern": "Ice, salt, tribute",
+            "domains": "Chaos, Evil, War, Water",
+            "favored_weapon": "Greataxe",
+            "frequency": "5"
+        },
+        {
+            "name": " Urazra",
+            "pantheon": "Giant Deities",
+            "alignment": "CE",
+            "areas_of_concern": "Battle, brutality, strength",
+            "domains": "Animal, Chaos, Evil, Strength, War",
+            "favored_weapon": "Spiked gauntlet",
+            "frequency": "5"
+        },
+        {
+            "name": " Hadregash",
+            "pantheon": "Goblin Hero-Gods",
+            "alignment": "LE",
+            "areas_of_concern": "Goblin supremacy, slavery, territory",
+            "domains": "Evil, Law, Strength, War",
+            "favored_weapon": "Flail",
+            "frequency": "5"
+        },
+        {
+            "name": " Venkelvore",
+            "pantheon": "Goblin Hero-Gods",
+            "alignment": "NE",
+            "areas_of_concern": "Famine, graves, torture",
+            "domains": "Death, Destruction, Earth, Evil",
+            "favored_weapon": "Spear",
+            "frequency": "5"
+        },
+        {
+            "name": " Zarongel",
+            "pantheon": "Goblin Hero-Gods",
+            "alignment": "NE",
+            "areas_of_concern": "Dog killing, fire, mounted combat",
+            "domains": "Animal, Evil, Fire, Travel",
+            "favored_weapon": "Dogslicer",
+            "frequency": "5"
+        },
+        {
+            "name": " Zogmugot",
+            "pantheon": "Goblin Hero-Gods",
+            "alignment": "CE",
+            "areas_of_concern": "Drowning, flotsam, scavenging",
+            "domains": "Chaos, Evil, Trickery, Water",
+            "favored_weapon": "Sickle",
+            "frequency": "5"
+        },
+        {
+            "name": "Bokrug",
+            "pantheon": "Great Old Ones",
+            "alignment": "CN",
+            "areas_of_concern": "Revenge, storms, water",
+            "domains": "Chaos, Destruction, Water, Weather",
+            "favored_weapon": "Ranseur",
+            "frequency": "5"
+        },
+        {
+            "name": "Mhar",
+            "pantheon": "Great Old Ones",
+            "alignment": "CN",
+            "areas_of_concern": "Caverns, mountains, volcanoes",
+            "domains": "Chaos, Destruction, Earth, Fire",
+            "favored_weapon": "Heavy pick",
+            "frequency": "5"
+        },
+        {
+            "name": "Yig",
+            "pantheon": "Great Old Ones",
+            "alignment": "CN",
+            "areas_of_concern": "Cycles, procreation, serpents",
+            "domains": "Chaos, Community, Protection, Scalykind",
+            "favored_weapon": "Punching dagger",
+            "frequency": "5"
+        },
+        {
+            "name": "Atlach-Nacha",
+            "pantheon": "Great Old Ones",
+            "alignment": "NE",
+            "areas_of_concern": "Construction, futility, spiders",
+            "domains": "Artifice, Evil, Madness, Void",
+            "favored_weapon": "Net",
+            "frequency": "5"
+        },
+        {
+            "name": "Ghatanothoa",
+            "pantheon": "Great Old Ones",
+            "alignment": "NE",
+            "areas_of_concern": "Disasters, lost islands, sacrifice",
+            "domains": "Destruction, Evil, Madness, Water",
+            "favored_weapon": "Morningstar",
+            "frequency": "5"
+        },
+        {
+            "name": "Xhamen-Dor",
+            "pantheon": "Great Old Ones",
+            "alignment": "NE",
+            "areas_of_concern": "Decay, parasites, transformation",
+            "domains": "Death, Evil, Plant, Trickery",
+            "favored_weapon": "Spear",
+            "frequency": "5"
+        },
+        {
+            "name": "Chaugnar Faugn",
+            "pantheon": "Great Old Ones",
+            "alignment": "CE",
+            "areas_of_concern": "Blood, patience, remote hill country",
+            "domains": "Chaos, Death, Evil, War",
+            "favored_weapon": "Light pick",
+            "frequency": "5"
+        },
+        {
+            "name": "Cthulhu",
+            "pantheon": "Great Old Ones",
+            "alignment": "CE",
+            "areas_of_concern": "Cataclysms, dreams, the stars",
+            "domains": "Chaos, Evil, Madness, Void",
+            "favored_weapon": "Dagger",
+            "frequency": "5"
+        },
+        {
+            "name": "Hastur",
+            "pantheon": "Great Old Ones",
+            "alignment": "CE",
+            "areas_of_concern": "Decadence, disorder, nihilism",
+            "domains": "Chaos, Evil, Rune, Void",
+            "favored_weapon": "Rapier",
+            "frequency": "5"
+        },
+        {
+            "name": "Ithaqua",
+            "pantheon": "Great Old Ones",
+            "alignment": "CE",
+            "areas_of_concern": "Cannibalism, cold, the wind",
+            "domains": "Air, Chaos, Evil, Weather",
+            "favored_weapon": "Handaxe",
+            "frequency": "5"
+        },
+        {
+            "name": "Mordiggian",
+            "pantheon": "Great Old Ones",
+            "alignment": "CE",
+            "areas_of_concern": "Darkness, ghouls, voices of the dead",
+            "domains": "Chaos, Darkness, Death, Evil",
+            "favored_weapon": "Scimitar",
+            "frequency": "5"
+        },
+        {
+            "name": "Orgesh",
+            "pantheon": "Great Old Ones",
+            "alignment": "CE",
+            "areas_of_concern": "Alchemy, hunger, subterranean waterways",
+            "domains": "Chaos, Earth, Evil, Water",
+            "favored_weapon": "Spear",
+            "frequency": "5"
+        },
+        {
+            "name": "Rhan-Tegoth",
+            "pantheon": "Great Old Ones",
+            "alignment": "CE",
+            "areas_of_concern": "Hibernation, immortality, ruin",
+            "domains": "Chaos, Evil, Repose, Void",
+            "favored_weapon": "Sickle",
+            "frequency": "5"
+        },
+        {
+            "name": "Tsathoggua",
+            "pantheon": "Great Old Ones",
+            "alignment": "CE",
+            "areas_of_concern": "Magic, outcasts, the underworld",
+            "domains": "Chaos, Evil, Knowledge, Magic",
+            "favored_weapon": "Short sword",
+            "frequency": "5"
+        },
+        {
+            "name": " Chaldira",
+            "pantheon": "Halfling Deities",
+            "alignment": "NG",
+            "areas_of_concern": "Battle, luck, mischief",
+            "domains": "Good, Luck, Trickery, War",
+            "favored_weapon": "Short sword",
+            "frequency": "5"
+        },
+        {
+            "name": " Thamir Gixx",
+            "pantheon": "Halfling Deities",
+            "alignment": "CE",
+            "areas_of_concern": "Greed, opportunity, thievery",
+            "domains": "Chaos, Evil, Nobility, Trickery",
+            "favored_weapon": "Dagger",
+            "frequency": "5"
+        },
+        {
+            "name": " Apollyon",
+            "pantheon": "Horsemen",
+            "alignment": "NE",
+            "areas_of_concern": "Pestilence",
+            "domains": "Air, Darkness, Destruction, Evil",
+            "favored_weapon": "Scythe",
+            "frequency": "5"
+        },
+        {
+            "name": " Charon",
+            "pantheon": "Horsemen",
+            "alignment": "NE",
+            "areas_of_concern": "Death",
+            "domains": "Death, Evil, Knowledge, Water",
+            "favored_weapon": "Quarterstaff",
+            "frequency": "5"
+        },
+        {
+            "name": " Szuriel",
+            "pantheon": "Horsemen",
+            "alignment": "NE",
+            "areas_of_concern": "War",
+            "domains": "Evil, Fire, Strength, War",
+            "favored_weapon": "Greatsword",
+            "frequency": "5"
+        },
+        {
+            "name": " Trelmarixian",
+            "pantheon": "Horsemen",
+            "alignment": "NE",
+            "areas_of_concern": "Famine",
+            "domains": "Earth, Evil, Madness, Weather",
+            "favored_weapon": "Spiked gauntlet",
+            "frequency": "5"
+        },
+        {
+            "name": "Chinostes (Good Aspect)",
+            "pantheon": "Iblydan Hero-Gods",
+            "alignment": "NG",
+            "areas_of_concern": "Tragedy, sacrifice",
+            "domains": "Good, Luck, Nobility",
+            "favored_weapon": "dagger",
+            "frequency": "5"
+        },
+        {
+            "name": " Kelksiomides",
+            "pantheon": "Iblydan Hero-Gods",
+            "alignment": "NG",
+            "areas_of_concern": "Hero-god of gardens, orchards, and terraces",
+            "domains": "Good, Plant",
+            "favored_weapon": "Sickle",
+            "frequency": "5"
+        },
+        {
+            "name": "Upion and Warrik",
+            "pantheon": "Iblydan Hero-Gods",
+            "alignment": "NG",
+            "areas_of_concern": "Promises, shield-bearers",
+            "domains": "Charm, Good, Protection",
+            "favored_weapon": "none",
+            "frequency": "5"
+        },
+        {
+            "name": " Psomeira",
+            "pantheon": "Iblydan Hero-Gods",
+            "alignment": "LN",
+            "areas_of_concern": "Hero-god of seasons and spears",
+            "domains": "Law, War, Weather",
+            "favored_weapon": "Doru",
+            "frequency": "5"
+        },
+        {
+            "name": "Aerekostes",
+            "pantheon": "Iblydan Hero-Gods",
+            "alignment": "N",
+            "areas_of_concern": "Contingencies, intelligent items",
+            "domains": "Artifice, Healing, Knowledge, Magic",
+            "favored_weapon": "none",
+            "frequency": "5"
+        },
+        {
+            "name": "Drokalion",
+            "pantheon": "Iblydan Hero-Gods",
+            "alignment": "N",
+            "areas_of_concern": "none",
+            "domains": "Animal, Glory",
+            "favored_weapon": "none",
+            "frequency": "5"
+        },
+        {
+            "name": "Iapholi",
+            "pantheon": "Iblydan Hero-Gods",
+            "alignment": "N",
+            "areas_of_concern": "Monstrous heritage, acceptance",
+            "domains": "Community, Glory, Strength",
+            "favored_weapon": "tail slap or heavy flail",
+            "frequency": "5"
+        },
+        {
+            "name": "Chinostes (Evil Aspect)",
+            "pantheon": "Iblydan Hero-Gods",
+            "alignment": "NE",
+            "areas_of_concern": "Tragedy, sacrifice",
+            "domains": "Evil, Luck, Nobility",
+            "favored_weapon": "wooden stake",
+            "frequency": "5"
+        },
+        {
+            "name": "Ongalte",
+            "pantheon": "Iblydan Hero-Gods",
+            "alignment": "CE",
+            "areas_of_concern": "Deicide",
+            "domains": "Chaos, Death, Evil",
+            "favored_weapon": "greataxe",
+            "frequency": "5"
+        },
+        {
+            "name": "Pharimia",
+            "pantheon": "Iblydan Hero-Gods",
+            "alignment": "Unaligned",
+            "areas_of_concern": "Ports, lighthouses",
+            "domains": "Fire, Sun, Travel, Water",
+            "favored_weapon": "none",
+            "frequency": "5"
+        },
+        {
+            "name": "Alocer",
+            "pantheon": "Infernal Dukes",
+            "alignment": "LE",
+            "areas_of_concern": "Beasts, hunters, tradition",
+            "domains": "Animal, Evil, Law, Strength",
+            "favored_weapon": "Shortbow",
+            "frequency": "5"
+        },
+        {
+            "name": "Bifrons",
+            "pantheon": "Infernal Dukes",
+            "alignment": "LE",
+            "areas_of_concern": "Fate, luck, patterns",
+            "domains": "Artifice, Evil, Law, Rune",
+            "favored_weapon": "Dire flail",
+            "frequency": "5"
+        },
+        {
+            "name": "Crocell",
+            "pantheon": "Infernal Dukes",
+            "alignment": "LE",
+            "areas_of_concern": "Hidden waters, illusion, language",
+            "domains": "Evil, Knowledge, Law, Water",
+            "favored_weapon": "Glaive",
+            "frequency": "5"
+        },
+        {
+            "name": "Deumus",
+            "pantheon": "Infernal Dukes",
+            "alignment": "LE",
+            "areas_of_concern": "Apprehension, promises, terror",
+            "domains": "Darkness, Death, Evil, Law",
+            "favored_weapon": "Halberd",
+            "frequency": "5"
+        },
+        {
+            "name": "Eaqueo",
+            "pantheon": "Infernal Dukes",
+            "alignment": "LE",
+            "areas_of_concern": "Depression, nooses, sad stories",
+            "domains": "Evil, Law, Liberation, Madness",
+            "favored_weapon": "Net",
+            "frequency": "5"
+        },
+        {
+            "name": "Eligos",
+            "pantheon": "Infernal Dukes",
+            "alignment": "LE",
+            "areas_of_concern": "Flight, soldiers, watchfulness",
+            "domains": "Air, Evil, Law, Travel",
+            "favored_weapon": "Lance",
+            "frequency": "5"
+        },
+        {
+            "name": "Furcas",
+            "pantheon": "Infernal Dukes",
+            "alignment": "LE",
+            "areas_of_concern": "Duty, flames, herbalism",
+            "domains": "Evil, Fire, Law, Plant",
+            "favored_weapon": "Trident",
+            "frequency": "5"
+        },
+        {
+            "name": "Gaap",
+            "pantheon": "Infernal Dukes",
+            "alignment": "LE",
+            "areas_of_concern": "Divination, illusion, water",
+            "domains": "Evil, Law, Rune, Water",
+            "favored_weapon": "Shortspear",
+            "frequency": "5"
+        },
+        {
+            "name": "Haborym",
+            "pantheon": "Infernal Dukes",
+            "alignment": "LE",
+            "areas_of_concern": "Immolation, renewal, shackles",
+            "domains": "Evil, Fire, Law, Protection",
+            "favored_weapon": "Longspear",
+            "frequency": "5"
+        },
+        {
+            "name": "Iaozrael",
+            "pantheon": "Infernal Dukes",
+            "alignment": "LE",
+            "areas_of_concern": "Authority, hubris, liars",
+            "domains": "Destruction, Evil, Law, Sun",
+            "favored_weapon": "Scythe",
+            "frequency": "5"
+        },
+        {
+            "name": "Jiraviddain",
+            "pantheon": "Infernal Dukes",
+            "alignment": "LE",
+            "areas_of_concern": "Debility, dependence, frailty",
+            "domains": "Community, Evil, Healing, Law",
+            "favored_weapon": "Sap",
+            "frequency": "5"
+        },
+        {
+            "name": "Kalma",
+            "pantheon": "Infernal Dukes",
+            "alignment": "LE",
+            "areas_of_concern": "Burial rites, death, insects",
+            "domains": "Animal, Death, Evil, Law",
+            "favored_weapon": "Heavy pick",
+            "frequency": "5"
+        },
+        {
+            "name": "Lorcan",
+            "pantheon": "Infernal Dukes",
+            "alignment": "LE",
+            "areas_of_concern": "Blood, rebirth, undeath",
+            "domains": "Evil, Healing, Law, Repose",
+            "favored_weapon": "Short sword",
+            "frequency": "5"
+        },
+        {
+            "name": "Lorthact",
+            "pantheon": "Infernal Dukes",
+            "alignment": "LE",
+            "areas_of_concern": "Exiles, scholars, theories",
+            "domains": "Evil, Law, Magic, Trickery",
+            "favored_weapon": "Quarterstaff",
+            "frequency": "5"
+        },
+        {
+            "name": "Losarkur",
+            "pantheon": "Infernal Dukes",
+            "alignment": "LE",
+            "areas_of_concern": "Dominance, hounds, punishment",
+            "domains": "Animal, Evil, Law, Nobility",
+            "favored_weapon": "Club",
+            "frequency": "5"
+        },
+        {
+            "name": "Malthus",
+            "pantheon": "Infernal Dukes",
+            "alignment": "LE",
+            "areas_of_concern": "Architecture, expansion, waste",
+            "domains": "Artifice, Evil, Knowledge, Law",
+            "favored_weapon": "Light crossbow",
+            "frequency": "5"
+        },
+        {
+            "name": "Nergal",
+            "pantheon": "Infernal Dukes",
+            "alignment": "LE",
+            "areas_of_concern": "Atrocity, pestilence, war",
+            "domains": "Death, Evil, Law, War",
+            "favored_weapon": "Spiked chain",
+            "frequency": "5"
+        },
+        {
+            "name": "Ose",
+            "pantheon": "Infernal Dukes",
+            "alignment": "LE",
+            "areas_of_concern": "Betrayal, doom, obsession",
+            "domains": "Artifice, Evil, Law, Madness",
+            "favored_weapon": "Spiked gauntlet",
+            "frequency": "5"
+        },
+        {
+            "name": "Pirias",
+            "pantheon": "Infernal Dukes",
+            "alignment": "LE",
+            "areas_of_concern": "Denial, drugs, wonder",
+            "domains": "Evil, Law, Madness, Plant",
+            "favored_weapon": "Throwing axe",
+            "frequency": "5"
+        },
+        {
+            "name": "Quindiovatos",
+            "pantheon": "Infernal Dukes",
+            "alignment": "LE",
+            "areas_of_concern": "Exploration, gems, legends",
+            "domains": "Glory, Earth, Evil, Law",
+            "favored_weapon": "Rapier",
+            "frequency": "5"
+        },
+        {
+            "name": "Rasvocel",
+            "pantheon": "Infernal Dukes",
+            "alignment": "LE",
+            "areas_of_concern": "Carrion, patience, storms",
+            "domains": "Animal, Evil, Law, Weather",
+            "favored_weapon": "Sickle",
+            "frequency": "5"
+        },
+        {
+            "name": "Ruzel",
+            "pantheon": "Infernal Dukes",
+            "alignment": "LE",
+            "areas_of_concern": "Blasphemy, humor, undeath",
+            "domains": "Death, Evil, Law, Trickery",
+            "favored_weapon": "Kukri",
+            "frequency": "5"
+        },
+        {
+            "name": "Sabnach",
+            "pantheon": "Infernal Dukes",
+            "alignment": "LE",
+            "areas_of_concern": "Construction, parasites, toil",
+            "domains": "Artifice, Evil, Law, Strength",
+            "favored_weapon": "Heavy crossbow",
+            "frequency": "5"
+        },
+        {
+            "name": "Titivilus",
+            "pantheon": "Infernal Dukes",
+            "alignment": "LE",
+            "areas_of_concern": "Lies, propaganda, rhetoric",
+            "domains": "Evil, Knowledge, Law, Trickery",
+            "favored_weapon": "Longsword",
+            "frequency": "5"
+        },
+        {
+            "name": "Uruskreil",
+            "pantheon": "Infernal Dukes",
+            "alignment": "LE",
+            "areas_of_concern": "Armor, mercilessness, revelation",
+            "domains": "Evil, Glory, Law, Strength",
+            "favored_weapon": "Falchion",
+            "frequency": "5"
+        },
+        {
+            "name": "Vapula",
+            "pantheon": "Infernal Dukes",
+            "alignment": "LE",
+            "areas_of_concern": "Discovery, hubris, scholarship",
+            "domains": "Evil, Knowledge, Law, Liberation",
+            "favored_weapon": "Quarterstaff",
+            "frequency": "5"
+        },
+        {
+            "name": "Vois",
+            "pantheon": "Infernal Dukes",
+            "alignment": "LE",
+            "areas_of_concern": "Pollution, swamps, toads",
+            "domains": "Evil, Law, Scalykind, Weather",
+            "favored_weapon": "Greatclub",
+            "frequency": "5"
+        },
+        {
+            "name": "Wylgart",
+            "pantheon": "Infernal Dukes",
+            "alignment": "LE",
+            "areas_of_concern": "Condemnation, judges, revision",
+            "domains": "Earth, Evil, Law, Protection",
+            "favored_weapon": "Sling",
+            "frequency": "5"
+        },
+        {
+            "name": "Xhasnaphar",
+            "pantheon": "Infernal Dukes",
+            "alignment": "LE",
+            "areas_of_concern": "Masks, ugliness, volition",
+            "domains": "Evil, Law, Liberation, Protection",
+            "favored_weapon": "Hand crossbow",
+            "frequency": "5"
+        },
+        {
+            "name": "Yan-gant-y-tan",
+            "pantheon": "Infernal Dukes",
+            "alignment": "LE",
+            "areas_of_concern": "Hellspawn, misdirection, night",
+            "domains": "Darkness, Evil, Law, Weather",
+            "favored_weapon": "Guisarme",
+            "frequency": "5"
+        },
+        {
+            "name": "Zaebos",
+            "pantheon": "Infernal Dukes",
+            "alignment": "LE",
+            "areas_of_concern": "Arrogance, nobility, sexual perversion",
+            "domains": "Destruction, Evil, Law, Nobility",
+            "favored_weapon": "Flail",
+            "frequency": "5"
+        },
+        {
+            "name": "Zepar",
+            "pantheon": "Infernal Dukes",
+            "alignment": "LE",
+            "areas_of_concern": "Abduction, rape, transformation",
+            "domains": "Charm, Evil, Law, Trickery",
+            "favored_weapon": "Bolas",
+            "frequency": "5"
+        },
+        {
+            "name": "Aroggus",
+            "pantheon": "Kyton Demagogues",
+            "alignment": "LE",
+            "areas_of_concern": "Possibility, revenge, sanctuary",
+            "domains": "Evil, Law, Protection, Trickery",
+            "favored_weapon": "Warhammer",
+            "frequency": "5"
+        },
+        {
+            "name": "Barravoclair",
+            "pantheon": "Kyton Demagogues",
+            "alignment": "LE",
+            "areas_of_concern": "The elderly, fatalistic insights, resurrection",
+            "domains": "Death, Evil, Healing, Law",
+            "favored_weapon": "War razor",
+            "frequency": "5"
+        },
+        {
+            "name": "Fharaas",
+            "pantheon": "Kyton Demagogues",
+            "alignment": "LE",
+            "areas_of_concern": "Experience, murder, patterns",
+            "domains": "Evil, Knowledge, Law, Repose",
+            "favored_weapon": "Battle axe",
+            "frequency": "5"
+        },
+        {
+            "name": "Inkariax",
+            "pantheon": "Kyton Demagogues",
+            "alignment": "LE",
+            "areas_of_concern": "Absolute cold, preservation, solitude",
+            "domains": "Evil, Law, Void, Water",
+            "favored_weapon": "Spiked Gaunutlet",
+            "frequency": "5"
+        },
+        {
+            "name": "Kaikyton",
+            "pantheon": "Kyton Demagogues",
+            "alignment": "LE",
+            "areas_of_concern": "Experimentation, physical merger, stiches",
+            "domains": "Community, Earth, Evil, Law",
+            "favored_weapon": "Spiked chain",
+            "frequency": "5"
+        },
+        {
+            "name": "Morrobahn",
+            "pantheon": "Kyton Demagogues",
+            "alignment": "LE",
+            "areas_of_concern": "Invasiveness, proliferation, redundancy",
+            "domains": "Animal, Evil, Law, Travel",
+            "favored_weapon": "Heavy flail",
+            "frequency": "5"
+        },
+        {
+            "name": "Raetorgash",
+            "pantheon": "Kyton Demagogues",
+            "alignment": "LE",
+            "areas_of_concern": "Evolution, mutation, skulls",
+            "domains": "Evil, Healing, Law, Luck",
+            "favored_weapon": "Halberd",
+            "frequency": "5"
+        },
+        {
+            "name": "Sugroz",
+            "pantheon": "Kyton Demagogues",
+            "alignment": "LE",
+            "areas_of_concern": "Ecstasy, fleetingness, incorporeality",
+            "domains": "Air, Evil, Law, Nobility",
+            "favored_weapon": "Net",
+            "frequency": "5"
+        },
+        {
+            "name": "Vevelor",
+            "pantheon": "Kyton Demagogues",
+            "alignment": "LE",
+            "areas_of_concern": "Illusion of freedom, potential, transcendence",
+            "domains": "Destruction, Evil, Law, Liberation",
+            "favored_weapon": "Whip",
+            "frequency": "5"
+        },
+        {
+            "name": "Alichino",
+            "pantheon": "Malebranche",
+            "alignment": "LE",
+            "areas_of_concern": "Deception, madness, royalty",
+            "domains": "Evil, Law, Madness, Trickery",
+            "favored_weapon": "Dagger",
+            "frequency": "5"
+        },
+        {
+            "name": "Barbariccia",
+            "pantheon": "Malebranche",
+            "alignment": "LE",
+            "areas_of_concern": "Fecundity, predators, slaughter",
+            "domains": "Animal, Evil, Law, Plant",
+            "favored_weapon": "Spiked gauntlet",
+            "frequency": "5"
+        },
+        {
+            "name": "Cagnazzo",
+            "pantheon": "Malebranche",
+            "alignment": "LE",
+            "areas_of_concern": "Elusiveness, fear, murder",
+            "domains": "Death, Evil, Law, Travel",
+            "favored_weapon": "Short sword",
+            "frequency": "5"
+        },
+        {
+            "name": "Calcabrina",
+            "pantheon": "Malebranche",
+            "alignment": "LE",
+            "areas_of_concern": "Dreams, insanity, mystery",
+            "domains": "Evil, Knowledge, Law, Madness",
+            "favored_weapon": "Kukri",
+            "frequency": "5"
+        },
+        {
+            "name": "Circiatto",
+            "pantheon": "Malebranche",
+            "alignment": "LE",
+            "areas_of_concern": "Gluttony, greed, undead",
+            "domains": "Death, Evil, Law, Magic",
+            "favored_weapon": "Warhammer",
+            "frequency": "5"
+        },
+        {
+            "name": "Draghignazzo",
+            "pantheon": "Malebranche",
+            "alignment": "LE",
+            "areas_of_concern": "Devastation, monsters, patience",
+            "domains": "Destruction, Earth, Evil, Law",
+            "favored_weapon": "Greataxe",
+            "frequency": "5"
+        },
+        {
+            "name": "Farfarello",
+            "pantheon": "Malebranche",
+            "alignment": "LE",
+            "areas_of_concern": "Antiquity, death, mists",
+            "domains": "Death, Evil, Knowledge, Law",
+            "favored_weapon": "Morningstar",
+            "frequency": "5"
+        },
+        {
+            "name": "Graffiacane",
+            "pantheon": "Malebranche",
+            "alignment": "LE",
+            "areas_of_concern": "Corruption, elusiveness, vermin",
+            "domains": "Animal, Evil, Law, Luck",
+            "favored_weapon": "Shuriken",
+            "frequency": "5"
+        },
+        {
+            "name": "Libicocco",
+            "pantheon": "Malebranche",
+            "alignment": "LE",
+            "areas_of_concern": "Rage, violence, wind",
+            "domains": "Air, Destruction, Evil, Law",
+            "favored_weapon": "Scimitar",
+            "frequency": "5"
+        },
+        {
+            "name": "Malacoda",
+            "pantheon": "Malebranche",
+            "alignment": "LE",
+            "areas_of_concern": "Conquest, cruelty, martial skill",
+            "domains": "Evil, Law, Strength, War",
+            "favored_weapon": "Bastard sword",
+            "frequency": "5"
+        },
+        {
+            "name": "Rubicante",
+            "pantheon": "Malebranche",
+            "alignment": "LE",
+            "areas_of_concern": "Fire, honor, nobility",
+            "domains": "Evil, Fire, Glory, Law",
+            "favored_weapon": "Starknife",
+            "frequency": "5"
+        },
+        {
+            "name": "Scarmiglione",
+            "pantheon": "Malebranche",
+            "alignment": "LE",
+            "areas_of_concern": "Deceit, poison, temptation",
+            "domains": "Charm, Evil, Law, Water",
+            "favored_weapon": "Hand crossbow",
+            "frequency": "5"
+        },
+        {
+            "name": "Daclau-Sar",
+            "pantheon": "Nascent Demon Lords",
+            "alignment": "CE",
+            "areas_of_concern": "Carrion, scavengers",
+            "domains": "Animal, Chaos, Destruction, Evil",
+            "favored_weapon": "Spiked gauntlet",
+            "frequency": "5"
+        },
+        {
+            "name": "Izyagna",
+            "pantheon": "Nascent Demon Lords",
+            "alignment": "CE",
+            "areas_of_concern": "Angry mobs, ants",
+            "domains": "Chaos, Evil, Fire, War",
+            "favored_weapon": "Trident",
+            "frequency": "5"
+        },
+        {
+            "name": "Kro'akoth",
+            "pantheon": "Nascent Demon Lords",
+            "alignment": "CE",
+            "areas_of_concern": "The forgotten, hidden agendas",
+            "domains": "Chaos, Evil, Fire, Trickery",
+            "favored_weapon": "Falchion",
+            "frequency": "5"
+        },
+        {
+            "name": "Menxyr",
+            "pantheon": "Nascent Demon Lords",
+            "alignment": "CE",
+            "areas_of_concern": "Grave robbing, necrophilia",
+            "domains": "Chaos, Death, Evil, Trickery",
+            "favored_weapon": "Heavy pick",
+            "frequency": "5"
+        },
+        {
+            "name": "Murnath",
+            "pantheon": "Nascent Demon Lords",
+            "alignment": "CE",
+            "areas_of_concern": "Rats, sewers",
+            "domains": "Animal, Chaos, Earth, Evil",
+            "favored_weapon": "Short sword",
+            "frequency": "5"
+        },
+        {
+            "name": "Nightripper",
+            "pantheon": "Nascent Demon Lords",
+            "alignment": "CE",
+            "areas_of_concern": "Botched executions, pits",
+            "domains": "Chaos, Darkness, Evil, Strength",
+            "favored_weapon": "Bastard sword",
+            "frequency": "5"
+        },
+        {
+            "name": "Ovonovo",
+            "pantheon": "Nascent Demon Lords",
+            "alignment": "CE",
+            "areas_of_concern": "Sharks, shipwrecks",
+            "domains": "Animal, Chaos, Evil, Water",
+            "favored_weapon": "Punching dagger",
+            "frequency": "5"
+        },
+        {
+            "name": "Shamira",
+            "pantheon": "Nascent Demon Lords",
+            "alignment": "CE",
+            "areas_of_concern": "Lost dreams, seduction of the pure",
+            "domains": "Chaos, Charm, Evil, Nobility",
+            "favored_weapon": "Longbow",
+            "frequency": "5"
+        },
+        {
+            "name": "Sithhud",
+            "pantheon": "Nascent Demon Lords",
+            "alignment": "CE",
+            "areas_of_concern": "Blizzards, the frozen dead",
+            "domains": "Chaos, Death, Evil, Weather",
+            "favored_weapon": "Longsword",
+            "frequency": "5"
+        },
+        {
+            "name": "Treerazer",
+            "pantheon": "Nascent Demon Lords",
+            "alignment": "CE",
+            "areas_of_concern": "Corruption of nature, pollution",
+            "domains": "Chaos, Destruction, Evil, Plant",
+            "favored_weapon": "Greataxe",
+            "frequency": "5"
+        },
+        {
+            "name": "Akuma",
+            "pantheon": "Oni Daimyo",
+            "alignment": "LE",
+            "areas_of_concern": "Battle, honor, martial arts",
+            "domains": "Evil, Glory, Law, War",
+            "favored_weapon": "Unarmed strike",
+            "frequency": "5"
+        },
+        {
+            "name": "Inma",
+            "pantheon": "Oni Daimyo",
+            "alignment": "LE",
+            "areas_of_concern": "Lavish wealth, origami, servitude",
+            "domains": "Community, Evil, Law, Nobility",
+            "favored_weapon": "Katana",
+            "frequency": "5"
+        },
+        {
+            "name": "Uzumae",
+            "pantheon": "Oni Daimyo",
+            "alignment": "LE",
+            "areas_of_concern": "Blizzards, frozen ghosts, starvation",
+            "domains": "Death, Evil, Law, Water",
+            "favored_weapon": "Urumi",
+            "frequency": "5"
+        },
+        {
+            "name": "Chimon",
+            "pantheon": "Oni Daimyo",
+            "alignment": "NE",
+            "areas_of_concern": "Ambushes, hunting, traps",
+            "domains": "Artifice, Evil, Travel, Trickery",
+            "favored_weapon": "Longbow",
+            "frequency": "5"
+        },
+        {
+            "name": "Muronna",
+            "pantheon": "Oni Daimyo",
+            "alignment": "NE",
+            "areas_of_concern": "Eclipses, sunsets, unseen things",
+            "domains": "Darkness, Evil, Sun, Trickery",
+            "favored_weapon": "Kusarigama",
+            "frequency": "5"
+        },
+        {
+            "name": "Nataka",
+            "pantheon": "Oni Daimyo",
+            "alignment": "NE",
+            "areas_of_concern": "Drought, forest fires, perfume",
+            "domains": "Destruction, Evil, Fire, Weather",
+            "favored_weapon": "Scimitar",
+            "frequency": "5"
+        },
+        {
+            "name": "Yabu",
+            "pantheon": "Oni Daimyo",
+            "alignment": "NE",
+            "areas_of_concern": "Curses, promises, volcanoes",
+            "domains": "Destruction, Evil, Fire, Luck",
+            "favored_weapon": "Meteor hammer",
+            "frequency": "5"
+        },
+        {
+            "name": "Guyuku",
+            "pantheon": "Oni Daimyo",
+            "alignment": "CE",
+            "areas_of_concern": "Piracy, tea, tsunamis",
+            "domains": "Chaos, Evil, Strength, Water",
+            "favored_weapon": "Nine-ring broadsword",
+            "frequency": "5"
+        },
+        {
+            "name": "Onmyuza",
+            "pantheon": "Oni Daimyo",
+            "alignment": "CE",
+            "areas_of_concern": "Orgies, sake, tattoos",
+            "domains": "Chaos, Charm, Evil, Rune",
+            "favored_weapon": "Kerambit",
+            "frequency": "5"
+        },
+        {
+            "name": "Ushitora",
+            "pantheon": "Oni Daimyo",
+            "alignment": "CE",
+            "areas_of_concern": "Earthquakes, Keys, Sabotage",
+            "domains": "Chaos, Destruction, Earth, Evil",
+            "favored_weapon": "Tetsubo",
+            "frequency": "5"
+        },
+        {
+            "name": "Dretha",
+            "pantheon": "Orc Deities",
+            "alignment": "CE",
+            "areas_of_concern": "Birth, fertility, tribes",
+            "domains": "Chaos, Community, Evil, Protection",
+            "favored_weapon": "Scimitar",
+            "frequency": "5"
+        },
+        {
+            "name": "Lanishra",
+            "pantheon": "Orc Deities",
+            "alignment": "CE",
+            "areas_of_concern": "Slavery, subjugation, tyranny",
+            "domains": "Chaos, Evil, Nobility, Strength",
+            "favored_weapon": "Heavy flail",
+            "frequency": "5"
+        },
+        {
+            "name": "Nulgreth",
+            "pantheon": "Orc Deities",
+            "alignment": "CE",
+            "areas_of_concern": "Anger, rage, strength",
+            "domains": "Chaos, Evil, Strength, War",
+            "favored_weapon": "Orc double axe",
+            "frequency": "5"
+        },
+        {
+            "name": "Rull",
+            "pantheon": "Orc Deities",
+            "alignment": "CE",
+            "areas_of_concern": "Lightning, storms, thunder",
+            "domains": "Air, Chaos, Evil, Weather",
+            "favored_weapon": "Falchion",
+            "frequency": "5"
+        },
+        {
+            "name": "Sezelrian",
+            "pantheon": "Orc Deities",
+            "alignment": "CE",
+            "areas_of_concern": "Fire, magic, revenge",
+            "domains": "Chaos, Evil, Fire, Magic",
+            "favored_weapon": "Heavy mace",
+            "frequency": "5"
+        },
+        {
+            "name": "Varg",
+            "pantheon": "Orc Deities",
+            "alignment": "CE",
+            "areas_of_concern": "Iron, siege engines, war",
+            "domains": "Chaos, Earth, Evil, War",
+            "favored_weapon": "Greataxe",
+            "frequency": "5"
+        },
+        {
+            "name": "Verex",
+            "pantheon": "Orc Deities",
+            "alignment": "CE",
+            "areas_of_concern": "Lust, pillage, plunder",
+            "domains": "Chaos, Charm, Evil, Trickery",
+            "favored_weapon": "Battleaxe",
+            "frequency": "5"
+        },
+        {
+            "name": "Zagresh",
+            "pantheon": "Orc Deities",
+            "alignment": "CE",
+            "areas_of_concern": "Death, destruction, disaster",
+            "domains": "Chaos, Death, Destruction, Evil",
+            "favored_weapon": "Greatclub",
+            "frequency": "5"
+        },
+        {
+            "name": "Abhoth",
+            "pantheon": "Outer Gods",
+            "alignment": "CN",
+            "areas_of_concern": "Disease, fercundity, oozes",
+            "domains": "Chaos, Darkness, Earth, Madness, Strength",
+            "favored_weapon": "Whip",
+            "frequency": "5"
+        },
+        {
+            "name": "Azathoth",
+            "pantheon": "Outer Gods",
+            "alignment": "CN",
+            "areas_of_concern": "Entropy, madness, mindless destruction",
+            "domains": "Chaos, Destruction, Madness, Sun, Void",
+            "favored_weapon": "Warhammer",
+            "frequency": "5"
+        },
+        {
+            "name": "Yog-Sothoth",
+            "pantheon": "Outer Gods",
+            "alignment": "CN",
+            "areas_of_concern": "Gates, space, time",
+            "domains": "Darkness, Chaos, Knowledge, Travel, Void",
+            "favored_weapon": "Dagger",
+            "frequency": "5"
+        },
+        {
+            "name": "Nhimbaloth",
+            "pantheon": "Outer Gods",
+            "alignment": "CE",
+            "areas_of_concern": "Despair, ghosts, swamps",
+            "domains": "Chaos, Death, Evil, Plant, Void",
+            "favored_weapon": "Flail",
+            "frequency": "5"
+        },
+        {
+            "name": "Nyarlathotep (Black Pharaoh)",
+            "pantheon": "Outer Gods",
+            "alignment": "CE",
+            "areas_of_concern": "Conspiracies, dangerous secrets, forbidden magic",
+            "domains": "Chaos, Evil, Knowledge, Magic, Trickery",
+            "favored_weapon": "Quarterstaff",
+            "frequency": "5"
+        },
+        {
+            "name": "Nyarlathotep (Faceless Sphinx)",
+            "pantheon": "Outer Gods",
+            "alignment": "CE",
+            "areas_of_concern": "Conspiracies, dangerous secrets, forbidden magic",
+            "domains": "Air, Chaos, Evil, Knowledge, Magic",
+            "favored_weapon": "Punching dagger",
+            "frequency": "5"
+        },
+        {
+            "name": "Nyarlathotep (Haunter of the Dark)",
+            "pantheon": "Outer Gods",
+            "alignment": "CE",
+            "areas_of_concern": "Conspiracies, dangerous secrets, forbidden magic",
+            "domains": "Chaos, Darkness, Evil, Knowledge, Magic",
+            "favored_weapon": "Dagger",
+            "frequency": "5"
+        },
+        {
+            "name": "Shub-Niggurath",
+            "pantheon": "Outer Gods",
+            "alignment": "CE",
+            "areas_of_concern": "Fertility, forests, monsters",
+            "domains": "Animal, Chaos, Evil, Plant, Void",
+            "favored_weapon": "Dagger",
+            "frequency": "5"
+        },
+        {
+            "name": "Jerishall",
+            "pantheon": "Primal Inevitable",
+            "alignment": "LN",
+            "areas_of_concern": "Planes, planetary orbits, and separation",
+            "domains": "Earth, Knowledge, Law, Sun",
+            "favored_weapon": "Longspear",
+            "frequency": "5"
+        },
+        {
+            "name": "Kerkamoth",
+            "pantheon": "Primal Inevitable",
+            "alignment": "LN",
+            "areas_of_concern": "Emptiness, entropy, and stillness",
+            "domains": "Darkness, Destruction, Law, Void",
+            "favored_weapon": "Warhammer",
+            "frequency": "5"
+        },
+        {
+            "name": "Otolmens",
+            "pantheon": "Primal Inevitable",
+            "alignment": "LN",
+            "areas_of_concern": "Machinery, math, and physics",
+            "domains": "Artifice, Fire, Knowledge, Law",
+            "favored_weapon": "Mace",
+            "frequency": "5"
+        },
+        {
+            "name": "Valmallos",
+            "pantheon": "Primal Inevitable",
+            "alignment": "LN",
+            "areas_of_concern": "Ceremonies, magic, and preparation",
+            "domains": "Law, Magic, Rune, Water",
+            "favored_weapon": "Kukri",
+            "frequency": "5"
+        },
+        {
+            "name": "Il'surrish",
+            "pantheon": "Protean Lord",
+            "alignment": "CN",
+            "areas_of_concern": "Formlessness, loss of control, and potential",
+            "domains": "Animal, Artifice, Chaos, Plant",
+            "favored_weapon": "Unarmed strike",
+            "frequency": "5"
+        },
+        {
+            "name": "Narriseminek",
+            "pantheon": "Protean Lord",
+            "alignment": "CN",
+            "areas_of_concern": "Ascendance, keketars, and revelations",
+            "domains": "Chaos, Knowledge, Liberation, Madness",
+            "favored_weapon": "Handaxe",
+            "frequency": "5"
+        },
+        {
+            "name": "Ssila'meshnik",
+            "pantheon": "Protean Lord",
+            "alignment": "CN",
+            "areas_of_concern": "Fate, freedom, and paradox",
+            "domains": "Chaos, Knowledge, Liberation, Trickery",
+            "favored_weapon": "Light hammer",
+            "frequency": "5"
+        },
+        {
+            "name": "Ydajisk",
+            "pantheon": "Protean Lord",
+            "alignment": "CN",
+            "areas_of_concern": "Language evolution, lost words, and slang",
+            "domains": "Chaos, Knowledge, Rune, Trickery",
+            "favored_weapon": "Bite or greatclub",
+            "frequency": "5"
+        },
+        {
+            "name": "Atropos",
+            "pantheon": "Psychopomp Usher",
+            "alignment": "N",
+            "areas_of_concern": "Fate, sleep, and youth",
+            "domains": "Darkness, Death, Luck, Repose",
+            "favored_weapon": "Dagger",
+            "frequency": "5"
+        },
+        {
+            "name": "Barzahk",
+            "pantheon": "Psychopomp Usher",
+            "alignment": "N",
+            "areas_of_concern": "Compasses, travelers, and vigils",
+            "domains": "Knowledge, Protection, Repose, Travel",
+            "favored_weapon": "Club",
+            "frequency": "5"
+        },
+        {
+            "name": "Ceyannan",
+            "pantheon": "Psychopomp Usher",
+            "alignment": "N",
+            "areas_of_concern": "Final words, lost souls, and searches",
+            "domains": "Community, Repose, Protection, Strength",
+            "favored_weapon": "Quarterstaff",
+            "frequency": "5"
+        },
+        {
+            "name": "Dammar",
+            "pantheon": "Psychopomp Usher",
+            "alignment": "N",
+            "areas_of_concern": "Liquor, luck, and medicine",
+            "domains": "Healing, Luck, Protection, Repose",
+            "favored_weapon": "Short sword",
+            "frequency": "5"
+        },
+        {
+            "name": "Imot",
+            "pantheon": "Psychopomp Usher",
+            "alignment": "N",
+            "areas_of_concern": "Inevitably, mathematics, and portents",
+            "domains": "Luck, Repose, Rune, Weather",
+            "favored_weapon": "Light shield",
+            "frequency": "5"
+        },
+        {
+            "name": "Mother Vulture",
+            "pantheon": "Psychopomp Usher",
+            "alignment": "N",
+            "areas_of_concern": "Consumption, renewal, and transformation",
+            "domains": "Animal, Destruction, Healing, Repose",
+            "favored_weapon": "Sickle",
+            "frequency": "5"
+        },
+        {
+            "name": "Mrtyu",
+            "pantheon": "Psychopomp Usher",
+            "alignment": "N",
+            "areas_of_concern": "Poetry, trauma, and war",
+            "domains": "Charm, Death, Repose, War",
+            "favored_weapon": "Greatsword",
+            "frequency": "5"
+        },
+        {
+            "name": "Narakaas",
+            "pantheon": "Psychopomp Usher",
+            "alignment": "N",
+            "areas_of_concern": "Atonement, difficult choices, and pain",
+            "domains": "Death, Magic, Repose, Rune",
+            "favored_weapon": "Greataxe",
+            "frequency": "5"
+        },
+        {
+            "name": "Phlegyas",
+            "pantheon": "Psychopomp Usher",
+            "alignment": "N",
+            "areas_of_concern": "Atheists, legacies, and reincarnation",
+            "domains": "Artifice, Earth, Knowledge, Repose",
+            "favored_weapon": "Longbow",
+            "frequency": "5"
+        },
+        {
+            "name": "Saloc",
+            "pantheon": "Psychopomp Usher",
+            "alignment": "N",
+            "areas_of_concern": "Agency, bronze, and education",
+            "domains": "Knowledge, Liberation, Repose, Strength",
+            "favored_weapon": "Guisarme",
+            "frequency": "5"
+        },
+        {
+            "name": "Teshallas",
+            "pantheon": "Psychopomp Usher",
+            "alignment": "N",
+            "areas_of_concern": "Aging, poison, and venomous creatures",
+            "domains": "Healing, Magic, Repose, Scalykind",
+            "favored_weapon": "Chakram",
+            "frequency": "5"
+        },
+        {
+            "name": "The Pale Horse",
+            "pantheon": "Psychopomp Usher",
+            "alignment": "N",
+            "areas_of_concern": "Duty, revenge, and beasts of burden",
+            "domains": "Death, Repose, Travel, Water",
+            "favored_weapon": "Trident",
+            "frequency": "5"
+        },
+        {
+            "name": "Vale",
+            "pantheon": "Psychopomp Usher",
+            "alignment": "N",
+            "areas_of_concern": "Consequence, superstition, and tradition",
+            "domains": "Community, Knowledge, Nobility, Repose",
+            "favored_weapon": "Heavy flail",
+            "frequency": "5"
+        },
+        {
+            "name": "Vavaalrav",
+            "pantheon": "Psychopomp Usher",
+            "alignment": "N",
+            "areas_of_concern": "Gargoyles, holy ground, and rest",
+            "domains": "Darkness, Earth, Protection, Repose",
+            "favored_weapon": "Shortbow",
+            "frequency": "5"
+        },
+        {
+            "name": "Vonymos",
+            "pantheon": "Psychopomp Usher",
+            "alignment": "N",
+            "areas_of_concern": "Catastrophes, last stands, and suicides",
+            "domains": "Fire, Glory, Repose, Weather",
+            "favored_weapon": "Scythe",
+            "frequency": "5"
+        },
+        {
+            "name": "Chavazvug",
+            "pantheon": "Qlippoth Lords",
+            "alignment": "CE",
+            "areas_of_concern": "Fiery consumption, monstrous recursion",
+            "domains": "Chaos, Evil, Fire, Repose",
+            "favored_weapon": "Heavy flail",
+            "frequency": "5"
+        },
+        {
+            "name": "Isph-Aun-Vuln",
+            "pantheon": "Qlippoth Lords",
+            "alignment": "CE",
+            "areas_of_concern": "Infestation of the flesh, poisonous wind",
+            "domains": "Air, Chaos, Evil, Trickery",
+            "favored_weapon": "Longbow",
+            "frequency": "5"
+        },
+        {
+            "name": "Oaur-Ooung",
+            "pantheon": "Qlippoth Lords",
+            "alignment": "CE",
+            "areas_of_concern": "Tainted oceans, vile fecundity",
+            "domains": "Chaos, Evil, Plant, Water",
+            "favored_weapon": "Trident",
+            "frequency": "5"
+        },
+        {
+            "name": "Shiggarreb",
+            "pantheon": "Qlippoth Lords",
+            "alignment": "CE",
+            "areas_of_concern": "Forbidden magic, wartime atrocities",
+            "domains": "Chaos, Evil, Magic, War",
+            "favored_weapon": "Ranseur",
+            "frequency": "5"
+        },
+        {
+            "name": "Thuskchoon",
+            "pantheon": "Qlippoth Lords",
+            "alignment": "CE",
+            "areas_of_concern": "Blinding hunger, revealed secrets",
+            "domains": "Chaos, Destruction, Evil, Knowledge",
+            "favored_weapon": "Greatclub",
+            "frequency": "5"
+        },
+        {
+            "name": "Yamasoth",
+            "pantheon": "Qlippoth Lords",
+            "alignment": "CE",
+            "areas_of_concern": "Cursed kingdoms, vile experiments",
+            "domains": "Artifice, Chaos, Earth, Evil",
+            "favored_weapon": "Halberd",
+            "frequency": "5"
+        },
+        {
+            "name": "Ardad Lili",
+            "pantheon": "Queens of the Night",
+            "alignment": "LE",
+            "areas_of_concern": "Seduction, snakes, women",
+            "domains": "Charm, Evil, Law, Scalykind",
+            "favored_weapon": "Dagger",
+            "frequency": "5"
+        },
+        {
+            "name": "Doloras",
+            "pantheon": "Queens of the Night",
+            "alignment": "LE",
+            "areas_of_concern": "Detachment, dispassion, pain",
+            "domains": "Destruction, Evil, Law, Repose",
+            "favored_weapon": "Kukri",
+            "frequency": "5"
+        },
+        {
+            "name": "Eiseth",
+            "pantheon": "Queens of the Night",
+            "alignment": "LE",
+            "areas_of_concern": "Battle, revenge, wrath",
+            "domains": "Destruction, Evil, Law, War",
+            "favored_weapon": "Longbow",
+            "frequency": "5"
+        },
+        {
+            "name": "Mahathallah",
+            "pantheon": "Queens of the Night",
+            "alignment": "LE",
+            "areas_of_concern": "Death, fate, vanity",
+            "domains": "Death, Evil, Law, Trickery",
+            "favored_weapon": "Net",
+            "frequency": "5"
+        },
+        {
+            "name": "Aksha",
+            "pantheon": "Rakshasa Immortals",
+            "alignment": "LE",
+            "areas_of_concern": "N/a",
+            "domains": "Animal, Evil, Law, Trickery",
+            "favored_weapon": "Kukri",
+            "frequency": "5"
+        },
+        {
+            "name": "Bundha",
+            "pantheon": "Rakshasa Immortals",
+            "alignment": "LE",
+            "areas_of_concern": "N/a",
+            "domains": "Animal, Evil, Law, Trickery",
+            "favored_weapon": "Kukri",
+            "frequency": "5"
+        },
+        {
+            "name": "Caera",
+            "pantheon": "Rakshasa Immortals",
+            "alignment": "LE",
+            "areas_of_concern": "N/a",
+            "domains": "Animal, Evil, Law, Trickery",
+            "favored_weapon": "Kukri",
+            "frequency": "5"
+        },
+        {
+            "name": "Dradjit",
+            "pantheon": "Rakshasa Immortals",
+            "alignment": "LE",
+            "areas_of_concern": "N/a",
+            "domains": "Animal, Evil, Law, Trickery",
+            "favored_weapon": "Kukri",
+            "frequency": "5"
+        },
+        {
+            "name": "Hudima",
+            "pantheon": "Rakshasa Immortals",
+            "alignment": "LE",
+            "areas_of_concern": "N/a",
+            "domains": "Animal, Evil, Law, Trickery",
+            "favored_weapon": "Kukri",
+            "frequency": "5"
+        },
+        {
+            "name": "Jyotah",
+            "pantheon": "Rakshasa Immortals",
+            "alignment": "LE",
+            "areas_of_concern": "N/a",
+            "domains": "Animal, Evil, Law, Trickery",
+            "favored_weapon": "Kukri",
+            "frequency": "5"
+        },
+        {
+            "name": "Kunkarna",
+            "pantheon": "Rakshasa Immortals",
+            "alignment": "LE",
+            "areas_of_concern": "N/a",
+            "domains": "Animal, Evil, Law, Trickery",
+            "favored_weapon": "Kukri",
+            "frequency": "5"
+        },
+        {
+            "name": "Mursha",
+            "pantheon": "Rakshasa Immortals",
+            "alignment": "LE",
+            "areas_of_concern": "N/a",
+            "domains": "Animal, Evil, Law, Trickery",
+            "favored_weapon": "Kukri",
+            "frequency": "5"
+        },
+        {
+            "name": "Otikaya",
+            "pantheon": "Rakshasa Immortals",
+            "alignment": "LE",
+            "areas_of_concern": "N/a",
+            "domains": "Animal, Evil, Law, Trickery",
+            "favored_weapon": "Kukri",
+            "frequency": "5"
+        },
+        {
+            "name": "Prihasta",
+            "pantheon": "Rakshasa Immortals",
+            "alignment": "LE",
+            "areas_of_concern": "N/a",
+            "domains": "Animal, Evil, Law, Trickery",
+            "favored_weapon": "Kukri",
+            "frequency": "5"
+        },
+        {
+            "name": "Ravana",
+            "pantheon": "Rakshasa Immortals",
+            "alignment": "LE",
+            "areas_of_concern": "N/a",
+            "domains": "Animal, Evil, Law, Trickery",
+            "favored_weapon": "Kukri",
+            "frequency": "5"
+        },
+        {
+            "name": "Surpa",
+            "pantheon": "Rakshasa Immortals",
+            "alignment": "LE",
+            "areas_of_concern": "N/a",
+            "domains": "Animal, Evil, Law, Trickery",
+            "favored_weapon": "Kukri",
+            "frequency": "5"
+        },
+        {
+            "name": "Vibhishah",
+            "pantheon": "Rakshasa Immortals",
+            "alignment": "LE",
+            "areas_of_concern": "N/a",
+            "domains": "Animal, Evil, Law, Trickery",
+            "favored_weapon": "Kukri",
+            "frequency": "5"
+        },
+        {
+            "name": "Zabha",
+            "pantheon": "Rakshasa Immortals",
+            "alignment": "LE",
+            "areas_of_concern": "N/a",
+            "domains": "Animal, Evil, Law, Trickery",
+            "favored_weapon": "Kukri",
+            "frequency": "5"
+        },
+        {
+            "name": "Ananshea",
+            "pantheon": "Sahkil Tormentors",
+            "alignment": "CE",
+            "areas_of_concern": "Brutality, torture, wild animals",
+            "domains": "Animal, Destruction, Evil, Strength",
+            "favored_weapon": "Kukri",
+            "frequency": "5"
+        },
+        {
+            "name": "Chamiaholom",
+            "pantheon": "Sahkil Tormentors",
+            "alignment": "CE",
+            "areas_of_concern": "Domination, hopelessness, mortality",
+            "domains": "Death, Evil, Magic, Repose",
+            "favored_weapon": "Quarterstaff",
+            "frequency": "5"
+        },
+        {
+            "name": "Charg",
+            "pantheon": "Sahkil Tormentors",
+            "alignment": "CE",
+            "areas_of_concern": "Catastrophic decline, detrimental complacency, monsters",
+            "domains": "Destruction, Evil, Madness, Strength",
+            "favored_weapon": "Falchion",
+            "frequency": "5"
+        },
+        {
+            "name": "Dachzerul",
+            "pantheon": "Sahkil Tormentors",
+            "alignment": "CE",
+            "areas_of_concern": "Deadly pranks, stalkers, sudden death",
+            "domains": "Charm, Evil, Luck, Trickery",
+            "favored_weapon": "Rapier",
+            "frequency": "5"
+        },
+        {
+            "name": "Hataam",
+            "pantheon": "Sahkil Tormentors",
+            "alignment": "CE",
+            "areas_of_concern": "Drought, drowning, stagnation",
+            "domains": "Evil, Travel, Water, Weather",
+            "favored_weapon": "Net",
+            "frequency": "5"
+        },
+        {
+            "name": "Iggeret",
+            "pantheon": "Sahkil Tormentors",
+            "alignment": "CE",
+            "areas_of_concern": "Darkness, empty places, pits",
+            "domains": "Darkness, Evil, Protection, Void",
+            "favored_weapon": "Shortbow",
+            "frequency": "5"
+        },
+        {
+            "name": "Nameless",
+            "pantheon": "Sahkil Tormentors",
+            "alignment": "CE",
+            "areas_of_concern": "Deslusions of authority, doubt, torment",
+            "domains": "Artifice, Evil, Nobility, Strength",
+            "favored_weapon": "Longsword",
+            "frequency": "5"
+        },
+        {
+            "name": "Ozranvial",
+            "pantheon": "Sahkil Tormentors",
+            "alignment": "CE",
+            "areas_of_concern": "Despair, restless spirits, sadism",
+            "domains": "Destruction, Evil, Madness, Repose",
+            "favored_weapon": "Scorpion whip",
+            "frequency": "5"
+        },
+        {
+            "name": "Shawnari",
+            "pantheon": "Sahkil Tormentors",
+            "alignment": "CE",
+            "areas_of_concern": "Isolation, loneliness, lost time",
+            "domains": "Darkness, Evil, Knowledge, Void",
+            "favored_weapon": "Sap",
+            "frequency": "5"
+        },
+        {
+            "name": "Velgaas",
+            "pantheon": "Sahkil Tormentors",
+            "alignment": "CE",
+            "areas_of_concern": "Emotional manipulation, emptiness, ignorance",
+            "domains": "Charm, Evil, Knowledge, Void",
+            "favored_weapon": "Spiked chain",
+            "frequency": "5"
+        },
+        {
+            "name": "Vermilion Mother",
+            "pantheon": "Sahkil Tormentors",
+            "alignment": "CE",
+            "areas_of_concern": "Fecundity, overgrown places, psychoactive plants",
+            "domains": "Charm, Evil, Plant, Weather",
+            "favored_weapon": "Scythe",
+            "frequency": "5"
+        },
+        {
+            "name": "Xiquiripat",
+            "pantheon": "Sahkil Tormentors",
+            "alignment": "CE",
+            "areas_of_concern": "Evisceration, fatal falls, genocide",
+            "domains": "Air, Destruction, Evil, War",
+            "favored_weapon": "Terbutje",
+            "frequency": "5"
+        },
+        {
+            "name": "Zipacna",
+            "pantheon": "Sahkil Tormentors",
+            "alignment": "CE",
+            "areas_of_concern": "Avoiding responsibility, shifting earth, violence",
+            "domains": "Earth, Evil, Fire, Strength",
+            "favored_weapon": "Tepoztopilli",
+            "frequency": "5"
+        }
+    ],
+    "Nationalities": [
+        {
+            "name": "Azlanti",
+            "frequency": "1"
+        },
+        {
+            "name": "Caldaru",
+            "frequency": "1"
+        },
+        {
+            "name": "Chelaxian",
+            "frequency": "200"
+        },
+        {
+            "name": "Garundi",
+            "frequency": "10"
+        },
+        {
+            "name": "Keleshite",
+            "frequency": "20"
+        },
+        {
+            "name": "Kellid",
+            "frequency": "10"
+        },
+        {
+            "name": "Lergeni",
+            "frequency": "1"
+        },
+        {
+            "name": "Mwangi",
+            "frequency": "10"
+        },
+        {
+            "name": "Shoanti",
+            "frequency": "10"
+        },
+        {
+            "name": "Taldan",
+            "frequency": "200"
+        },
+        {
+            "name": "Tian",
+            "frequency": "20"
+        },
+        {
+            "name": "Ulfen",
+            "frequency": "10"
+        },
+        {
+            "name": "Varisian",
+            "frequency": "500"
+        },
+        {
+            "name": "Vudrani",
+            "frequency": "20"
+        },
+        {
+            "name": "Absalom",
+            "frequency": "10"
+        },
+        {
+            "name": "Alkenstar",
+            "frequency": "10"
+        },
+        {
+            "name": "Andoran",
+            "frequency": "10"
+        },
+        {
+            "name": "Brevoy",
+            "frequency": "10"
+        },
+        {
+            "name": "Cheliax",
+            "frequency": "10"
+        },
+        {
+            "name": "Druma",
+            "frequency": "10"
+        },
+        {
+            "name": "Geb",
+            "frequency": "5"
+        },
+        {
+            "name": "Hermea",
+            "frequency": "10"
+        },
+        {
+            "name": "Hold of Belkzen",
+            "frequency": "10"
+        },
+        {
+            "name": "Irrisen",
+            "frequency": "10"
+        },
+        {
+            "name": "Isger",
+            "frequency": "10"
+        },
+        {
+            "name": "Jalmery",
+            "frequency": "1"
+        },
+        {
+            "name": "Katapesh",
+            "frequency": "10"
+        },
+        {
+            "name": "Korvosa",
+            "frequency": "10"
+        },
+        {
+            "name": "Kyonin",
+            "frequency": "10"
+        },
+        {
+            "name": "Lands of the Linnorm Kings",
+            "frequency": "10"
+        },
+        {
+            "name": "Lastwall",
+            "frequency": "10"
+        },
+        {
+            "name": "Mediogalti Island",
+            "frequency": "1"
+        },
+        {
+            "name": "Mendev",
+            "frequency": "10"
+        },
+        {
+            "name": "Molthune",
+            "frequency": "10"
+        },
+        {
+            "name": "Mwangi Expanse",
+            "frequency": "10"
+        },
+        {
+            "name": "Nex",
+            "frequency": "5"
+        },
+        {
+            "name": "Nidal",
+            "frequency": "10"
+        },
+        {
+            "name": "Nirmathas",
+            "frequency": "10"
+        },
+        {
+            "name": "Numeria",
+            "frequency": "10"
+        },
+        {
+            "name": "Osirion",
+            "frequency": "10"
+        },
+        {
+            "name": "Qadira",
+            "frequency": "10"
+        },
+        {
+            "name": "Rahadoum",
+            "frequency": "10"
+        },
+        {
+            "name": "Razmiran",
+            "frequency": "10"
+        },
+        {
+            "name": "Realm of the Mammoth Lords",
+            "frequency": "10"
+        },
+        {
+            "name": "River Kingdoms",
+            "frequency": "10"
+        },
+        {
+            "name": "Sargava",
+            "frequency": "10"
+        },
+        {
+            "name": "Shackles",
+            "frequency": "10"
+        },
+        {
+            "name": "Sodden Lands",
+            "frequency": "10"
+        },
+        {
+            "name": "Thuvia",
+            "frequency": "10"
+        },
+        {
+            "name": "Ustalav",
+            "frequency": "10"
+        },
+        {
+            "name": "Worldwound",
+            "frequency": "10"
+        },
+        {
+            "name": "Empire of Zirnakaynin",
+            "frequency": "5"
+        },
+        {
+            "name": "Galt",
+            "frequency": "5"
+        }
+    ],
+    "Mysteries": [
+        {
+            "name": " Ancestor",
+            "deities": "Erastil, Irori, Pharasma",
+            "frequency": "5"
+        },
+        {
+            "name": " Apocalypse",
+            "deities": "Gorum, Rovagug",
+            "frequency": "5"
+        },
+        {
+            "name": " Ascetic",
+            "deities": "Gozreh, Irori",
+            "frequency": "5"
+        },
+        {
+            "name": " Battle",
+            "deities": "Cayden Cailean, Gorum, Iomedae, Rovagug",
+            "frequency": "5"
+        },
+        {
+            "name": " Bones",
+            "deities": "Norgorber, Pharasma, Urgathoa",
+            "frequency": "5"
+        },
+        {
+            "name": " Dark Tapestry",
+            "deities": "Lamashtu, Norgorber, Zon-Kuthon",
+            "frequency": "5"
+        },
+        {
+            "name": " Dragon",
+            "deities": "Dahak, General Susumu, Nalinivati, Ragadahn, Shizuru",
+            "frequency": "5"
+        },
+        {
+            "name": " Elemental",
+            "deities": "Elemental Lords, Gozreh, Nethys, Yamatsumi",
+            "frequency": "5"
+        },
+        {
+            "name": " Flame",
+            "deities": "Asmodeus, Sarenrae",
+            "frequency": "5"
+        },
+        {
+            "name": " Godclaw",
+            "deities": "Abadar, Asmodeus, Iomedae, Irori, Torag",
+            "frequency": "5"
+        },
+        {
+            "name": " Heavens",
+            "deities": "Desna, Gozreh, Pharasma, Sarenrae",
+            "frequency": "5"
+        },
+        {
+            "name": " Intrigue",
+            "deities": "Calistria, Norgorber",
+            "frequency": "5"
+        },
+        {
+            "name": " Juju",
+            "deities": "Wendo",
+            "frequency": "5"
+        },
+        {
+            "name": " Life",
+            "deities": "Gozreh, Pharasma, Sarenrae",
+            "frequency": "5"
+        },
+        {
+            "name": " Lore",
+            "deities": "Abadar, Irori, Nethys",
+            "frequency": "5"
+        },
+        {
+            "name": " Lunar",
+            "deities": "Ashava, Desna, Groetus, Jezelda, Tsukiyo, Zon-Kuthon",
+            "frequency": "5"
+        },
+        {
+            "name": " Metal",
+            "deities": "Abadar, Gorum, Torag",
+            "frequency": "5"
+        },
+        {
+            "name": " Nature",
+            "deities": "Erastil, Gozreh",
+            "frequency": "5"
+        },
+        {
+            "name": " Occult",
+            "deities": "Magdh, Nethys, Pharasma, Tsukiyo",
+            "frequency": "5"
+        },
+        {
+            "name": " Outer Rifts",
+            "deities": "Iomedae, Groetus, Lamashtu, demon lords",
+            "frequency": "5"
+        },
+        {
+            "name": "Reaper",
+            "deities": "Achaekek, Groetus, Pharasma",
+            "frequency": "5"
+        },
+        {
+            "name": " Shadow",
+            "deities": "Groetus, Lao Shu Po, Tsukiyo, Zon-Kuthon",
+            "frequency": "5"
+        },
+        {
+            "name": " Solar",
+            "deities": "Desna, Gozreh, Iomedae, Keltheald, Lalaci, Nurgal, Sarenrae, Ymeri",
+            "frequency": "5"
+        },
+        {
+            "name": " Spellscar",
+            "deities": "Gozreh, Lamashtu, Nethys, Zyphus",
+            "frequency": "1"
+        },
+        {
+            "name": " Stone",
+            "deities": "Abadar, Gorum, Torag",
+            "frequency": "5"
+        },
+        {
+            "name": " Streets",
+            "deities": "Cayden Cailean, Milani, Norgorber",
+            "frequency": "5"
+        },
+        {
+            "name": " Succor",
+            "deities": "Milani, Pharasma, Qi Zhong, Sarenrae",
+            "frequency": "5"
+        },
+        {
+            "name": " Time",
+            "deities": "Gozreh, Nethys, Pharasma",
+            "frequency": "1"
+        },
+        {
+            "name": " Volcano",
+            "deities": "Flauros, Mhar, Rovagug, Valani, Yamatsumi, Ymeri",
+            "frequency": "5"
+        },
+        {
+            "name": " Waves",
+            "deities": "Gozreh, Pharasma",
+            "frequency": "5"
+        },
+        {
+            "name": " Whimsy",
+            "deities": "Green Mother, Lantern King, Ng, Shyka",
+            "frequency": "5"
+        },
+        {
+            "name": " Wind",
+            "deities": "Gozreh, Shelyn",
+            "frequency": "5"
+        },
+        {
+            "name": " Winter",
+            "deities": "Gorum, Gozreh, Kostchtchie, Ng, Rovagug",
+            "frequency": "5"
+        },
+        {
+            "name": " Wood",
+            "deities": "Erastil, Gozreh",
+            "frequency": "5"
+        }
+    ],
+    "Runeforged": [
+        {
+            "name": "Covetous/Charitable",
+            "frequency": "1"
+        },
+        {
+            "name": "Dominant/Commanding",
+            "frequency": "1"
+        },
+        {
+            "name": "Jealous/Trusting",
+            "frequency": "1"
+        },
+        {
+            "name": "Miserly/Generous",
+            "frequency": "1"
+        },
+        {
+            "name": "Parasitic/Symbiotic",
+            "frequency": "1"
+        },
+        {
+            "name": "Sadistic/Compassionate",
+            "frequency": "1"
+        },
+        {
+            "name": "Tyrannical/Liberal",
+            "frequency": "1"
+        }
+    ],
+    "Bloodlines": [
+        {
+            "name": " Aberrant",
+            "frequency": "10"
+        },
+        {
+            "name": " Abyssal",
+            "frequency": "20"
+        },
+        {
+            "name": " Accursed",
+            "frequency": "5"
+        },
+        {
+            "name": " Aquatic",
+            "frequency": "5"
+        },
+        {
+            "name": " Arcane",
+            "frequency": "30"
+        },
+        {
+            "name": " Astral",
+            "frequency": "5"
+        },
+        {
+            "name": " Boreal",
+            "frequency": "5"
+        },
+        {
+            "name": " Celestial",
+            "frequency": "10"
+        },
+        {
+            "name": "Daemon",
+            "frequency": "1"
+        },
+        {
+            "name": " Deep Earth",
+            "frequency": "5"
+        },
+        {
+            "name": " Destined",
+            "frequency": "5"
+        },
+        {
+            "name": " Div",
+            "frequency": "5"
+        },
+        {
+            "name": " Djinni",
+            "frequency": "5"
+        },
+        {
+            "name": " Draconic",
+            "frequency": "1"
+        },
+        {
+            "name": " Dreamspun",
+            "frequency": "5"
+        },
+        {
+            "name": " Ectoplasm",
+            "frequency": "1"
+        },
+        {
+            "name": " Efreeti",
+            "frequency": "5"
+        },
+        {
+            "name": " Elemental",
+            "frequency": "20"
+        },
+        {
+            "name": " Fey",
+            "frequency": "20"
+        },
+        {
+            "name": " Ghoul",
+            "frequency": "5"
+        },
+        {
+            "name": " Harrow",
+            "frequency": "5"
+        },
+        {
+            "name": " Imperious",
+            "frequency": "5"
+        },
+        {
+            "name": " Impossible",
+            "frequency": "1"
+        },
+        {
+            "name": " Infernal",
+            "frequency": "20"
+        },
+        {
+            "name": "Kobold Sorcerer",
+            "frequency": "1"
+        },
+        {
+            "name": " Maestro",
+            "frequency": "5"
+        },
+        {
+            "name": " Marid",
+            "frequency": "5"
+        },
+        {
+            "name": " Martyred",
+            "frequency": "1"
+        },
+        {
+            "name": " Naga",
+            "frequency": "5"
+        },
+        {
+            "name": "Nanite",
+            "frequency": "1"
+        },
+        {
+            "name": " Oni",
+            "frequency": "5"
+        },
+        {
+            "name": " Orc",
+            "frequency": "5"
+        },
+        {
+            "name": "Pestilence",
+            "frequency": "1"
+        },
+        {
+            "name": " Phoenix",
+            "frequency": "5"
+        },
+        {
+            "name": " Possessed",
+            "frequency": "5"
+        },
+        {
+            "name": " Protean",
+            "frequency": "5"
+        },
+        {
+            "name": " Psychic",
+            "frequency": "5"
+        },
+        {
+            "name": " Rakshasa",
+            "frequency": "5"
+        },
+        {
+            "name": " Salamander",
+            "frequency": "5"
+        },
+        {
+            "name": " Scorpion",
+            "frequency": "5"
+        },
+        {
+            "name": " Serpentine",
+            "frequency": "5"
+        },
+        {
+            "name": " Shadow",
+            "frequency": "5"
+        },
+        {
+            "name": " Shaitan",
+            "frequency": "5"
+        },
+        {
+            "name": " Shapechanger",
+            "frequency": "5"
+        },
+        {
+            "name": " Solar",
+            "frequency": "5"
+        },
+        {
+            "name": " Starsoul",
+            "frequency": "5"
+        },
+        {
+            "name": " Stormborn",
+            "frequency": "5"
+        },
+        {
+            "name": " Undead",
+            "frequency": "20"
+        },
+        {
+            "name": " Unicorn",
+            "frequency": "5"
+        },
+        {
+            "name": " Verdant",
+            "frequency": "5"
+        },
+        {
+            "name": " Vestige",
+            "frequency": "1"
+        }
+    ],
+    "Planes": [
+        {
+            "name": "Abaddon",
+            "frequency": "1"
+        },
+        {
+            "name": "Abyss",
+            "frequency": "5"
+        },
+        {
+            "name": "Plane of Air",
+            "frequency": "5"
+        },
+        {
+            "name": "Akashic Record",
+            "frequency": "1"
+        },
+        {
+            "name": "Asmodeus Mirage",
+            "frequency": "0"
+        },
+        {
+            "name": "Astral Plane",
+            "frequency": "1"
+        },
+        {
+            "name": "Axis",
+            "frequency": "5"
+        },
+        {
+            "name": "Boneyard",
+            "frequency": "1"
+        },
+        {
+            "name": "Crystilan",
+            "frequency": "0"
+        },
+        {
+            "name": "Cynosure",
+            "frequency": "0"
+        },
+        {
+            "name": "Dimension of Dreams",
+            "frequency": "0"
+        },
+        {
+            "name": "Dimension of Time",
+            "frequency": "0"
+        },
+        {
+            "name": "Plane of Earth",
+            "frequency": "5"
+        },
+        {
+            "name": "Elysium",
+            "frequency": "5"
+        },
+        {
+            "name": "Ethereal Plane",
+            "frequency": "1"
+        },
+        {
+            "name": "Plane of Fire",
+            "frequency": "5"
+        },
+        {
+            "name": "First World",
+            "frequency": "1"
+        },
+        {
+            "name": "Harrowed Realm",
+            "frequency": "0"
+        },
+        {
+            "name": "Heaven",
+            "frequency": "5"
+        },
+        {
+            "name": "Hell",
+            "frequency": "5"
+        },
+        {
+            "name": "Immortal Ambulatory",
+            "frequency": "0"
+        },
+        {
+            "name": "Jandelay",
+            "frequency": "1"
+        },
+        {
+            "name": "Leng",
+            "frequency": "1"
+        },
+        {
+            "name": "Maelstrom",
+            "frequency": "5"
+        },
+        {
+            "name": "Mnemovore",
+            "frequency": "0"
+        },
+        {
+            "name": "Negative Energy Plane",
+            "frequency": "1"
+        },
+        {
+            "name": "Nirvana",
+            "frequency": "5"
+        },
+        {
+            "name": "Palace of Nightmares",
+            "frequency": "0"
+        },
+        {
+            "name": "Planar physics",
+            "frequency": "0"
+        },
+        {
+            "name": "Positive Energy Plane",
+            "frequency": "1"
+        },
+        {
+            "name": "Prison of the Laughing Fiend",
+            "frequency": "0"
+        },
+        {
+            "name": "Shadow Plane",
+            "frequency": "5"
+        },
+        {
+            "name": "Sydrixus",
+            "frequency": "0"
+        },
+        {
+            "name": "Vault of the Onyx Citadel",
+            "frequency": "1"
+        },
+        {
+            "name": "Plane of Water",
+            "frequency": "5"
+        }
+    ],
+    "Training Feats": [
+        {
+            "name": "Combat Stamina",
+            "frequency": "100"
+        },
+        {
+            "name": "Weapon Trick",
+            "frequency": "100"
+        },
+        {
+            "name": "Improved Initiative",
+            "frequency": "100"
+        },
+        {
+            "name": "Blind-Fighting",
+            "frequency": "50"
+        },
+        {
+            "name": "Arcane Strike",
+            "frequency": "20"
+        },
+        {
+            "name": "Exotic Weapon Proficiency",
+            "frequency": "100",
+            "req_type": "exotic"
+        },
+        {
+            "name": "Combat Reflexes",
+            "frequency": "50"
+        },
+        {
+            "name": "Lunge",
+            "frequency": "20"
+        },
+        {
+            "name": "Dodge",
+            "frequency": "50"
+        },
+        {
+            "name": "Step Up",
+            "frequency": "50"
+        },
+        {
+            "name": "Disheartening Display",
+            "frequency": "10"
+        },
+        {
+            "name": "Sorcerous Strike",
+            "frequency": "5"
+        },
+        {
+            "name": "Domain Strike",
+            "frequency": "5"
+        },
+        {
+            "name": "Hex Strike",
+            "frequency": "5"
+        },
+        {
+            "name": "Improved Critical",
+            "frequency": "10",
+            "excl_ench": "keen"
+        }
     ]
 }
