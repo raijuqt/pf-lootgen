@@ -4947,6 +4947,36 @@
             "frequency": "5"
         }
     ],
+    "Weapon Traits": [
+        {
+            "name": "Blocking",
+            "frequency": "1"
+        },
+        {
+            "name": "Brace",
+            "frequency": "1"
+        },
+        {
+            "name": "Disarm",
+            "frequency": "1"
+        },
+        {
+            "name": "Distracting",
+            "frequency": "1"
+        },
+        {
+            "name": "Nonlethal",
+            "frequency": "1"
+        },
+        {
+            "name": "Performance",
+            "frequency": "1"
+        },
+        {
+            "name": "Trip",
+            "frequency": "1"
+        }
+    ],
     "Runeforged": [
         {
             "name": "Covetous/Charitable",
@@ -5387,6 +5417,184 @@
             "name": "Improved Critical",
             "frequency": "10",
             "excl_ench": "keen"
+        }
+    ],
+    "Weapon Groups": [
+        {
+            "name": "Axes",
+            "weaponlist": "dwarven heavy axe-gauntlet, dwarven light axe-gauntlet, bardiche, battleaxe, boarding axe, butchering axe, dwarven waraxe, gandasa, greataxe, handaxe, heavy pick, hooked axe, knuckle axe, kumade, collapsible kumade, light pick, mattock, orc double axe, pata, throwing axe, tongi, dwarven double waraxe, dwarven maulaxe, hurlbat, dwarven longaxe, pickaxe",
+            "type": "melee",
+            "frequency": "20"
+        },
+        {
+            "name": "Blades, Heavy",
+            "weaponlist": "aldori dueling sword, ankus, bastard sword, chakram, cutlass, double chicken saber, elven curve blade, estoc, falcata, falchion, flambard, great terbutje, greatsword, katana, double walking stick katana , khopesh, klar, longsword, nine-ring broadsword, nodachi, rhoka sword, sawtooth sabre, scimitar, scythe, seven-branched sword, shotel, sickle-sword, split-blade sword, switchscythe, temple sword, terbutje, two-bladed sword, blade of life's defense, rhomphaia, steel terbutje",
+            "type": "melee",
+            "frequency": "20"
+        },
+        {
+            "name": "Blades, Light",
+            "weaponlist": "bayonet, broken-back seax, butterfly knife, butterfly sword, chakram, dagger, deer horn knife, dogslicer, dueling dagger, gladius, hunga munga, kama, katar, kerambit, kukri, machete, madu (leather/steel), manople, pata, quadrens, rapier, razor, drow, sanpkhang, sawtooth sabre, scizore, short sword, sica, sickle, spiral rapier, starknife, sword cane, swordbreaker dagger, wakizashi, war razor, brass knife, sharpened combat scabbard, elven leafblade, elven thornblade, kasatha spinal sword, tri-bladed katar, kunai, lungchuan tamo, drow razor, sea-knife, spider-leg sickle, spring blade, switchblade knife, ratfolk tailblade",
+            "type": "melee",
+            "frequency": "20"
+        },
+        {
+            "name": "Bows",
+            "weaponlist": "composite longbow, composite shortbow, orc hornbow, longbow, shortbow, horse bow, reflex bow, thorn bow",
+            "type": "ranged",
+            "frequency": "20"
+        },
+        {
+            "name": "Close",
+            "weaponlist": "dwarven heavy axe-gauntlet, dwarven light axe-gauntlet, bayonet, brass knuckles, cestus, dan bong, emei piercer, fighting fan, gauntlet, heavy shield, iron brush, katar, klar, light shield, madu (leather/steel), mere club, punching dagger, rope gauntlet, sap, scizore, spiked armor, spiked gauntlet, Spiked heavy shield, Spiked light shield , tekko-kagi, tonfa, unarmed strike, war-shield, dwarven, waveblade, wooden stake, wushu dart, barbazu beard, baston fighting stick, blade boot, combat scabbard, garrote, dwarven boulder helmet, hook hand, tri-bladed katar, spring blade, switchblade dagger, thorn bracer",
+            "type": "melee",
+            "frequency": "10"
+        },
+        {
+            "name": "Crossbows",
+            "weaponlist": "double crossbow, hand crossbow, heavy crossbow, launching crossbow, light crossbow, repeating hand crossbow, repeating heavy crossbow, repeating light crossbow, tube arrow shooter, underwater heavy crossbow, underwater light crossbow, crossbow of the crab, gastraphetes, heavy crank crossbow, heavy slaver's crossbow, heavy wrist launcher, light crank crossbow, light slaver's crossbow, dwarven heavy pelletbow, dwarven light pelletbow, stonebow",
+            "type": "ranged",
+            "frequency": "20"
+        },
+        {
+            "name": "Double",
+            "weaponlist": "gnome battle ladder, bo staff, boarding gaff, chain spear, chain spear, chain-hammer, dire flail, double-chained kama, dwarven urgrosh, gnome hooked hammer, double walking stick katana, kusarigama, monk's spade, orc double axe, quarterstaff, taiaha, two-bladed sword, weighted spear, dwarven double waraxe, dwarven maulaxe, halfling double sling",
+            "type": "melee",
+            "frequency": "10"
+        },
+        {
+            "name": "Firearms",
+            "weaponlist": "air repeater, axe musket, blunderbuss, breech-loader, buckler gun, coat pistol, culverin, cylinder rifle, dagger pistol, double hackbut, double-barreled musket, double-barreled pistol, double-barreled shotgun, dragon pistol, dragoon musket, dragoon pistol, fire lance, lawrence 1917 flamethrower, madsen light machine gun, maxim m1910 machine gun, mosin-nagant m1891 rifle, musket, nagant m1895 revolver, paddle-foot pistol, pepperbox, pepperbox rifle, pistol, radium pistol, radium rifle, revolver, rifle, shotgun, sword cane pistol, thark rifle, warhammer musket",
+            "type": "ranged",
+            "frequency": "5"
+        },
+        {
+            "name": "Flails",
+            "weaponlist": "battle poi, bladed scarf, cat-o'-nine-tails, chain spear, dire flail, dwarven dorn-dergar, double-chained kama , flying blade, flying talon, gnome pincher, halfling rope-shot, heavy flail, kusarigama, kyoketsu shoge, light flail, meteor hammer, morningstar, nine-section whip, nunchaku, sansetsukon, scorpion whip, spiked chain, urumi, whip, flailpole, flindbar",
+            "type": "melee",
+            "frequency": "20"
+        },
+        {
+            "name": "Hammers",
+            "weaponlist": "aklys, battle aspergillum, chain-hammer, club, earth breaker, greatclub, heavy mace, lantern staff, light hammer, light mace, mere club, gnome piston maul, planson, dwarven ram hammer, dwarven sphinx hammer, taiaha, tetsubo, wahaika, warhammer, gnome flick-mace, knobkerrie, dwarven longhammer,",
+            "type": "melee",
+            "frequency": "20"
+        },
+        {
+            "name": "Monk",
+            "weaponlist": "bo staff, brass knuckles, butterfly sword, cestus, dan bong, deer horn knife, double chicken saber, double-chained kama , emei piercer, fighting fan, hanbo, jutte, kama, kusarigama, kyoketsu shoge, Lungchuan tamo , monk's spade, nine-ring broadsword, nine-section whip, nunchaku, quarterstaff, rope dart, sai, sanpkhang, sansetsukon, seven-branched sword, shang gou, shuriken, siangham, temple sword, tiger fork, tonfa, traveling kettle, tri-point double-edged sword, unarmed strike, urumi, wushu dart, bich'hwa, lungchuan tamo",
+            "type": "melee",
+            "frequency": "20"
+        },
+        {
+            "name": "Natural",
+            "weaponlist": "unarmed strike and all natural weapons, such as bite, claw, gore, tail, and wing",
+            "type": "melee",
+            "frequency": "10"
+        },
+        {
+            "name": "Polearms",
+            "weaponlist": "bardiche, bec de corbin, bill, boarding gaff, crook, fauchard, dwarven giant-sticker, glaive, glaive-guisarme, guisarme, halberd, hooked lance, horsechopper, lucerne hammer, mancatcher, monk's spade, naginata, nodachi, ogre hook, ranseur, tiger fork, boarding pike, gnome ripsaw glaive, tepoztopilli",
+            "type": "melee",
+            "frequency": "20"
+        },
+        {
+            "name": "Siege Engines",
+            "weaponlist": "all siege engines",
+            "type": "ranged",
+            "frequency": "5"
+        },
+        {
+            "name": "Spears",
+            "weaponlist": "amentum, boar spear, chain spear, double spear, elven branched spear, harpoon, javelin, lance, longspear, orc skull ram, pilum, planson, shortspear, sibat, spear, stormshaft javelin, tiger fork, trident, weighted spear, barbed spear, doru, flailpole, flask pike, injection spear, lizard king war trident, phaleros, rhomphaia, sarissa, shrillshaft javelin, syringe spear, totem spear",
+            "type": "melee",
+            "frequency": "20"
+        },
+        {
+            "name": "Thrown",
+            "weaponlist": "aklys, amentum, atlatl, blowgun, bolas, boomerang, chain-hammer, chakram, club, dagger, dart, deer horn knife, dueling dagger, flask thrower, halfling sling staff, harpoon, hunga munga, javelin, kestros, lasso, light hammer, net, pilum, poisoned sand tube, dwarven ram hammer, rope dart, shoanti bolas, shortspear, shuriken, sibat, sling, sling glove, snag net, spear, dwarven sphinx hammer, starknife, stormshaft javelin, throwing axe, throwing shield, trident, wushu dart, crystal chakram, dire bolas, grappling hook, halfling double sling, halfling stitched sling, hurlbat, jolting dart, lizard king war trident, lungchuan tamo, m1914 grenade (concussion), m1914 grenade (fragmentation), phaleros, shrillshaft javelin, stingchuck",
+            "type": "ranged",
+            "frequency": "20"
+        },
+        {
+            "name": "Tribal",
+            "weaponlist": "club, dagger, greatclub, handaxe, heavy shield, light shield, shortspear, spear, throwing axe, unarmed strike",
+            "type": "melee",
+            "frequency": "10"
+        }
+    ],
+    "Concealed": [
+        {
+            "name": "Quill"
+        },
+        {
+            "name": "Hand saw"
+        },
+        {
+            "name": "Bottle"
+        },
+        {
+            "name": "Candle holder"
+        },
+        {
+            "name": "Hammer"
+        },
+        {
+            "name": "Level"
+        },
+        {
+            "name": "Telescope"
+        },
+        {
+            "name": "Ruler"
+        },
+        {
+            "name": "Scrollcase"
+        },
+        {
+            "name": "Paintbrush"
+        },
+        {
+            "name": "Candelabra"
+        },
+        {
+            "name": "Tankard"
+        },
+        {
+            "name": "Hatchet"
+        },
+        {
+            "name": "Decanter"
+        },
+        {
+            "name": "Goblet"
+        },
+        {
+            "name": "Statuette"
+        },
+        {
+            "name": "Mandora"
+        },
+        {
+            "name": "Flute"
+        },
+        {
+            "name": "Shears"
+        },
+        {
+            "name": "Hairpin"
+        },
+        {
+            "name": "Violin"
+        },
+        {
+            "name": "Ocarina"
+        },
+        {
+            "name": "Trumpet"
+        },
+        {
+            "name": "Taper"
         }
     ]
 }

@@ -6,7 +6,6 @@ import webbrowser
 from functools import partial
 from tkHyperlinkManager import HyperlinkManager
 
-
 ### config ###
 config = ConfigParser()
 config.read('config.ini')
@@ -22,6 +21,10 @@ def click():
         results = "Error generating loot"
     output.config(state=NORMAL)
     output.delete("1.0", END)
+    output.tag_configure('ench', foreground='#B9FFB5', underline=1)
+    output.tag_configure('mat', foreground='#D1FEFF', underline=1)
+    output.tag_configure('mod', foreground='#FFF5D9', underline=1)
+
     if results == "Error generating loot":
         output.insert(END, results)
     else:
@@ -29,8 +32,8 @@ def click():
             item.fprice = priceFormat(item.price)
             item.fench = enchFormat(item)
             item.fmod = modFormat(item)
-            item.strname = str("{}{}{}{}{} ({})".format(item.fench, item.fmod, item.material, item.forename, item.name,
-                                                        item.fprice))
+            item.strname = str("{}{}{}{}{} ({})".format(item.fench, item.fmod, item.material,
+                                                          item.forename, item.name, item.fprice))
             while item.strname[0] == " ":
                 item.strname = item.strname[1:]
 
@@ -43,22 +46,28 @@ def click():
                     output.insert(END, " (" + item.fprice)
                     output.insert(END, " each)" + '\n')
                 else:
+                    if item.aquantity != "":
+                        output.insert(END, str(item.aquantity) + "x ")
                     if hasattr(item, 'magical'):
                         if hasattr(item, 'magic'):
                             output.insert(END, item.magic)
                         elif item.is_Mwk:
                             output.insert(END, "Masterwork ")
                         for n in item.l_itemEnch:
+                            enchant = '[' + n.name + ']'
                             output.insert(END, '[' + n.name + ']', hyperlink.add(createLink(n, 'enchant')))
+                            taglinks(output, enchant, 'ench')
                             output.insert(END, ' ')
                     if hasattr(item, 'mod'):
                         output.insert(END, '{' + item.mod.name + '}', hyperlink.add(createLink(item, 'mod')))
+                        taglinks(output, item.mod.name, 'mod')
                         output.insert(END, ' ')
                     if hasattr(item, 'mat'):
                         output.insert(END, item.mat.name, hyperlink.add(createLink(item, 'material')))
+                        taglinks(output, item.mat.name, 'mat')
                         output.insert(END, ' ')
 
-                    output.insert(END, item.name)
+                    output.insert(END, item.name, hyperlink.add(createLink(item, 'item')))
                     output.insert(END, " (" + item.fprice)
                     output.insert(END, " each)" + '\n')
             else:
@@ -68,24 +77,32 @@ def click():
                     output.insert(END, " (" + item.fprice + ")")
                     output.insert(END, "\n")
                 else:
+                    if item.aquantity != "":
+                        output.insert(END, str(item.aquantity) + "x ")
                     if hasattr(item, 'magical'):
                         if hasattr(item, 'magic'):
                             output.insert(END, item.magic)
                         elif item.is_Mwk:
                             output.insert(END, "Masterwork ")
                         for n in item.l_itemEnch:
-                            output.insert(END, '[' + n.name + ']', hyperlink.add(createLink(n, 'enchant')))
+                            enchant = '[' + n.name + ']'
+                            output.insert(END, enchant, hyperlink.add(createLink(n, 'enchant')))
+                            taglinks(output, enchant, 'ench')
                             output.insert(END, ' ')
                     if hasattr(item, 'mod'):
-                        output.insert(END, '{' + item.mod.name + '}', hyperlink.add(createLink(item, 'mod')))
+                        output.insert(END, item.mod.name, hyperlink.add(createLink(item, 'mod')))
+                        taglinks(output, item.mod.name, 'mod')
                         output.insert(END, ' ')
                     if hasattr(item, 'mat'):
                         output.insert(END, item.mat.name, hyperlink.add(createLink(item, 'material')))
+                        taglinks(output, item.mat.name, 'mat')
                         output.insert(END, ' ')
-                    output.insert(END, item.name)
+
+                    output.insert(END, item.name, hyperlink.add(createLink(item, 'item')))
                     output.insert(END, " (" + item.fprice + ")")
                     output.insert(END, "\n")
 
+        output.insert(END, "\n")
         if int(checkBudget('p')) > 0:
             output.insert(END, "Coins: " + str(checkBudget('p')) + " pp, " + str(checkBudget('g')) + " gp, " +
                           str(checkBudget('s')) + " sp, " + str(checkBudget('c')) + " cp.")
@@ -115,21 +132,32 @@ def copy():
 def createLink(item, type):
     if type == 'material':
         return partial(webbrowser.open, item.mat.link)
-    if type == 'enchant':
+    if type in 'enchant, spell, item':
         return partial(webbrowser.open, item.link)
     if type == 'mod':
         return partial(webbrowser.open, item.mod.link)
-    if type == 'spell':
-        return partial(webbrowser.open, item.link)
 
+
+def taglinks(text, word, tag):
+    pos_start = text.search(word, 1.0, END)
+    offset = '+%dc' % len(word)
+    while pos_start:
+        pos_end = pos_start + offset
+        text.tag_add(tag, pos_start, pos_end)
+        pos_start = text.search(word, pos_end, END)
 
 class SettingsWindow(Toplevel):
     def __init__(self):
         super().__init__(master= app, bg='#84344D')
         self.title("Settings")
         self.geometry("326x590")
+        self.resizable(width=False, height=True)
         self.focus_force()
         self.grab_set()
+
+        setting_rows = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20, 22, 24]
+        for y in setting_rows:
+            Grid.rowconfigure(self, index=y, weight=1)
 
         # Title
         Label(self, text='                     ', bg='#84344D', fg='white', font='none 3 bold').grid(row=0, column=0)
@@ -229,11 +257,11 @@ class SettingsWindow(Toplevel):
         Checkbutton(self, bg='#84344D', activebackground='#84344D', variable=self.check_ench).grid(row=14, column=3)
 
         # Modifications Checkbox
-        Label(self, text='Armor/Weapon Modification*', bg='#84344D', fg='white', font='none 11 bold').grid(row=15, column=2,
+        Label(self, text='Armor/Weapon Modification', bg='#84344D', fg='white', font='none 11 bold').grid(row=15, column=2,
                                                                                              sticky=E)
         self.check_mods = IntVar()
         if config.getboolean('flags', 'flg_mods'):
-            self.check_ench.set(1)
+            self.check_mods.set(1)
         Checkbutton(self, bg='#84344D', activebackground='#84344D', variable=self.check_mods).grid(row=15, column=3)
 
         # linebreak
@@ -260,8 +288,8 @@ class SettingsWindow(Toplevel):
                                                                                 columnspan=3, sticky=S)
 
         self.scl_maxi = IntVar()
-        Scale(self, from_=1, to=1000, orient=HORIZONTAL, length=250, bg='#84344D', fg='white',
-                           activebackground='#84344D', bd=1, font='none 9 bold', tickinterval=999,
+        Scale(self, from_=1, to=500, orient=HORIZONTAL, length=250, bg='#84344D', fg='white',
+                           activebackground='#84344D', bd=1, font='none 9 bold', tickinterval=499,
                            troughcolor='#B08A95', highlightthickness=0, variable=self.scl_maxi) \
                             .grid(row=20, column=1, columnspan=3, sticky=EW)
         self.scl_maxi.set(config.getint('flags', 'max_items'))
@@ -278,6 +306,9 @@ class SettingsWindow(Toplevel):
 
         #Return to Default button
         Button(self, text='Back to Default', command=self.default) .grid(row=24, column=2, columnspan=2, sticky=EW)
+
+        # linebreak
+        Label(self, text='', bg='#84344D', fg='white', font='none 3 bold').grid(row=25, column=0)
 
     def default(self):
         self.check_eas.set(1)
@@ -328,9 +359,21 @@ app.configure(background='#84344D', bd=20)
 app.option_add('*TCombobox*Listbox.font',"none 11")
 app.geometry("700x725")
 
+#config column rows and cols
+list_rows = [0, 1, 4, 6, 8, 11, 12]
+for x in list_rows:
+    Grid.rowconfigure(app,index=x, weight=1)
+
+Grid.columnconfigure(app,index=0, weight=1)
+Grid.columnconfigure(app,index=1, weight=3)
+Grid.columnconfigure(app,index=2, weight=3)
+Grid.columnconfigure(app,index=3, weight=3)
+
+
+
 # create label
 Label (app, text=" Rai's Encounter Treasure Generator", bg='#84344D', fg="white",
-       font="none 14 bold") .grid(row=0, column=1, columnspan=2, sticky=NS)
+       font="none 14 bold") .grid(row=0, column=1, columnspan=2, sticky=NSEW)
 
 # settings button
 img = PhotoImage(file='Resources/settings_icon.png')
@@ -339,8 +382,8 @@ settings = Button(app, image=img, bg='#84344D', activebackground='#84344D', bord
 
 
 # whitespace
-Label (app, text="   ", bg='#84344D', fg='white', font="none 10") .grid(row=0, column=0, sticky=E)
-Label (app, text="", bg='#84344D', fg='white', font="none 10") .grid(row=2, column=3, sticky=EW)
+Label (app, text="   ", bg='#84344D', fg='white', font="none 10") .grid(row=0, column=0, sticky=NSEW)
+Label (app, text="", bg='#84344D', fg='white', font="none 10") .grid(row=2, column=3, sticky=NSEW)
 
 # encounter CR dropdown
 Label (app, text="Encounter CR:", bg='#84344D', fg='white', font="none 12 bold") .grid(row=3, column=1, sticky=E)
@@ -348,45 +391,45 @@ comboCR = ttk.Combobox(app, values=['1/8', '1/6', '1/4', '1/3', '1/2', 1, 2, 3, 
                                     15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30],
                                     font="none 12", state="readonly", width=12)
 comboCR.current(5)
-comboCR.grid(row=3, column=2, sticky=W)
+comboCR.grid(row=3, column=2, sticky=NSEW)
 
 # whitespace
-Label(app, text="   ", bg='#84344D', fg='white', font="none 10") .grid(row=4, column=4, sticky=E)
+Label(app, text="   ", bg='#84344D', fg='white', font="none 10") .grid(row=4, column=4, sticky=NSEW)
 
 # campaign speed dropdown
 Label(app, text="Campaign Speed:", bg='#84344D', fg='white', font="none 12 bold") .grid(row=5, column=1, sticky=E)
 comboSpeed = ttk.Combobox(app, values=['Slow', 'Medium', 'Fast'], font="none 12", state="readonly", width=12)
 comboSpeed.current(2)
-comboSpeed.grid(row=5, column=2, sticky=W)
+comboSpeed.grid(row=5, column=2, sticky=NSEW)
 
 # whitespace
-Label(app, text="", bg='#84344D', fg='white', font="none 10") .grid(row=6, column=3, sticky=E)
+Label(app, text="", bg='#84344D', fg='white', font="none 10") .grid(row=6, column=3, sticky=NSEW)
 
 # treasure type dropdown
 Label(app, text="Treasure Type:", bg='#84344D', fg='white', font="none 12 bold") .grid(row=7, column=1, sticky=E)
 comboType = ttk.Combobox(app, values=['Incidental', 'Standard', 'Double', 'Triple'], font="none 12", state="readonly",
                          width=12)
 comboType.current(1)
-comboType.grid(row=7, column=2, sticky=W)
+comboType.grid(row=7, column=2, sticky=NSEW)
 
 # whitespace
-Label(app, text="", bg='#84344D', fg='white', font="none 10") .grid(row=8, column=3, sticky=E)
+Label(app, text="", bg='#84344D', fg='white', font="none 10") .grid(row=8, column=3, sticky=NSEW)
 
 # submit button
-Button(app, text="GENERATE", width=10, command=click) .grid(row=10, column=1, columnspan=2, sticky=EW)
+Button(app, text="GENERATE", width=10, command=click) .grid(row=10, column=1, columnspan=2, sticky=NSEW)
 
 # whitespace
-Label(app, text="", bg='#84344D', fg='white', font="none 10") .grid(row=11, column=3, sticky=E)
+Label(app, text="", bg='#84344D', fg='white', font="none 10") .grid(row=11, column=3, sticky=NSEW)
 
 # results box
 output = Text(app, wrap=WORD, bg='#B08A95', fg='white', state="normal", font="none 11", relief=GROOVE)
-output.grid(row=12, column=0, columnspan=4, sticky=EW)
-hyperlink = HyperlinkManager(output, 'White')
-scrollb = Scrollbar(app, command=output.yview)
+output.grid(row=12, column=0, columnspan=4, sticky=NSEW)
+hyperlink = HyperlinkManager(output, 'white')
+scrollb = Scrollbar(app, command=output.yview, width=16)
 scrollb.grid(row=12, column=4, sticky=NSEW)
 output['yscrollcommand'] = scrollb.set
 
-Button(app, text="Copy to Clipboard", width=14, command=copy) .grid(row=16, column=0, columnspan=3, sticky=W)
+Button(app, text="Copy to Clipboard", width=11, command=copy) .grid(row=16, column=0, columnspan=1, sticky=EW)
 
 
 

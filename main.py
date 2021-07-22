@@ -57,6 +57,20 @@ list_pot = []
 list_wnd = []
 list_scr = []
 
+list_hbane = []
+list_obane = []
+list_alignments = []
+list_deities = []
+list_nationalities = []
+list_mysteries = []
+list_wtraits = []
+list_runeforged = []
+list_bloodlines = []
+list_planes = []
+list_tfeats = []
+list_wgroups = []
+list_concealed = []
+
 ### config ###
 config.read('config.ini')
 
@@ -71,6 +85,7 @@ class Item:
             self.l_itemEnch = []
             self.material = ""
             self.forename = ""
+            self.aquantity = ""
 
     def updateprice(self, num):
         self.price = float(self.price) + float(num)
@@ -82,7 +97,7 @@ class Item:
 
     def ammoquantity(self):
         roll = randint(2, 50)
-        self.name = self.name.replace("*", "- (" + str(roll) + ")")
+        self.name = self.pluralname.replace(" *", "")
         self.price = float(self.price) * float(roll)
         self.aquantity = roll
 
@@ -102,7 +117,7 @@ class Item:
     def __repr__(self):
         return "Name: " + self.name + "  Price: " + str(self.price) + " gp" + "  Weight: " + str(
             self.weight) + " lb" + \
-               "  Slot: " + self.slot + "  Frequency: " + str(self.frequency) + "  Source: " + self.source
+               "  Slot: " + self.slot + "  Frequency: " + str(self.frequency)
 
 
 class Spelltoitem:
@@ -113,6 +128,7 @@ class Spelltoitem:
             self.weight = 0
             self.material = ""
             self.is_Mwk = False
+            self.aquantity = ""
 
     def calculate_potion_price(self):
         if self.min_spell_level == '0':
@@ -120,14 +136,14 @@ class Spelltoitem:
         elif self.min_spell_level == '1':
             self.price = 50
         elif self.min_spell_level == '2':
-            if self.caster == "9th-P":
+            if self.caster == "9-P":
                 self.price = 300
             else:
                 self.price = 400
         elif self.min_spell_level == '3':
-            if self.caster == "9th-P":
+            if self.caster == "9-P":
                 self.price = 750
-            elif self.caster == "9th-S":
+            elif self.caster == "9-S":
                 self.price = 900
             else:
                 self.price = 1050
@@ -140,21 +156,21 @@ class Spelltoitem:
         elif self.min_spell_level == '1':
             self.price = 750
         elif self.min_spell_level == '2':
-            if self.caster == "9th-P":
+            if self.caster == "9-P":
                 self.price = 4500
             else:
                 self.price = 6000
         elif self.min_spell_level == '3':
-            if self.caster == "9th-P":
+            if self.caster == "9-P":
                 self.price = 11250
-            elif self.caster == "9th-S":
+            elif self.caster == "9-S":
                 self.price = 13500
             else:
                 self.price = 15750
         elif self.min_spell_level == '4':
-            if self.caster == "9th-P":
+            if self.caster == "9-P":
                 self.price = 21000
-            elif self.caster == "9th-S":
+            elif self.caster == "9-S":
                 self.price = 24000
             else:
                 self.price = 30000
@@ -169,9 +185,9 @@ class Spelltoitem:
         cost_6 = {'0': 12.5, '1': 25, '2': 200, '3': 525, '4': 1000, '5': 1625, '6': 2400}
         cost_4 = {'1': 25, '2': 200, '3': 525, '4': 1000}
 
-        if self.caster == "9th-P":
+        if self.caster == "9-P":
             self.price = cost_9p[self.min_spell_level]
-        elif self.caster == "9th-S":
+        elif self.caster == "9-S":
             self.price = cost_9s[self.min_spell_level]
         elif self.caster == "6th":
             self.price = cost_6[self.min_spell_level]
@@ -426,6 +442,7 @@ def add_material(item):
 
 def magicalitem(item):
     global templist
+
     """roll masterwork/magic level"""
     if randint(1, 100) > 60:
         if item.is_Mwk is True:
@@ -509,7 +526,7 @@ def magicalitem(item):
                         if hasattr(x,'req_feature'):
                             templist.remove(x)
 
-                if not hasattr(item, 'nonlethal'):
+                if not hasattr(item, 'Nonlethal'):
                     for x in templist:
                         if hasattr(x, 'nonlethal'):
                             templist.remove(x)
@@ -527,7 +544,6 @@ def magicalitem(item):
                                 templist.remove(x)
                             elif hasattr(x, 'req_type') and not item.proficiency == 'Simple':
                                 templist.remove(x)
-
 
             elif item.type == 'Ranged':
                 if item.ranged_type == 'bow' or item.ranged_type == 'crossbow':
@@ -677,11 +693,10 @@ def magicalitem(item):
             elif item.type in ("Light Armor", "Medium Armor", "Heavy Armor", "Shield"):
                 item.price = item.price + marmor_prices[originallevel]
             elif item.type in ("ammo"):
-                item.price = item.price + (mweapon_prices[originallevel] / 50 * item.quantity)
+                item.price = item.price + (mweapon_prices[originallevel] / 50 * item.aquantity)
             item.price = item.price + item.enchant_cost
             item.magical = True
             templist = deepcopy(enchantmentlist)
-
 
 def assignenchant(i):
     """chooses an enchant from templist to put on the item, and then removes the enchant from templist
@@ -719,68 +734,53 @@ def assignenchant(i):
     chosenenchant = choices(templist, efrequency, k=1)[0]
 
     if int(chosenenchant.magic_level) <= i.magicbudget:
-        with open('Resources/subtypes.json') as j:
-            data = json.load(j)
+        sfrequency = []
         '''humanoid bane/misery'''
         if chosenenchant.name in 'Humanoid Bane, Humanoid Misery, Humanoid Withstanding':
-            hsubtypes = [Subtype(i) for i in data['Humanoid']]
-            sfrequency = []
-            for x in hsubtypes:
+            for x in list_hbane:
                 sfrequency.append(int(x.frequency))
 
-            hBane = choices(hsubtypes, sfrequency, k=1)[0]
-            chosenenchant.name = chosenenchant.name + ' (' + hBane.name + ')'
+            hBane = choices(list_hbane, sfrequency, k=1)[0]
+            chosenenchant.name += ' (' + hBane.name + ')'
 
             '''outsider bane/misery'''
         elif chosenenchant.name in 'Outsider Bane, Outsider Misery, Outsider Withstanding':
-            osubtypes = [Subtype(i) for i in data['Outsider']]
-            sfrequency = []
-            for x in osubtypes:
+            for x in list_obane:
                 sfrequency.append(int(x.frequency))
 
-            oBane = choices(osubtypes, sfrequency, k=1)[0]
-            chosenenchant.name = chosenenchant.name + ' (' + oBane.name + ')'
+            oBane = choices(list_obane, sfrequency, k=1)[0]
+            chosenenchant.name += ' (' + oBane.name + ')'
 
         elif chosenenchant.name == 'Deceiving':
-            asubtypes = [Subtype(i) for i in data['Alignments']]
-            sfrequency = []
-            for x in asubtypes:
+            for x in list_alignments:
                 sfrequency.append(int(x.frequency))
 
-            dAlignment = choices(asubtypes, sfrequency, k=1)[0]
-            chosenenchant.name = chosenenchant.name + ' (' + dAlignment.name + ')'
+            dAlignment = choices(list_alignments, sfrequency, k=1)[0]
+            chosenenchant.name += ' (' + dAlignment.name + ')'
 
         elif chosenenchant.name == 'Blood-Hunting':
-            bsubtypes = [Subtype(i) for i in data['Bloodlines']]
-            sfrequency = []
-            for x in bsubtypes:
+            for x in list_bloodlines:
                 sfrequency.append(int(x.frequency))
 
-            bLine = choices(bsubtypes, sfrequency, k=1)[0]
-            chosenenchant.name = chosenenchant.name + ' (' + bLine.name + ')'
+            bLine = choices(list_bloodlines, sfrequency, k=1)[0]
+            chosenenchant.name += ' (' + bLine.name + ')'
 
         elif chosenenchant.name == 'Spirit-Hunting':
-            ssubtypes = [Subtype(i) for i in data['Mysteries']]
-            sfrequency = []
-            for x in ssubtypes:
+            for x in list_mysteries:
                 sfrequency.append(int(x.frequency))
 
-            sMystery = choices(ssubtypes, sfrequency, k=1)[0]
-            chosenenchant.name = chosenenchant.name + ' (' + sMystery.name + ')'
+            sMystery = choices(list_mysteries, sfrequency, k=1)[0]
+            chosenenchant.name += ' (' + sMystery.name + ')'
 
         elif chosenenchant.name == 'Runeforged':
-            rsubtypes = [Subtype(i) for i in data['Runeforged']]
-            sfrequency = []
-            for x in rsubtypes:
+            for x in list_runeforged:
                 sfrequency.append(int(x.frequency))
 
-            rSin = choices(rsubtypes, sfrequency, k=1)[0]
-            chosenenchant.name = chosenenchant.name + ' (' + rSin.name + ')'
+            rSin = choices(list_runeforged, sfrequency, k=1)[0]
+            chosenenchant.name += ' (' + rSin.name + ')'
 
         elif chosenenchant.name == 'Training':
-            tsubtypes = [Subtype(i) for i in data['Training Feats']]
-            sfrequency = []
-            for x in tsubtypes:
+            for x in list_tfeats:
                 if hasattr(x, 'req_type'):
                     if hasattr(i, 'proficiency'):
                         if i.proficiency != 'Exotic':
@@ -789,20 +789,23 @@ def assignenchant(i):
                     for y in i.l_itemEnch:
                         if y.name in 'Keen':
                             x.frequency = 0
-            for x in tsubtypes:
                 sfrequency.append(int(x.frequency))
 
-            tFeat = choices(tsubtypes, sfrequency, k=1)[0]
-            chosenenchant.name = chosenenchant.name + ' (' + tFeat.name + ')'
+            tFeat = choices(list_tfeats, sfrequency, k=1)[0]
+            chosenenchant.name +=' (' + tFeat.name + ')'
+            if tFeat.name == 'Exotic Weapon Proficiency':
+                i.givesproficiency = True
 
         elif chosenenchant.name in 'Patriotic, Treasonous':
-            psubtypes = [Subtype(i) for i in data['Nationalities']]
-            sfrequency = []
-            for x in psubtypes:
+            for x in list_nationalities:
                 sfrequency.append(int(x.frequency))
 
-            pNation = choices(psubtypes, sfrequency, k=1)[0]
-            chosenenchant.name = chosenenchant.name + ' (' + pNation.name + ')'
+            pNation = choices(list_nationalities, sfrequency, k=1)[0]
+            chosenenchant.name += ' (' + pNation.name + ')'
+
+        elif chosenenchant.name == 'Lesser Concealed':
+            chosenappearance = choice(list_concealed)
+            chosenenchant.name += ' (' + chosenappearance.name + ')'
 
         i.l_itemEnch.append(chosenenchant)
         i.magicbudget = i.magicbudget - int(chosenenchant.magic_level)
@@ -820,7 +823,7 @@ def assignenchant(i):
                 i.name = i.name.replace(x, '')
         try:
             if i.type == 'ammo':
-                i.price = float(i.price) + (float(chosenenchant.base_price) / 50 * i.quantity)
+                i.price = float(i.price) + (float(chosenenchant.base_price) / 50 * i.aquantity)
             else:
                 i.price = float(i.price) + float(chosenenchant.base_price)
         except:
@@ -866,6 +869,34 @@ def assignmod(i):
                     list_mods.remove(m)
 
     chosenMod = choice(list_mods)
+
+    if chosenMod.name == 'Versatile Design':
+        with open('Resources/subtypes.json') as j:
+            data = json.load(j)
+            groups = [Subtype(a) for a in data['Weapon Groups']]
+        if i.type in "Light Melee, One-Handed Melee, Two-Handed Melee, Unarmed":
+            for x in groups:
+                if x.type == 'Ranged':
+                    groups.remove(x)
+        else:
+            for x in groups:
+                if x.type == 'Melee':
+                    groups.remove(x)
+
+        sfrequency = []
+        for x in groups:
+            sfrequency.append(int(x.frequency))
+        group = choices(groups, sfrequency, k=1)[0]
+        chosenMod.name += " (" + group.name + ")"
+
+    elif chosenMod.name == 'Tactically Adapted':
+        tacticslist = ['Blocking', 'Brace', 'Disarm', 'Distracting', 'Nonlethal', 'Performance', 'Trip']
+        for x in tacticslist:
+            if hasattr(i, x):
+                tacticslist.remove(x)
+        tactic = choice(tacticslist)
+        chosenMod.name += " (" + tactic + ")"
+
     i.mod = chosenMod
     i.modded = True
     i.weight = str(float(i.weight.replace("s", "").replace(" lb.", "")) + int(chosenMod.weight)) + " lbs."
@@ -915,7 +946,7 @@ def calculate_budget(enCR, cSpeed, tType):
 
     type_mod = {'incidental': 0.5, 'standard': 1.0, 'double': 2.0, 'triple': 3.0}
     lootBudget = float(lootBudget) * type_mod[tType]
-    cashBudget = float(lootBudget) / 100 * randint(5, max(5, 30))
+    cashBudget = float(lootBudget) / 100 * randint(5, max(5, 20))
 
 
 def load_items():
@@ -960,6 +991,7 @@ def load_items():
         lootlist.extend(list_cur)
     if config.getboolean('flags', 'loot_art'):
         lootlist.extend(list_art)
+
 
     ''' running the same remove loop 3 times because it appears to not catch everything each time'''
     n = 0
@@ -1030,6 +1062,7 @@ def random_item():
 
     '''first rolls to see which list to choose from'''
     roll = randint(1, 100)
+
     if roll > 90 and config.getboolean('flags', 'loot_pot'):
         chosen_item = choices(potionlist, pfrequency, k=1)[0]
         chosen_item = deepcopy(chosen_item)
@@ -1081,19 +1114,7 @@ def random_item():
 
         chosen_item.check = str("{}{}{}{}{}".format(chosen_item.fench, chosen_item.fmod, chosen_item.material,
                                                   chosen_item.forename, chosen_item.name))
-        for x in encounterLootList:
-            if hasattr(x, 'aquantity'):
-                if chosen_item.category == 'Nonmagical Ammunition':
-                    if x.check.split('- (')[0] == chosen_item.check.split('- (')[0]:
-                        aq = x.name.split('- (')[1].split(')')[0]
-                        x.name = x.name.replace(aq, str(x.aquantity + chosen_item.aquantity))
-                        x.aquantity = int(aq) + chosen_item.aquantity
-                        x.price = x.price + chosen_item.price
-                        return encounterLoot
 
-            elif chosen_item.check == x.check:
-                x.quantity += 1
-                return encounterLoot
 
         chosen_item.quantity = 1
         encounterLootList.append(chosen_item)
@@ -1102,6 +1123,31 @@ def random_item():
         random_item()
 
     return encounterLoot
+
+
+def merge_quantity():
+    global encounterLootList
+
+    llist = sorted(encounterLootList, key=lambda i: i.check)
+
+    for previous, current in zip(llist, llist[1:]):
+        if current.aquantity != "":
+            if previous.category == 'Nonmagical Ammunition':
+                if current.check == previous.check:
+                    current.aquantity += previous.aquantity
+                    current.price += previous.price
+                    previous.name = 'None'
+        elif previous.check == current.check:
+            current.quantity += previous.quantity
+            previous.name = 'None'
+            previous.check = 'None'
+            previous.quantity = 0
+
+        encounterLootList = remove_values_from_list(llist, 'None')
+
+
+def remove_values_from_list(the_list, val):
+   return [value for value in the_list if value.name != val]
 
 
 def create_loot_list(enCR, cSpeed, tType):
@@ -1120,7 +1166,9 @@ def create_loot_list(enCR, cSpeed, tType):
     while lootBudget > cashBudget and len(encounterLootList) < config.getint('flags', 'max_items'):
         random_item()
 
+    merge_quantity()
     splitBudget()
+
     return encounterLootList
 
 
@@ -1186,13 +1234,15 @@ def enchFormat(i):
 def modFormat(i):
     i.modname = ""
     if hasattr(i, 'mod'):
-        i.modname = '{' + i.mod.name + '}'
+        i.modname = i.mod.name
     return i.modname
 
 
 def startup():
     global itemlist, list_nmi, list_nma, list_nmw, list_nmu, list_ma, list_mw, list_mu, list_st, list_ro, list_wie, \
-        list_wis, list_cur, list_art, list_pot, list_ri
+        list_wis, list_cur, list_art, list_pot, list_ri, list_hbane, list_obane, list_alignments, list_deities, \
+        list_nationalities, list_mysteries, list_wtraits, list_runeforged, list_bloodlines, list_planes, list_tfeats, \
+        list_wgroups, list_concealed
 
     with open('Resources/items.json') as j:
         data = json.load(j)
@@ -1209,6 +1259,7 @@ def startup():
         list_wie = [Item(i) for i in data["Wondrous Items (Equipment)"]]
         list_wis = [Item(i) for i in data["Wondrous Items (Slotless)"]]
         list_cur = [Item(i) for i in data["Cursed Items"]]
+
 
     with open('Resources/spells.json') as j:
         data = json.load(j)
@@ -1250,5 +1301,33 @@ def startup():
         for i in data["Comic Book"]:
             materialslist.append(Material(i))
 
+    with open('Resources/subtypes.json') as j:
+        data =json.load(j)
+        for i in data['Humanoid']:
+            list_hbane.append(Subtype(i))
+        for i in data['Outsider']:
+            list_obane.append(Subtype(i))
+        for i in data['Alignments']:
+            list_alignments.append(Subtype(i))
+        for i in data['Deities']:
+            list_deities.append(Subtype(i))
+        for i in data['Nationalities']:
+            list_nationalities.append(Subtype(i))
+        for i in data['Mysteries']:
+            list_mysteries.append(Subtype(i))
+        for i in data['Weapon Traits']:
+            list_wtraits.append(Subtype(i))
+        for i in data['Runeforged']:
+            list_runeforged.append(Subtype(i))
+        for i in data['Bloodlines']:
+            list_bloodlines.append(Subtype(i))
+        for i in data['Planes']:
+            list_planes.append(Subtype(i))
+        for i in data['Training Feats']:
+            list_tfeats.append(Subtype(i))
+        for i in data['Weapon Groups']:
+            list_wgroups.append(Subtype(i))
+        for i in data['Concealed']:
+            list_concealed.append(Subtype(i))
 
 startup()
